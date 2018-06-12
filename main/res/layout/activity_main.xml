@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    tools:context=".MainActivity">
+
+    <Button
+        android:text="enter"
+        android:id="@+id/button"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignTop="@+id/button_skip"
+        android:background="@drawable/button_main_activity"
+        android:elevation="0dp"
+        android:onClick="onButtonClick"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_alignBottom="@+id/button_skip"
+        android:layout_toEndOf="@+id/ggButton"
+        android:layout_alignLeft="@+id/score_label"
+        android:layout_alignStart="@+id/score_label" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/skip_number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginTop="136dp"
+        android:backgroundTint="@android:color/white"
+        android:fontFamily="sans-serif-smallcaps"
+        android:inputType="textVisiblePassword"
+        android:soundEffectsEnabled="false"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textColorLink="@color/colorPrimaryDark"
+        android:textCursorDrawable="@null"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintRight_toRightOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:text="skip"
+        android:id="@+id/button_skip"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_main_activity"
+        android:onClick="onButtonSkipClick"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_toStartOf="@+id/ggButton"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/score_label"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="12dp"
+        android:text="SCORE:"
+        android:textAlignment="textEnd"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/score_text"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/score_label"
+        android:layout_alignRight="@+id/score_label"
+        android:layout_below="@+id/score_label"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/score_label"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:text="SKIPS LEFT:"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="0"
+        android:id="@+id/skip_number"
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/ggButton"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:background="@drawable/button_main_activity"
+        android:onClick="onButtonTestClick"
+        android:text="@string/ggButtonText"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/button" />
+</RelativeLayout>
