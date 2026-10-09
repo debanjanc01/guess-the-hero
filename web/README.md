@@ -13,6 +13,8 @@ https://debanjanc01.github.io/guess-the-hero/
 - **All Pick:** all 127 heroes in the verified Valve roster snapshot, including Kez, Ringmaster, and Largo.
 - **New Blood:** 11 heroes introduced after the classic roster snapshot.
 
+On phones/touch screens, the game uses a compact viewport-aware layout. It does not auto-open the keyboard. The silhouette, 16px answer input (avoiding Safari focus zoom), and Guess button remain together above the keyboard, using the browser's VisualViewport API to handle keyboard resize and pan. Desktop keyboard autofocus remains available.
+
 Correct answer: +10 points. Three skips per match. Wrong guesses have no penalty. Names, common aliases, spacing, case, and punctuation are normalized. A skipped hero is revealed before moving on. When skips run out, the skip control is disabled rather than unexpectedly ending the game. GG saves your score and ends the match. High scores are local to the browser, independently per roster.
 
 Audio plays only on reveal or an explicit replay. The mute preference is saved. Io, Phoenix, Marci, and Primal Beast use their actual vocalizations/whistles/roars rather than invented speech. No timers; restrained reveal motion respects reduced-motion preferences. The landing showcase uses a lazy-loaded Three.js carousel via **React Three Fiber + Drei**, not a custom animation engine. Drei's built-in OrbitControls handles automatic horizontal rotation and drag interaction; Billboard keeps the existing hero cutouts facing the camera. Near heroes brighten and far heroes become silhouettes through Three.js lighting. Pause/resume, offscreen/tab suspension, reduced-motion static art, and a WebGL-unavailable fallback keep it usable.
@@ -39,6 +41,7 @@ npm run preview
 ## Structure
 
 - `src/game.js`: small immutable state transitions, object-based answer dictionaries, Fisher–Yates ordering.
+- `src/useGameViewport.js` / `src/mobile-game.css`: keyboard-aware mobile battlefield layout.
 - `src/data/heroes.json`: keyed hero records, asset provenance, signature quotes, and historical verification metadata.
 - `src/App.jsx`: landing, game, results, rules, and searchable hero archive.
 - `src/components/ui.jsx`: customizable button/input/dialog primitives; Radix handles focus trapping, Escape, and screen-reader semantics.

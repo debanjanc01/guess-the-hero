@@ -39,4 +39,14 @@ Checked 2026-10-09 using Node 23 locally; GitHub Actions uses Node 22. Browser c
 - Graphics library is lazy-loaded separately from the core game; render resolution is capped at 1.5× and rotation suspends offscreen, behind dialogs, and in hidden tabs.
 - Rebuilt production output; 19 gameplay tests and all asset checksums still pass. Dependency audit remains clear.
 
-Screenshots: [landing](docs/home.webp), [battlefield](docs/battlefield.webp), [mobile](docs/mobile.webp).
+## Mobile keyboard follow-up
+
+- 27 automated tests pass: the original 19 gameplay tests plus eight viewport/keyboard-state tests, including Safari-style pan offsets and focus changes before keyboard collapse.
+- Mobile input does not autofocus at match start. Desktop autofocus is retained.
+- 390×844 portrait game fits the image, answer field, Guess, and skip controls on one screen.
+- Keyboard-sized visual viewports at 390×480 and 390×380 were emulated with the answer focused. Image and input bounds remained within the visible viewport, including after a wrong guess.
+- Viewport restoration clears keyboard mode; input uses 16px text and the mobile Go key hint.
+- axe-core checked the mobile game state; no WCAG 2 A/AA + 2.1 AA violations in the tested state. Fixed an invalid aria-label by giving skip indicators a group role.
+- These are browser-emulated keyboard conditions and unit checks, not a claim of physical iOS/Android keyboard testing. Real-device Safari/Chrome testing is still recommended.
+
+Screenshots: [landing](docs/home.webp), [battlefield](docs/battlefield.webp), [mobile](docs/mobile.webp), [compact mobile game](docs/mobile-game.webp), [keyboard-sized viewport](docs/mobile-keyboard.webp).
