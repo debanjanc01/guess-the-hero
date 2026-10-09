@@ -1,5 +1,13 @@
 .mobile-guess-label, .revealed-form { display: none; }
 .answer-row > .btn { margin-top: 14px; }
+.score-summary { display: flex; align-items: baseline; gap: 14px; }
+.score-best { color: #959d8b; font-size: 11px; white-space: nowrap; }
+.score-best strong { color: #d6d9cd; }
+.match-actions { display: flex; gap: 9px; margin-top: 8px; }
+.match-actions .skip-button { flex: 1; min-width: 0; width: auto; }
+.match-actions.is-revealed .skip-button { display: none; }
+.match-actions .gg-button { border-color: #d57860; background: #44251f; color: #ffe0d1; white-space: nowrap; }
+.match-actions .gg-button:hover { background: #603027; }
 
 @media (max-width: 600px), (max-width: 1000px) and (pointer: coarse) {
   .app-shell.in-match footer { display: none; }
@@ -7,7 +15,7 @@
   .game-topline { flex: 0 0 auto; margin-bottom: 10px; min-height: 24px; flex-wrap: nowrap; }
   .game-topline > .eyebrow { display: none; }
   .game-layout { display: flex; flex-direction: column; flex: 1; min-height: 0; gap: 12px; }
-  .hero-stage { flex: 1 1 auto; min-height: 145px; max-height: 360px; height: auto; }
+  .hero-stage { flex: 1 1 auto; min-height: 145px; max-height: none; height: auto; }
   .hero-image-wrap { inset: 13px 0 33px; }
   .stage-hero { width: 100%; }
   .stage-hero.original-art { width: 90%; max-height: 95%; }
@@ -30,7 +38,10 @@
   .skips { top: 0; }
   .skips > div { margin-top: 5px; }
   .skip-pip { width: 24px; height: 24px; }
-  .guess-form { margin-top: 12px; }
+  .guess-form { margin-top: 8px; }
+  .score-summary { gap: 10px; }
+  .score-best { font-size: 10px; }
+  .match-actions.is-revealed .skip-button { display: flex; }
   .revealed-form { display: block; }
   /* The input and action rows keep their slots on reveal. No remount, focus
      handoff, or extra panel pushing the battlefield around above the keyboard. */
@@ -39,15 +50,15 @@
   .guess-form h2 { font-size: 19px; margin-top: 0; }
   .guess-form label { margin: 9px 0 5px; font-size: 8px; }
   .answer-row { display: flex; align-items: stretch; gap: 9px; }
-  .answer-row .input { flex: 1; min-width: 0; font-size: 16px; height: 46px; padding: 11px 12px; }
-  .answer-row > .btn { margin: 0; width: auto; min-width: 91px; min-height: 46px; padding: 11px 15px; font-size: 11px; gap: 8px; }
+  .answer-row .input { flex: 1; min-width: 0; font-size: 16px; height: 38px; padding: 7px 10px; }
+  .answer-row > .btn { margin: 0; width: auto; min-width: 91px; min-height: 38px; padding: 7px 12px; font-size: 11px; gap: 8px; }
   .desktop-guess-label { display: none; }
   .mobile-guess-label { display: inline; }
   .guess-form .feedback { min-height: 20px; margin: 5px 0 0; font-size: 9px; }
-  .skip-button { min-height: 36px; padding: 8px 13px; }
-  .game-meta { padding-top: 9px; margin-top: 10px; flex-wrap: nowrap; }
-  .game-meta .gg-button { min-height: 44px; padding: 10px 14px; border: 1px solid #d57860; border-radius: 4px; background: #44251f; color: #ffe0d1; font-size: 12px; font-weight: 700; white-space: nowrap; }
-  .game-meta .gg-button:hover { background: #603027; }
+  .match-actions { margin-top: 4px; }
+  .match-actions .btn { min-height: 38px; padding: 7px 12px; font-size: 11px; }
+  .match-actions .skip-button { gap: 6px; }
+  .match-actions .gg-button { font-weight: 700; }
   .asset-note { margin-top: 8px; font-size: 7px; line-height: 1.5; }
   .match-progress { flex: 0 0 auto; margin-top: 12px; }
   .progress-label { font-size: 7px; margin-bottom: 5px; }
@@ -81,7 +92,6 @@
   .keyboard-open .guess-form { margin-top: 5px; }
   .keyboard-open .guess-form h2, .keyboard-open .asset-note, .keyboard-open .match-progress { display: none; }
   .keyboard-open .guess-form label { margin-top: 3px; }
-  .keyboard-open .game-meta { margin-top: 6px; padding-top: 6px; }
 }
 
 @media (max-width: 600px) and (max-height: 550px), (max-width: 1000px) and (pointer: coarse) and (max-height: 550px) {

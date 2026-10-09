@@ -88,4 +88,13 @@ This supersedes the earlier 3-second dwell and no-mobile-autofocus behavior.
 - Chromium scene inspection confirmed four meshes, three visible at rest, and only the invisible mesh changing texture after a manual Next. Desktop and 390px mobile screenshots were inspected.
 - All 35 tests and production build pass. The 1.5-second dwell remains unchanged.
 
+## Compact answer controls
+
+- Removed the separate Best/GG metadata row. Best sits beside the current score; Skip (or replay on mobile reveal) and GG share one action row.
+- Mobile answer input and buttons are 38px tall; input text stays 16px to avoid iOS focus zoom. The hero stage fills available space rather than using a 360px cap.
+- Answer form/input request autocomplete off; input also disables autocorrect, spellcheck, and capitalization and supplies password-manager ignore hints. These are browser/extension hints, not a guarantee that every native keyboard suppresses its suggestion toolbar.
+- Chromium at a simulated 390×420 visual viewport: hero stage measured ~208px tall, input and Guess 38px, Skip/GG on the same row ending at 412px, with no overflow.
+- Skip/reveal/Enter-to-next retained the same input and answer focus. At 320px width the action row and page had no horizontal overflow.
+- All 35 unit tests and production build pass. Physical phone keyboard/password-manager checks remain recommended.
+
 Screenshots: [landing](docs/home.webp), [battlefield](docs/battlefield.webp), [mobile](docs/mobile.webp), [compact mobile game](docs/mobile-game.webp), [keyboard-sized viewport](docs/mobile-keyboard.webp).
