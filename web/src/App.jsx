@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { ArrowRight, ArrowLeft, ArrowUpRight, Swords, Volume2, VolumeX, Trophy, SkipForward, Check, BookOpen, Shield, Sparkles, Search, RotateCcw, Flag, ChevronRight, Info } from 'lucide-react';
 import { Button, Input, Modal } from './components/ui.jsx';
+import HeroOrbit from './components/HeroOrbit.jsx';
 import heroes from './data/heroes.json';
 import { MODES, createAnswerBook, poolFor, startGame, transition, artwork, normalize, readSaved, writeSaved } from './game.js';
 
@@ -136,14 +137,7 @@ export default function App() {
             <div className="hero-actions"><Button onClick={() => launch()}><Swords size={19} /> Enter the battlefield <ArrowRight size={18} /></Button><Button variant="ghost" onClick={() => setModal('rules')}>How to play <ChevronRight size={15} /></Button></div>
             <div className="landing-proof"><span><strong>127</strong> heroes</span><i /><span><strong>3</strong> skips</span><i /><span><strong>∞</strong> time to think</span></div>
           </div>
-          <div className="landing-art" aria-hidden="true">
-            <div className="art-orbit orbit-one" /><div className="art-orbit orbit-two" />
-            <span className="art-coordinate coord-top">THE DIRE / THE RADIANT</span>
-            <img className="hero-ghost" src={asset(heroes.nevermore.image)} alt="" />
-            <img className="hero-jugg" src={asset(heroes.juggernaut.image)} alt="" fetchPriority="high" />
-            <div className="art-floor" /><div className="art-caption"><span className="mini-diamond" /> EVERY SHADOW HAS A NAME</div>
-            <span className="art-cross cross-top">+</span><span className="art-cross cross-bottom">+</span>
-          </div>
+          <HeroOrbit images={[asset(heroes.juggernaut.image), asset(heroes.nevermore.image)]} suspended={modal !== null} />
         </section>
         <section className="mode-section" aria-label="Choose your roster">
           <div className="section-heading"><div><span className="eyebrow">CHOOSE YOUR ERA</span><h2>One game. A lifetime of heroes.</h2></div><span className="section-note">Your next match: <strong>{counts[mode]} heroes</strong></span></div>

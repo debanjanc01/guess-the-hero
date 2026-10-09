@@ -1,0 +1,29 @@
+.hero-orbit { isolation: isolate; }
+.hero-orbit .orbit-viewport { position: absolute; inset: 68px -12px 56px; z-index: 1; }
+.hero-orbit .orbit-viewport canvas { display: block; touch-action: pan-y; cursor: grab; }
+.hero-orbit .orbit-viewport canvas:active { cursor: grabbing; }
+.hero-orbit .orbit-label { position: absolute; top: 27px; left: 50%; transform: translateX(-50%); z-index: 5; display: flex; gap: 12px; align-items: center; padding: 10px 16px; background: #111414e8; border: 1px solid #bda67d29; font-size: 9px; letter-spacing: 2.8px; color: #d4c4a5; white-space: nowrap; pointer-events: none; }
+.hero-orbit .orbit-label span { color: #b1684f; }
+.hero-orbit .art-floor { pointer-events: none; z-index: 2; height: 100px; }
+.hero-orbit .art-caption { left: 50%; bottom: 43px; transform: translateX(-50%); z-index: 5; font-size: 8px; letter-spacing: 2px; color: #ceba96; padding: 8px 11px; background: #111414d9; pointer-events: none; }
+.hero-orbit .art-cross { z-index: 3; pointer-events: none; }
+.hero-orbit .orbit-controls { position: absolute; bottom: 3px; left: 50%; transform: translateX(-50%); z-index: 6; display: flex; align-items: center; gap: 8px; }
+.hero-orbit .orbit-controls > span { color: #a2aa9c; font-size: 7px; letter-spacing: 1.8px; white-space: nowrap; }
+.hero-orbit .orbit-controls .btn { min-width: 44px; min-height: 44px; color: #cfbc96; }
+.hero-orbit .orbit-controls .btn:hover { background: #b69d7212; }
+.hero-orbit .orbit-static { position: absolute; inset: 0; overflow: hidden; }
+.hero-orbit .orbit-static img { position: absolute; height: 100%; width: 100%; object-fit: contain; }
+.hero-orbit .orbit-static-front { left: 10%; filter: brightness(.85) saturate(.7); }
+.hero-orbit .orbit-static-back { left: -20%; transform: scale(.8); filter: brightness(.08); }
+@media (max-width: 800px) {
+  .hero-orbit .orbit-label { font-size: 7px; letter-spacing: 1.7px; gap: 9px; padding: 9px 11px; }
+  .hero-orbit .art-caption { font-size: 6px; letter-spacing: 1.2px; }
+  .hero-orbit .orbit-viewport { inset: 65px -22px 58px; }
+}
+@media (max-width: 600px) {
+  .hero-orbit.landing-art { height: 355px; }
+  .hero-orbit .orbit-label { top: 7px; font-size: 8px; letter-spacing: 2px; }
+  .hero-orbit .orbit-viewport { inset: 48px 0 58px; }
+  .hero-orbit .art-caption { bottom: 44px; font-size: 7px; letter-spacing: 1.2px; }
+  .hero-orbit .orbit-controls { bottom: 0; }
+}

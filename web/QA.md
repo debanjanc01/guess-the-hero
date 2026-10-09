@@ -27,4 +27,16 @@ Checked 2026-10-09 using Node 23 locally; GitHub Actions uses Node 22. Browser c
 - Mobile 390×844 and desktop 1440×1000: no horizontal overflow in the checked landing/game/results states; no failed images or browser errors in the production smoke test.
 - Original Android source files remain unchanged.
 
+## 3D showcase follow-up
+
+- Uses MIT-licensed React Three Fiber + Drei OrbitControls/Billboard, with no authored animation loop or custom shaders.
+- Library camera position was sampled five seconds apart to verify horizontal auto-rotation; front/back positions were also checked explicitly to ensure neither billboard disappears on the opposite side.
+- Pause switches to demand rendering. Two screenshots taken after damping settled were pixel-identical; camera position movement measured zero while paused.
+- Mobile 390×844: labels visible above the artwork and no horizontal overflow.
+- OS reduced-motion emulation removes the canvas entirely and renders two static images.
+- Artificial WebGL context loss switches to static images; gameplay and hero reveals remain operational.
+- Production landing page: axe-core WCAG 2 A/AA + 2.1 AA reported no violations in the checked state.
+- Graphics library is lazy-loaded separately from the core game; render resolution is capped at 1.5× and rotation suspends offscreen, behind dialogs, and in hidden tabs.
+- Rebuilt production output; 19 gameplay tests and all asset checksums still pass. Dependency audit remains clear.
+
 Screenshots: [landing](docs/home.webp), [battlefield](docs/battlefield.webp), [mobile](docs/mobile.webp).
