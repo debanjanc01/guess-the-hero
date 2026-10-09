@@ -35,4 +35,5 @@ jobs:
         run: npx wrangler deploy
       - name: Deployment setup reminder
         if: github.event_name != 'pull_request' && env.CLOUDFLARE_API_TOKEN == ''
-        run: echo '::warning::Production deployment skipped: CLOUDFLARE_API_TOKEN is not configured. See web/README.md.'
+        run: |
+          echo '::warning::Production deployment skipped: CLOUDFLARE_API_TOKEN is not configured. See web/README.md.'
