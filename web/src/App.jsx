@@ -13,6 +13,10 @@ const counts = {};
 for (const mode in MODES) counts[mode] = poolFor(heroes, mode).length;
 const storage = { getItem: (key) => localStorage.getItem(key), setItem: (key, value) => localStorage.setItem(key, value) };
 const demoIds = ['juggernaut', 'crystal_maiden', 'nevermore', 'pudge', 'kez', 'largo'];
+const showcaseRoster = [];
+const featured = { juggernaut: true, nevermore: true, axe: true, crystal_maiden: true, kez: true, largo: true };
+for (const id in featured) showcaseRoster.push({ id, name: heroes[id].name, image: asset(heroes[id].image) });
+for (const id in heroes) if (!featured[id]) showcaseRoster.push({ id, name: heroes[id].name, image: asset(heroes[id].image) });
 
 function Emblem() {
   return <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M15 17h13l21 29H36L15 17Zm25 0h9v12l-9-12ZM15 35l9 12h-9V35Z" fill="currentColor" /></svg>;
@@ -143,7 +147,7 @@ export default function App() {
             <div className="hero-actions"><Button onClick={() => launch()}><Swords size={19} /> Enter the battlefield <ArrowRight size={18} /></Button><Button variant="ghost" onClick={() => setModal('rules')}>How to play <ChevronRight size={15} /></Button></div>
             <div className="landing-proof"><span><strong>127</strong> heroes</span><i /><span><strong>3</strong> skips</span><i /><span><strong>∞</strong> time to think</span></div>
           </div>
-          <HeroOrbit images={[asset(heroes.juggernaut.image), asset(heroes.nevermore.image)]} suspended={modal !== null} />
+          <HeroOrbit roster={showcaseRoster} suspended={modal !== null} />
         </section>
         <section className="mode-section" aria-label="Choose your roster">
           <div className="section-heading"><div><span className="eyebrow">CHOOSE YOUR ERA</span><h2>One game. A lifetime of heroes.</h2></div><span className="section-note">Your next match: <strong>{counts[mode]} heroes</strong></span></div>

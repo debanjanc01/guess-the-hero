@@ -1,5 +1,5 @@
 import { Component, Suspense, lazy, useEffect, useRef, useState } from 'react';
-import { Pause, Play } from 'lucide-react';
+import { ArrowRight, Pause, Play } from 'lucide-react';
 import { Button } from './ui.jsx';
 import './hero-orbit.css';
 
@@ -21,13 +21,16 @@ class SceneFallback extends Component {
   render() { return this.state.failed ? this.props.fallback : this.props.children; }
 }
 
-export default function HeroOrbit({ images, suspended = false }) {
+export default function HeroOrbit({ roster, suspended = false }) {
   const region = useRef(null);
   const [paused, setPaused] = useState(false);
   const [reducedMotion, setReducedMotion] = useState(() => window.matchMedia(motionQuery).matches);
   const [visible, setVisible] = useState(true);
   const [tabVisible, setTabVisible] = useState(() => !document.hidden);
   const [available, setAvailable] = useState(true);
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [nextRequest, setNextRequest] = useState(0);
+  const [moving, setMoving] = useState(false);
 
   useEffect(() => {
     const query = window.matchMedia(motionQuery);
@@ -45,24 +48,29 @@ export default function HeroOrbit({ images, suspended = false }) {
   }, []);
 
   const running = !paused && !reducedMotion && visible && tabVisible && !suspended && available;
-  const fallback = <StaticHeroes images={images} />;
+  const fallback = <StaticHeroes images={[roster[activeIndex].image, roster[(activeIndex + 1) % roster.length].image]} />;
+  const nextHero = () => {
+    if (reducedMotion || !available) setActiveIndex((index) => (index + 1) % roster.length);
+    else setNextRequest((request) => request + 1);
+  };
 
-  return <section ref={region} className="landing-art hero-orbit" aria-label="Rotating hero showcase">
+  return <section ref={region} className="landing-art hero-orbit" aria-label="Hero carousel">
     <div className="art-orbit orbit-one" aria-hidden="true" /><div className="art-orbit orbit-two" aria-hidden="true" />
     <div className="orbit-label">THE DIRE <span>/</span> THE RADIANT</div>
     <div className="orbit-viewport" aria-hidden="true">
       {reducedMotion || !available ? fallback : <SceneFallback fallback={fallback} onUnavailable={() => setAvailable(false)}>
-        <Suspense fallback={fallback}><OrbitScene images={images} running={running} onUnavailable={() => setAvailable(false)} /></Suspense>
+        <Suspense fallback={fallback}><OrbitScene roster={roster} initialIndex={activeIndex} running={running} nextRequest={nextRequest} onChange={setActiveIndex} onMoving={setMoving} onUnavailable={() => setAvailable(false)} /></Suspense>
       </SceneFallback>}
     </div>
     <div className="art-floor" aria-hidden="true" />
     <div className="art-caption"><span className="mini-diamond" /> EVERY SHADOW HAS A NAME</div>
     <span className="art-cross cross-top" aria-hidden="true">+</span><span className="art-cross cross-bottom" aria-hidden="true">+</span>
     <div className="orbit-controls">
-      <span>{reducedMotion ? 'REDUCED MOTION' : available ? 'DRAG TO ROTATE' : 'STATIC PREVIEW'}</span>
-      {!reducedMotion && available && <Button variant="ghost" size="icon" onClick={() => setPaused((value) => !value)} aria-label={paused ? 'Resume hero rotation' : 'Pause hero rotation'} aria-pressed={paused}>
+      <span>{String(activeIndex + 1).padStart(3, '0')} / {roster.length} · {roster[activeIndex].name}</span>
+      {!reducedMotion && available && <Button variant="ghost" size="icon" onClick={() => setPaused((value) => !value)} aria-label={paused ? 'Resume hero carousel' : 'Pause hero carousel'} aria-pressed={paused}>
         {paused ? <Play size={14} /> : <Pause size={14} />}
       </Button>}
+      <Button variant="ghost" size="icon" onClick={nextHero} disabled={available && !reducedMotion && moving} aria-label="Next showcase hero"><ArrowRight size={15} /></Button>
     </div>
   </section>;
 }

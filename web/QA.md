@@ -49,4 +49,16 @@ Checked 2026-10-09 using Node 23 locally; GitHub Actions uses Node 22. Browser c
 - axe-core checked the mobile game state; no WCAG 2 A/AA + 2.1 AA violations in the tested state. Fixed an invalid aria-label by giving skip indicators a group role.
 - These are browser-emulated keyboard conditions and unit checks, not a claim of physical iOS/Android keyboard testing. Real-device Safari/Chrome testing is still recommended.
 
+## Still-picture carousel follow-up
+
+This supersedes the earlier continuous two-hero orbit.
+
+- Full 127-hero roster now cycles through three recycled scene slots. Tests verify every hero reaches the front, including wraparound when 127 is not divisible by three.
+- Drei CameraControls performs the tween: 3-second dwell, ~262 ms measured transition, then exact angle snap to eliminate any damping tail. No perpetual auto-rotate.
+- Paused camera position movement measured zero. Next performs a single fast transition while paused; resume returns to timed steps.
+- Retired textures are disposed and evicted from the loader cache. After 20 displayed heroes, the checked scene had four GPU textures, not 20 retained hero textures.
+- Reduced-motion mode has no Canvas and supports manual instant Next. Returning to 3D preserves the selected hero; deliberate Canvas disposal is not mistaken for unexpected WebGL context loss.
+- Mobile layout and counter have no horizontal overflow in the checked 390px viewport.
+- 34 unit tests now cover gameplay, viewport behavior, and carousel sequencing.
+
 Screenshots: [landing](docs/home.webp), [battlefield](docs/battlefield.webp), [mobile](docs/mobile.webp), [compact mobile game](docs/mobile-game.webp), [keyboard-sized viewport](docs/mobile-keyboard.webp).
