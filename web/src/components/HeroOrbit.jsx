@@ -31,6 +31,23 @@ export default function HeroOrbit({ roster, suspended = false }) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [nextRequest, setNextRequest] = useState(0);
   const [moving, setMoving] = useState(false);
+  const [sceneReady, setSceneReady] = useState(false);
+  const saveData = Boolean(navigator.connection?.saveData);
+
+  // Paint the static hero and controls first. Never fetch the 3D bundle on
+  // data-saving connections; gameplay and the manual showcase still work.
+  useEffect(() => {
+    if (reducedMotion || !available || saveData) return;
+    let idle;
+    const timer = setTimeout(() => {
+      if ('requestIdleCallback' in window) idle = window.requestIdleCallback(() => setSceneReady(true), { timeout: 1500 });
+      else setSceneReady(true);
+    }, 700);
+    return () => {
+      clearTimeout(timer);
+      if (idle !== undefined) window.cancelIdleCallback(idle);
+    };
+  }, [reducedMotion, available, saveData]);
 
   useEffect(() => {
     const query = window.matchMedia(motionQuery);
@@ -47,10 +64,10 @@ export default function HeroOrbit({ roster, suspended = false }) {
     };
   }, []);
 
-  const running = !paused && !reducedMotion && visible && tabVisible && !suspended && available;
+  const running = !paused && !reducedMotion && !saveData && visible && tabVisible && !suspended && available;
   const fallback = <StaticHeroes images={[roster[activeIndex].image, roster[(activeIndex + 1) % roster.length].image]} />;
   const nextHero = () => {
-    if (reducedMotion || !available) setActiveIndex((index) => (index + 1) % roster.length);
+    if (reducedMotion || !available || saveData || !sceneReady) setActiveIndex((index) => (index + 1) % roster.length);
     else setNextRequest((request) => request + 1);
   };
 
@@ -58,7 +75,7 @@ export default function HeroOrbit({ roster, suspended = false }) {
     <div className="art-orbit orbit-one" aria-hidden="true" /><div className="art-orbit orbit-two" aria-hidden="true" />
     <div className="orbit-label">THE DIRE <span>/</span> THE RADIANT</div>
     <div className="orbit-viewport" aria-hidden="true">
-      {reducedMotion || !available ? fallback : <SceneFallback fallback={fallback} onUnavailable={() => setAvailable(false)}>
+      {reducedMotion || !available || saveData || !sceneReady ? fallback : <SceneFallback fallback={fallback} onUnavailable={() => setAvailable(false)}>
         <Suspense fallback={fallback}><OrbitScene roster={roster} initialIndex={activeIndex} running={running} nextRequest={nextRequest} onChange={setActiveIndex} onMoving={setMoving} onUnavailable={() => setAvailable(false)} /></Suspense>
       </SceneFallback>}
     </div>
@@ -67,10 +84,10 @@ export default function HeroOrbit({ roster, suspended = false }) {
     <span className="art-cross cross-top" aria-hidden="true">+</span><span className="art-cross cross-bottom" aria-hidden="true">+</span>
     <div className="orbit-controls">
       <span>{String(activeIndex + 1).padStart(3, '0')} / {roster.length} · {roster[activeIndex].name}</span>
-      {!reducedMotion && available && <Button variant="ghost" size="icon" onClick={() => setPaused((value) => !value)} aria-label={paused ? 'Resume hero carousel' : 'Pause hero carousel'} aria-pressed={paused}>
+      {!reducedMotion && !saveData && available && sceneReady && <Button variant="ghost" size="icon" onClick={() => setPaused((value) => !value)} aria-label={paused ? 'Resume hero carousel' : 'Pause hero carousel'} aria-pressed={paused}>
         {paused ? <Play size={14} /> : <Pause size={14} />}
       </Button>}
-      <Button variant="ghost" size="icon" onClick={nextHero} disabled={available && !reducedMotion && moving} aria-label="Next showcase hero"><ArrowRight size={15} /></Button>
+      <Button variant="ghost" size="icon" onClick={nextHero} disabled={available && !reducedMotion && !saveData && sceneReady && moving} aria-label="Next showcase hero"><ArrowRight size={15} /></Button>
     </div>
   </section>;
 }

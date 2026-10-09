@@ -2,3 +2,8 @@ web/node_modules/
 web/dist/
 web/.asset-cache/
 .DS_Store
+.wrangler/
+web/.wrangler/
+.env*
+web/.env*
+web/.dev.vars*

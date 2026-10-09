@@ -4,7 +4,9 @@ An unofficial Dota 2 silhouette game rebuilt from the original Android app. Reac
 
 ## Play
 
-https://debanjanc01.github.io/guess-the-hero/
+https://guessthehero.megachunkgames.win/
+
+Part of [MegaChunk Games](https://megachunkgames.win/). The existing GitHub Pages URL remains available during migration.
 
 ![Dota-inspired landing page](docs/home.webp)
 
@@ -72,7 +74,24 @@ The script caches downloads in ignored `.asset-cache/`, validates existing image
 
 GitHub Pages is free for this public repository and needs no separate provider account. `.github/workflows/pages.yml` tests, verifies checksums, builds, and deploys on `master` pushes. GitHub repository Settings → Pages must use **GitHub Actions** as the source. Vite's base is `/guess-the-hero/`, so assets work on the repository subpath and the app does not need SPA rewrite rules.
 
-For another repository name or a custom domain, change `base` in `vite.config.js`. This is entirely static and can also be hosted on Cloudflare Pages (`web` root, `npm run build`, `dist` output).
+### Cloudflare production
+
+The game is live on `guessthehero.megachunkgames.win` using Workers Static Assets. `wrangler.jsonc` configures the `guessthehero` Worker and its custom domain. No backend or paid resources are required.
+
+```sh
+npm run build:cloudflare # VITE_BASE_PATH=/; GitHub Pages keeps the existing default base
+npm run deploy          # tests, asset verification, root-path build, Wrangler deployment
+```
+
+`.github/workflows/cloudflare.yml` checks builds on pushes/PRs and deploys production once a scoped `CLOUDFLARE_API_TOKEN` repository secret is configured. Until that secret is added, it emits a setup warning and leaves the live deployment unchanged. Wrangler's local OAuth login is not copied into CI. Use a scoped token for Workers Scripts Edit / Account Settings Read and Zone Read / Workers Routes Edit limited to `megachunkgames.win`.
+
+Static responses include security headers, one-day media caching, revalidated HTML, and a real 404 page. The browser UI links back to the arcade and to Debanjan's Twitter/X contact, not to GitHub.
+
+### Loading optimizations
+
+Vite's `compact-hero-runtime-data` plugin removes research-only provenance fields from the browser payload while preserving the complete checked-in hero ledger. Regression tests compare every roster, accepted alias, artwork reference, quote, voice, and historical flag against the full source. The main JS bundle went from about 467 KB to 369 KB before compression (about 21% smaller; gzip approximately 118 KB to 112 KB).
+
+The optional 3D scene waits until after the initial page paint and an idle slot. Data-saving connections and reduced-motion preferences use the static showcase instead, without fetching Three.js. The WebGL renderer no longer retains its drawing buffer unnecessarily. Existing four-texture recycling, demand rendering, offscreen suspension, lazy archive images, next-hero image prefetch, and reveal-only audio loading remain intact. The frozen WebP/MP3 media was already optimized, so it was not destructively recompressed. All 441 asset checksums still match.
 
 ## Limitations
 

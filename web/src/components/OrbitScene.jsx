@@ -128,7 +128,7 @@ export default function OrbitScene({ roster, initialIndex, running, nextRequest,
   return <Canvas
     dpr={[1, 1.5]}
     frameloop="demand"
-    gl={{ antialias: true, alpha: true, preserveDrawingBuffer: true, powerPreference: 'low-power' }}
+    gl={{ antialias: true, alpha: true, powerPreference: 'low-power' }}
     fallback={<span>3D preview needs WebGL. The game still works without it.</span>}
     onCreated={({ gl }) => gl.domElement.addEventListener('webglcontextlost', () => {
       // R3F deliberately loses its context when reduced motion unmounts Canvas.

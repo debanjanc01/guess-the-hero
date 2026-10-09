@@ -2,9 +2,9 @@
 
 ## Web version
 
-**[Play Guess the Hero](https://debanjanc01.github.io/guess-the-hero/)**
+**[Play Guess the Hero](https://guessthehero.megachunkgames.win/)** · **[MegaChunk Games arcade](https://megachunkgames.win/)**
 
-A Dota-inspired, responsive web remake with 127 heroes, signature voices, original artwork, a classic 2018 roster, and a searchable hero archive. Built with React, Tailwind, and accessible Radix/shadcn-style UI. Hosted on GitHub Pages.
+A Dota-inspired, responsive web remake with 127 heroes, signature voices, original artwork, a classic 2018 roster, and a searchable hero archive. Built with React, Tailwind, and accessible Radix/shadcn-style UI. Hosted on Cloudflare Workers Static Assets, with the original GitHub Pages deployment retained during migration.
 
 See [`web/README.md`](web/README.md) for development and gameplay details, and [`web/ASSETS.md`](web/ASSETS.md) for asset sources and historical-fidelity notes. The original Android source below is preserved unchanged.
 

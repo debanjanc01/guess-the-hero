@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "guessthehero",
+  "account_id": "0919f21b2b63555d55f59f6178257619",
+  "compatibility_date": "2026-10-09",
+  "assets": { "directory": "./dist", "not_found_handling": "404-page" },
+  "routes": [
+    { "pattern": "guessthehero.megachunkgames.win", "custom_domain": true }
+  ]
+}

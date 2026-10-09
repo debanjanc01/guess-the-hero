@@ -47,7 +47,7 @@ export function transition(game, action, answerBook) {
       if (game.status !== 'playing') return game;
       const answer = normalize(action.answer);
       if (!answer) return { ...game, feedback: 'Enter a hero name first.' };
-      if (!answerBook[id]?.[answer]) return { ...game, attempts: game.attempts + 1, feedback: 'Not this hero. Trust your instincts—try again.' };
+      if (!answerBook[id]?.[answer]) return { ...game, attempts: game.attempts + 1, feedback: 'Not this one. Give that memory another nudge.' };
       return { ...game, status: 'revealed', score: game.score + 10, correct: game.correct + 1, attempts: game.attempts + 1, feedback: '', outcome: 'correct', history: { ...game.history, [id]: 'correct' } };
     }
     case 'skip':

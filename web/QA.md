@@ -1,100 +1,47 @@
-# Release checks
+# Release validation
 
-Checked 2026-10-09 using Node 23 locally; GitHub Actions uses Node 22. Browser checks use Chromium through agent-browser against the production Vite preview, not only the dev server.
+## Automated checks
 
-## Automated
+```sh
+npm test
+npm run assets:verify
+npm run build:cloudflare
+```
 
-- 19 Node gameplay tests: pool counts, canonical/alias answers, normalization, every classic voice-line identifier verified, unbiased no-repeat ordering, correct/empty/wrong guesses, double submissions, three skips, no-skip state, Next guards, full Original and All Pick completion, GG, restart, artwork selection, blocked/corrupt local storage.
-- 127 hero records, 431 referenced media files, 441 SHA-256 checksum matches.
-- Pillow decode/verification of all WebP files.
-- ffmpeg decode of every downloaded/copied audio file, including converted Io/Marci responses.
-- Production build succeeds.
-- `npm audit`: zero known vulnerabilities in the installed dependency tree at audit time.
-- axe-core 4.10.3 WCAG 2 A/AA + WCAG 2.1 AA checks: no violations on the mobile landing page and hero-detail dialog in the checked states. This is not a claim of complete accessibility certification.
+- 37 regression tests cover gameplay, roster counts, aliases, normalization, scoring, repeated submissions, skips, match completion, browser storage, mobile viewport state, carousel ordering, texture-slot recycling, and compact runtime-data equivalence.
+- 127 hero records, 431 referenced media files, and 441 SHA-256 checksums are verified.
+- Roster sizes: Original 32, Classic 116, All Pick 127, New Blood 11.
+- Production builds support both Cloudflare's root path and GitHub Pages' existing subpath.
 
-## Browser workflows
+## Browser coverage
 
-- Desktop landing, roster selection, readable silhouette stage, reveal artwork, archived portrait reference, and results.
-- Wrong answer shows a live status message without subtracting score/skips.
-- Correct answer with punctuation accepted; score increments exactly ten.
-- Reveal puts keyboard focus on Next; next hero puts focus on the answer field.
-- Hero audio plays without an error; replay, mute, and persisted sound preference checked.
-- Three consecutive skips reveal heroes and reduce the available skips to zero. Skip is then disabled while guessing remains possible.
-- GG confirmation supports cancellation; confirming reaches results and saves the per-roster high score.
-- Results focus the heading; choose another era returns to the landing page.
-- Archive opens as a focus-trapped dialog, filters to Largo, shows its render/quote, and closes cleanly.
-- Credits expose historical caveats and source links.
-- Mobile 390×844 and desktop 1440×1000: no horizontal overflow in the checked landing/game/results states; no failed images or browser errors in the production smoke test.
-- Original Android source files remain unchanged.
+- Landing page, roster selection, silhouette artwork, correct and incorrect guesses, reveal, voice playback, Next, Skip, GG confirmation, results, and saved personal bests.
+- Archive search and hero details, focus-trapped dialogs, mute preference, asset credits, and links to the arcade and maker contact.
+- Desktop and mobile layouts, image loading, horizontal overflow, browser errors, and keyboard navigation.
+- Wrong answers preserve score and skips. Correct answers award exactly ten points. Skips reveal without awarding points. GG preserves the earned score.
+- High scores and preferences are browser-local and origin-specific. Storage failures must not prevent play.
 
-## 3D showcase follow-up
+## Rendering and performance
 
-- Uses MIT-licensed React Three Fiber + Drei OrbitControls/Billboard, with no authored animation loop or custom shaders.
-- Library camera position was sampled five seconds apart to verify horizontal auto-rotation; front/back positions were also checked explicitly to ensure neither billboard disappears on the opposite side.
-- Pause switches to demand rendering. Two screenshots taken after damping settled were pixel-identical; camera position movement measured zero while paused.
-- Mobile 390×844: labels visible above the artwork and no horizontal overflow.
-- OS reduced-motion emulation removes the canvas entirely and renders two static images.
-- Artificial WebGL context loss switches to static images; gameplay and hero reveals remain operational.
-- Production landing page: axe-core WCAG 2 A/AA + 2.1 AA reported no violations in the checked state.
-- Graphics library is lazy-loaded separately from the core game; render resolution is capped at 1.5× and rotation suspends offscreen, behind dialogs, and in hidden tabs.
-- Rebuilt production output; 19 gameplay tests and all asset checksums still pass. Dependency audit remains clear.
+- Optional Three.js preview is lazy-loaded after the initial page render.
+- Reduced-motion and data-saving preferences use a static preview with manual Next.
+- The carousel holds each hero for 1.5 seconds and uses Drei CameraControls for eased transitions.
+- Four quarter-turn slots preserve visible cards while recycling only the hidden rear buffer. Retired textures are disposed and removed from the loader cache.
+- Demand rendering, capped pixel ratio, offscreen/tab suspension, and WebGL fallback reduce unnecessary work.
+- Research-only metadata is excluded from browser bundles. Full provenance remains in the source ledger; regression tests confirm identical gameplay data.
+- Archive images are lazy-loaded; audio is fetched on reveal/replay rather than preloaded for the whole roster.
 
-## Mobile keyboard follow-up
+## Accessibility and mobile limits
 
-- 27 automated tests pass: the original 19 gameplay tests plus eight viewport/keyboard-state tests, including Safari-style pan offsets and focus changes before keyboard collapse.
-- Mobile input does not autofocus at match start. Desktop autofocus is retained.
-- 390×844 portrait game fits the image, answer field, Guess, and skip controls on one screen.
-- Keyboard-sized visual viewports at 390×480 and 390×380 were emulated with the answer focused. Image and input bounds remained within the visible viewport, including after a wrong guess.
-- Viewport restoration clears keyboard mode; input uses 16px text and the mobile Go key hint.
-- axe-core checked the mobile game state; no WCAG 2 A/AA + 2.1 AA violations in the tested state. Fixed an invalid aria-label by giving skip indicators a group role.
-- These are browser-emulated keyboard conditions and unit checks, not a claim of physical iOS/Android keyboard testing. Real-device Safari/Chrome testing is still recommended.
+Automated axe-core WCAG 2 A/AA and WCAG 2.1 AA checks supplement keyboard and visual testing. A passing checked state is not complete accessibility certification.
 
-## Still-picture carousel follow-up
+Viewport unit tests cover compact keyboard layouts, Safari-style viewport pan offsets, focus changes before keyboard collapse, and viewport restoration. Browser-emulated keyboard conditions cannot prove physical iOS/Android behavior. Real-device testing remains recommended.
 
-This supersedes the earlier continuous two-hero orbit.
+## Hosting checks
 
-- Full 127-hero roster now cycles through three recycled scene slots. Tests verify every hero reaches the front, including wraparound when 127 is not divisible by three.
-- Drei CameraControls performs the tween: 3-second dwell, ~262 ms measured transition, then exact angle snap to eliminate any damping tail. No perpetual auto-rotate.
-- Paused camera position movement measured zero. Next performs a single fast transition while paused; resume returns to timed steps.
-- Retired textures are disposed and evicted from the loader cache. After 20 displayed heroes, the checked scene had four GPU textures, not 20 retained hero textures.
-- Reduced-motion mode has no Canvas and supports manual instant Next. Returning to 3D preserves the selected hero; deliberate Canvas disposal is not mistaken for unexpected WebGL context loss.
-- Mobile layout and counter have no horizontal overflow in the checked 390px viewport.
-- 34 unit tests now cover gameplay, viewport behavior, and carousel sequencing.
-
-## Smooth-swap correction
-
-- Supersedes the ~262 ms transition setting above; holds are still 3 seconds, with an eased swap of roughly 0.6 seconds.
-- Applied R3F's documented demand-render synchronization: invalidate a preparatory frame, then start CameraControls on the next animation frame. This prevents the idle interval being applied to the first movement update.
-- Reduced the rest threshold before settling so the final exact-angle snap is imperceptible.
-- Browser camera telemetry captured 40 movement updates in the checked transition, starting with ~0.1° of movement instead of jumping toward the destination. Updates then followed the library's damped easing and settled at the exact angle.
-- No custom tween engine or continuous animation loop was added; CameraControls still owns interpolation and the renderer sleeps during holds.
-
-## Faster carousel and persistent mobile keyboard
-
-This supersedes the earlier 3-second dwell and no-mobile-autofocus behavior.
-
-- Carousel dwell is 1.5 seconds; the existing eased swap and preparatory render frame are retained.
-- Match launch mounts/focuses the answer synchronously inside the user gesture. Mobile keeps the same input mounted and focused through correct guesses, skips, and Next; Enter submits the guess or advances the revealed hero.
-- Mobile Guess, Skip, and replay pointer interactions retain answer focus. The reveal uses the same control-row slots; GG is a high-contrast, 44px-high button.
-- Chromium dev-server smoke checks at 390×844 confirmed wrong guesses, correct guesses (+10), Skip, and Enter-to-next. Input DOM identity and focus stayed unchanged through reveal/next.
-- A simulated 420px visual viewport kept GG at bottom 412px before and after Enter-to-next, with no game overflow. Desktop still focuses Next on reveal and the input on the next round.
-- All 34 unit tests and the production build pass. Native software-keyboard behavior still needs physical iOS/Android verification; emulation cannot prove OS keyboard behavior.
-
-## Hidden carousel buffer
-
-- Four quarter-turn slots replace the three-slot layout. Initial state includes the previous shadow, foreground, next shadow, and hidden rear buffer.
-- Only the slot opposite the new foreground is recycled after each completed transition. Regression tests cover visible-card identity preservation for 270 transitions, including roster wraparound.
-- Rear opacity is zero; camera-angle-based smoothstep fades it in/out during rotation. All four textures must be ready before a transition begins.
-- Chromium scene inspection confirmed four meshes, three visible at rest, and only the invisible mesh changing texture after a manual Next. Desktop and 390px mobile screenshots were inspected.
-- All 35 tests and production build pass. The 1.5-second dwell remains unchanged.
-
-## Compact answer controls
-
-- Removed the separate Best/GG metadata row. Best sits beside the current score; Skip (or replay on mobile reveal) and GG share one action row.
-- Mobile answer input and buttons are 38px tall; input text stays 16px to avoid iOS focus zoom. The hero stage fills available space rather than using a 360px cap.
-- Answer form/input request autocomplete off; input also disables autocorrect, spellcheck, and capitalization and supplies password-manager ignore hints. These are browser/extension hints, not a guarantee that every native keyboard suppresses its suggestion toolbar.
-- Chromium at a simulated 390×420 visual viewport: hero stage measured ~208px tall, input and Guess 38px, Skip/GG on the same row ending at 412px, with no overflow.
-- Skip/reveal/Enter-to-next retained the same input and answer focus. At 320px width the action row and page had no horizontal overflow.
-- All 35 unit tests and production build pass. Physical phone keyboard/password-manager checks remain recommended.
+- HTTPS responses on the production game domain.
+- Root-relative production assets and real 404 responses.
+- Security headers, one-day media caching, and revalidated HTML.
+- Source assets and the original Android application remain unchanged.
 
 Screenshots: [landing](docs/home.webp), [battlefield](docs/battlefield.webp), [mobile](docs/mobile.webp), [compact mobile game](docs/mobile-game.webp), [keyboard-sized viewport](docs/mobile-keyboard.webp).
