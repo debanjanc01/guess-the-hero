@@ -1,0 +1,3505 @@
+{
+  "antimage": {
+    "id": 1,
+    "name": "Anti-Mage",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Nuker"
+    ],
+    "aliases": [
+      "antimage",
+      "am",
+      "magina"
+    ],
+    "image": "assets/heroes/antimage.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/antimage.png",
+    "archiveImage": "assets/archive/antimage.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/antimage.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_antimage.txt",
+    "audio": "assets/audio/antimage.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/antimage/anti_spawn_01.mp3",
+    "quote": "Anti-Mage.",
+    "responseId": "anti_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/antimage.json"
+  },
+  "axe": {
+    "id": 2,
+    "name": "Axe",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Initiator",
+      "Durable",
+      "Disabler",
+      "Carry"
+    ],
+    "aliases": [
+      "axe",
+      "mogul khan"
+    ],
+    "image": "assets/heroes/axe.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/axe.png",
+    "originalImage": "assets/original/axe-full.webp",
+    "originalSilhouette": "assets/original/axe-guess.webp",
+    "archiveImage": "assets/archive/axe.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/axe.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_axe.txt",
+    "audio": "assets/audio/axe.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/axe/axe_spawn_02.mp3",
+    "quote": "There is no team in Axe!",
+    "responseId": "axe_spawn_02",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/axe.json"
+  },
+  "bane": {
+    "id": 3,
+    "name": "Bane",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker",
+      "Durable"
+    ],
+    "aliases": [
+      "bane",
+      "atropos"
+    ],
+    "image": "assets/heroes/bane.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/bane.png",
+    "originalImage": "assets/original/bane-full.webp",
+    "originalSilhouette": "assets/original/bane-guess.webp",
+    "archiveImage": "assets/archive/bane.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/bane.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_bane.txt",
+    "audio": "assets/audio/bane.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/bane/bane_spawn_01.mp3",
+    "quote": "Bane.",
+    "responseId": "bane_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/bane.json"
+  },
+  "bloodseeker": {
+    "id": 4,
+    "name": "Bloodseeker",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Nuker",
+      "Initiator"
+    ],
+    "aliases": [
+      "bloodseeker",
+      "strygwyr",
+      "bs"
+    ],
+    "image": "assets/heroes/bloodseeker.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/bloodseeker.png",
+    "archiveImage": "assets/archive/bloodseeker.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/bloodseeker.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_bloodseeker.txt",
+    "audio": "assets/audio/bloodseeker.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/bloodseeker/blod_spawn_01.mp3",
+    "quote": "Bloodseeker.",
+    "responseId": "blod_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/bloodseeker.json"
+  },
+  "crystal_maiden": {
+    "id": 5,
+    "name": "Crystal Maiden",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker"
+    ],
+    "aliases": [
+      "crystal maiden",
+      "rylai",
+      "cm"
+    ],
+    "image": "assets/heroes/crystal_maiden.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/crystal_maiden.png",
+    "originalImage": "assets/original/crystal_maiden-full.webp",
+    "originalSilhouette": "assets/original/crystal_maiden-guess.webp",
+    "archiveImage": "assets/archive/crystal_maiden.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/crystal_maiden.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_crystalmaiden.txt",
+    "audio": "assets/audio/crystal_maiden.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/crystalmaiden/cm_spawn_01.mp3",
+    "quote": "Crystal Maiden!",
+    "responseId": "cm_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/crystal_maiden.json"
+  },
+  "drow_ranger": {
+    "id": 6,
+    "name": "Drow Ranger",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Pusher"
+    ],
+    "aliases": [
+      "drow ranger",
+      "traxex",
+      "drow",
+      "sylvanas"
+    ],
+    "image": "assets/heroes/drow_ranger.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/drow_ranger.png",
+    "originalImage": "assets/original/drow_ranger-full.webp",
+    "originalSilhouette": "assets/original/drow_ranger-guess.webp",
+    "archiveImage": "assets/archive/drow_ranger.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/drow_ranger.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_drowranger.txt",
+    "audio": "assets/audio/drow_ranger.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/drowranger/dro_spawn_03.mp3",
+    "quote": "Drow Ranger!",
+    "responseId": "dro_spawn_03",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/drow_ranger.json"
+  },
+  "earthshaker": {
+    "id": 7,
+    "name": "Earthshaker",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Initiator",
+      "Disabler",
+      "Nuker"
+    ],
+    "aliases": [
+      "earthshaker",
+      "raigor stonehoof",
+      "es",
+      "shaker"
+    ],
+    "image": "assets/heroes/earthshaker.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/earthshaker.png",
+    "archiveImage": "assets/archive/earthshaker.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/earthshaker.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_earthshaker.txt",
+    "audio": "assets/audio/earthshaker.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/earthshaker/erth_spawn_01.mp3",
+    "quote": "Earthshaker!",
+    "responseId": "erth_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/earthshaker.json"
+  },
+  "juggernaut": {
+    "id": 8,
+    "name": "Juggernaut",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Escape"
+    ],
+    "aliases": [
+      "juggernaut",
+      "yurnero",
+      "jugg"
+    ],
+    "image": "assets/heroes/juggernaut.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/juggernaut.png",
+    "originalImage": "assets/original/juggernaut-full.webp",
+    "originalSilhouette": "assets/original/juggernaut-guess.webp",
+    "archiveImage": "assets/archive/juggernaut.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/juggernaut.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_juggernaut.txt",
+    "audio": "assets/audio/juggernaut.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/juggernaut/jugg_ability_bladefury_10.mp3",
+    "quote": "Juggernaut!",
+    "responseId": "jugg_ability_bladefury_10",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/juggernaut.json"
+  },
+  "mirana": {
+    "id": 9,
+    "name": "Mirana",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Support",
+      "Escape",
+      "Nuker",
+      "Disabler"
+    ],
+    "aliases": [
+      "mirana",
+      "potm"
+    ],
+    "image": "assets/heroes/mirana.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/mirana.png",
+    "archiveImage": "assets/archive/mirana.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/mirana.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_mirana.txt",
+    "audio": "assets/audio/mirana.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/mirana/mir_spawn_01.mp3",
+    "quote": "Mirana.",
+    "responseId": "mir_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/mirana.json"
+  },
+  "nevermore": {
+    "id": 11,
+    "name": "Shadow Fiend",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Nuker"
+    ],
+    "aliases": [
+      "nevermore",
+      "shadow fiend",
+      "nevermore",
+      "sf",
+      "shadow friend"
+    ],
+    "image": "assets/heroes/nevermore.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/nevermore.png",
+    "archiveImage": "assets/archive/nevermore.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/nevermore.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_nevermore.txt",
+    "audio": "assets/audio/nevermore.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/nevermore/nev_spawn_11.mp3",
+    "quote": "Shadow Fiend.",
+    "responseId": "nev_spawn_11",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/shadow_fiend.json"
+  },
+  "morphling": {
+    "id": 10,
+    "name": "Morphling",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Durable",
+      "Nuker",
+      "Disabler"
+    ],
+    "aliases": [
+      "morphling",
+      "morph"
+    ],
+    "image": "assets/heroes/morphling.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/morphling.png",
+    "archiveImage": "assets/archive/morphling.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/morphling.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_morphling.txt",
+    "audio": "assets/audio/morphling.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/morphling/mrph_spawn_01.mp3",
+    "quote": "Morphling.",
+    "responseId": "mrph_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/morphling.json"
+  },
+  "phantom_lancer": {
+    "id": 12,
+    "name": "Phantom Lancer",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Pusher",
+      "Nuker"
+    ],
+    "aliases": [
+      "phantom lancer",
+      "azwraith",
+      "pl"
+    ],
+    "image": "assets/heroes/phantom_lancer.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/phantom_lancer.png",
+    "archiveImage": "assets/archive/phantom_lancer.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/phantom_lancer.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_phantom_lancer.txt",
+    "audio": "assets/audio/phantom_lancer.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/phantom_lancer/plance_spawn_01.mp3",
+    "quote": "Phantom Lancer!",
+    "responseId": "plance_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/phantom_lancer.json"
+  },
+  "puck": {
+    "id": 13,
+    "name": "Puck",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Escape",
+      "Nuker"
+    ],
+    "aliases": [
+      "puck"
+    ],
+    "image": "assets/heroes/puck.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/puck.png",
+    "archiveImage": "assets/archive/puck.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/puck.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_puck.txt",
+    "audio": "assets/audio/puck.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/puck/puck_spawn_01.mp3",
+    "quote": "Puck!",
+    "responseId": "puck_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/puck.json"
+  },
+  "pudge": {
+    "id": 14,
+    "name": "Pudge",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Disabler",
+      "Initiator",
+      "Durable",
+      "Nuker"
+    ],
+    "aliases": [
+      "pudge"
+    ],
+    "image": "assets/heroes/pudge.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/pudge.png",
+    "archiveImage": "assets/archive/pudge.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/pudge.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_pudge.txt",
+    "audio": "assets/audio/pudge.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/pudge/pud_ability_devour_07.mp3",
+    "quote": "Fresh meat!",
+    "responseId": "pud_ability_devour_07",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/pudge.json"
+  },
+  "razor": {
+    "id": 15,
+    "name": "Razor",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Durable",
+      "Nuker",
+      "Pusher"
+    ],
+    "aliases": [
+      "razor"
+    ],
+    "image": "assets/heroes/razor.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/razor.png",
+    "archiveImage": "assets/archive/razor.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/razor.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_razor.txt",
+    "audio": "assets/audio/razor.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/razor/raz_spawn_01.mp3",
+    "quote": "Razor.",
+    "responseId": "raz_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/razor.json"
+  },
+  "sand_king": {
+    "id": 16,
+    "name": "Sand King",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Support",
+      "Nuker",
+      "Escape"
+    ],
+    "aliases": [
+      "sand king",
+      "crixalis",
+      "sk"
+    ],
+    "image": "assets/heroes/sand_king.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/sand_king.png",
+    "archiveImage": "assets/archive/sand_king.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/sand_king.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_sandking.txt",
+    "audio": "assets/audio/sand_king.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/sandking/skg_spawn_02.mp3",
+    "quote": "Sand King.",
+    "responseId": "skg_spawn_02",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/sand_king.json"
+  },
+  "storm_spirit": {
+    "id": 17,
+    "name": "Storm Spirit",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Nuker",
+      "Initiator",
+      "Disabler"
+    ],
+    "aliases": [
+      "storm spirit",
+      "raijin thunderkeg",
+      "ss",
+      "storm"
+    ],
+    "image": "assets/heroes/storm_spirit.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/storm_spirit.png",
+    "archiveImage": "assets/archive/storm_spirit.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/storm_spirit.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_stormspirit.txt",
+    "audio": "assets/audio/storm_spirit.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/stormspirit/ss_spawn_01.mp3",
+    "quote": "Storm Spirit!",
+    "responseId": "ss_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/storm_spirit.json"
+  },
+  "sven": {
+    "id": 18,
+    "name": "Sven",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Initiator",
+      "Durable",
+      "Nuker"
+    ],
+    "aliases": [
+      "sven"
+    ],
+    "image": "assets/heroes/sven.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/sven.png",
+    "archiveImage": "assets/archive/sven.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/sven.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_sven.txt",
+    "audio": "assets/audio/sven.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/sven/sven_spawn_01.mp3",
+    "quote": "Rogue Knight!",
+    "responseId": "sven_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/sven.json"
+  },
+  "tiny": {
+    "id": 19,
+    "name": "Tiny",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Pusher",
+      "Initiator",
+      "Durable",
+      "Disabler"
+    ],
+    "aliases": [
+      "tiny",
+      "tony"
+    ],
+    "image": "assets/heroes/tiny.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/tiny.png",
+    "archiveImage": "assets/archive/tiny.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/tiny.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_tiny.txt",
+    "audio": "assets/audio/tiny.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/tiny/tiny_spawn_09.mp3",
+    "quote": "Tiny!",
+    "responseId": "tiny_spawn_09",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/tiny.json"
+  },
+  "vengefulspirit": {
+    "id": 20,
+    "name": "Vengeful Spirit",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Initiator",
+      "Disabler",
+      "Nuker",
+      "Escape"
+    ],
+    "aliases": [
+      "vengefulspirit",
+      "vengeful spirit",
+      "shendelzare",
+      "vs",
+      "venge"
+    ],
+    "image": "assets/heroes/vengefulspirit.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/vengefulspirit.png",
+    "archiveImage": "assets/archive/vengefulspirit.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/vengefulspirit.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_vengefulspirit.txt",
+    "audio": "assets/audio/vengefulspirit.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/vengefulspirit/vng_spawn_01.mp3",
+    "quote": "Vengeful Spirit...",
+    "responseId": "vng_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/vengeful_spirit.json"
+  },
+  "windrunner": {
+    "id": 21,
+    "name": "Windranger",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Support",
+      "Disabler",
+      "Escape",
+      "Nuker"
+    ],
+    "aliases": [
+      "windrunner",
+      "windranger",
+      "lyralei",
+      "wr"
+    ],
+    "image": "assets/heroes/windrunner.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/windrunner.png",
+    "archiveImage": "assets/archive/windrunner.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/windrunner.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_windrunner.txt",
+    "audio": "assets/audio/windrunner.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/windrunner/wind_spawn_01.mp3",
+    "quote": "Windranger at your service.",
+    "responseId": "wind_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/windranger.json"
+  },
+  "zuus": {
+    "id": 22,
+    "name": "Zeus",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Nuker",
+      "Carry"
+    ],
+    "aliases": [
+      "zuus",
+      "zeus"
+    ],
+    "image": "assets/heroes/zuus.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/zuus.png",
+    "archiveImage": "assets/archive/zuus.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/zuus.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_zuus.txt",
+    "audio": "assets/audio/zuus.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/zuus/zuus_spawn_01.mp3",
+    "quote": "Zeus!",
+    "responseId": "zuus_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/zeus.json"
+  },
+  "kunkka": {
+    "id": 23,
+    "name": "Kunkka",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Support",
+      "Disabler",
+      "Initiator",
+      "Durable",
+      "Nuker"
+    ],
+    "aliases": [
+      "kunkka"
+    ],
+    "image": "assets/heroes/kunkka.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/kunkka.png",
+    "originalImage": "assets/original/kunkka-full.webp",
+    "originalSilhouette": "assets/original/kunkka-guess.webp",
+    "archiveImage": "assets/archive/kunkka.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/kunkka.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_kunkka.txt",
+    "audio": "assets/audio/kunkka.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/kunkka/kunk_spawn_01.mp3",
+    "quote": "Kunkka is my name.",
+    "responseId": "kunk_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/kunkka.json"
+  },
+  "lina": {
+    "id": 25,
+    "name": "Lina",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Carry",
+      "Nuker",
+      "Disabler"
+    ],
+    "aliases": [
+      "lina"
+    ],
+    "image": "assets/heroes/lina.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/lina.png",
+    "originalImage": "assets/original/lina-full.webp",
+    "originalSilhouette": "assets/original/lina-guess.webp",
+    "archiveImage": "assets/archive/lina.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/lina.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_lina.txt",
+    "audio": "assets/audio/lina.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/lina/lina_spawn_01.mp3",
+    "quote": "Lina!",
+    "responseId": "lina_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/lina.json"
+  },
+  "lich": {
+    "id": 31,
+    "name": "Lich",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Nuker"
+    ],
+    "aliases": [
+      "lich",
+      "ethreain",
+      "kelthuzad"
+    ],
+    "image": "assets/heroes/lich.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/lich.png",
+    "originalImage": "assets/original/lich-full.webp",
+    "originalSilhouette": "assets/original/lich-guess.webp",
+    "archiveImage": "assets/archive/lich.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/lich.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_lich.txt",
+    "audio": "assets/audio/lich.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/lich/lich_spawn_01.mp3",
+    "quote": "Lich!",
+    "responseId": "lich_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/lich.json"
+  },
+  "lion": {
+    "id": 26,
+    "name": "Lion",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker",
+      "Initiator"
+    ],
+    "aliases": [
+      "lion"
+    ],
+    "image": "assets/heroes/lion.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/lion.png",
+    "archiveImage": "assets/archive/lion.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/lion.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_lion.txt",
+    "audio": "assets/audio/lion.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/lion/lion_spawn_01.mp3",
+    "quote": "Lion.",
+    "responseId": "lion_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/lion.json"
+  },
+  "shadow_shaman": {
+    "id": 27,
+    "name": "Shadow Shaman",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Pusher",
+      "Disabler",
+      "Nuker",
+      "Initiator"
+    ],
+    "aliases": [
+      "shadow shaman",
+      "rhasta",
+      "ss"
+    ],
+    "image": "assets/heroes/shadow_shaman.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/shadow_shaman.png",
+    "archiveImage": "assets/archive/shadow_shaman.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/shadow_shaman.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_shadowshaman.txt",
+    "audio": "assets/audio/shadow_shaman.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/shadowshaman/shad_spawn_01.mp3",
+    "quote": "Shadow Shaman.",
+    "responseId": "shad_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/shadow_shaman.json"
+  },
+  "slardar": {
+    "id": 28,
+    "name": "Slardar",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Durable",
+      "Initiator",
+      "Disabler",
+      "Escape"
+    ],
+    "aliases": [
+      "slardar"
+    ],
+    "image": "assets/heroes/slardar.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/slardar.png",
+    "archiveImage": "assets/archive/slardar.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/slardar.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_slardar.txt",
+    "audio": "assets/audio/slardar.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/slardar/slar_spawn_01.mp3",
+    "quote": "Slardar.",
+    "responseId": "slar_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/slardar.json"
+  },
+  "tidehunter": {
+    "id": 29,
+    "name": "Tidehunter",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Initiator",
+      "Durable",
+      "Disabler",
+      "Nuker",
+      "Carry"
+    ],
+    "aliases": [
+      "tidehunter",
+      "tide",
+      "watermelon"
+    ],
+    "image": "assets/heroes/tidehunter.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/tidehunter.png",
+    "archiveImage": "assets/archive/tidehunter.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/tidehunter.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_tidehunter.txt",
+    "audio": "assets/audio/tidehunter.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/tidehunter/tide_spawn_09.mp3",
+    "quote": "Tidehunter.",
+    "responseId": "tide_spawn_09",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/tidehunter.json"
+  },
+  "witch_doctor": {
+    "id": 30,
+    "name": "Witch Doctor",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler"
+    ],
+    "aliases": [
+      "witch doctor",
+      "zharvakko",
+      "wd"
+    ],
+    "image": "assets/heroes/witch_doctor.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/witch_doctor.png",
+    "archiveImage": "assets/archive/witch_doctor.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/witch_doctor.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_witchdoctor.txt",
+    "audio": "assets/audio/witch_doctor.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/witchdoctor/wdoc_spawn_02.mp3",
+    "quote": "Witch Doctor!",
+    "responseId": "wdoc_spawn_02",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/witch_doctor.json"
+  },
+  "riki": {
+    "id": 32,
+    "name": "Riki",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Disabler"
+    ],
+    "aliases": [
+      "riki"
+    ],
+    "image": "assets/heroes/riki.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/riki.png",
+    "archiveImage": "assets/archive/riki.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/riki.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_riki.txt",
+    "audio": "assets/audio/riki.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/riki/riki_spawn_01.mp3",
+    "quote": "Riki",
+    "responseId": "riki_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/riki.json"
+  },
+  "enigma": {
+    "id": 33,
+    "name": "Enigma",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Disabler",
+      "Initiator",
+      "Pusher"
+    ],
+    "aliases": [
+      "enigma"
+    ],
+    "image": "assets/heroes/enigma.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/enigma.png",
+    "originalImage": "assets/original/enigma-full.webp",
+    "originalSilhouette": "assets/original/enigma-guess.webp",
+    "archiveImage": "assets/archive/enigma.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/enigma.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_enigma.txt",
+    "audio": "assets/audio/enigma.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/enigma/enig_spawn_01.mp3",
+    "quote": "Enigma.",
+    "responseId": "enig_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/enigma.json"
+  },
+  "tinker": {
+    "id": 34,
+    "name": "Tinker",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Pusher"
+    ],
+    "aliases": [
+      "tinker",
+      "boush",
+      "tink"
+    ],
+    "image": "assets/heroes/tinker.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/tinker.png",
+    "archiveImage": "assets/archive/tinker.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/tinker.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_tinker.txt",
+    "audio": "assets/audio/tinker.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/tinker/tink_spawn_01.mp3",
+    "quote": "Tinker!",
+    "responseId": "tink_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/tinker.json"
+  },
+  "sniper": {
+    "id": 35,
+    "name": "Sniper",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Nuker"
+    ],
+    "aliases": [
+      "sniper",
+      "kardel sharpeye"
+    ],
+    "image": "assets/heroes/sniper.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/sniper.png",
+    "archiveImage": "assets/archive/sniper.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/sniper.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_sniper.txt",
+    "audio": "assets/audio/sniper.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/sniper/snip_spawn_01.mp3",
+    "quote": "Sniper!",
+    "responseId": "snip_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/sniper.json"
+  },
+  "necrolyte": {
+    "id": 36,
+    "name": "Necrophos",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Durable",
+      "Disabler"
+    ],
+    "aliases": [
+      "necrolyte",
+      "necrophos",
+      "rotundjere",
+      "necro"
+    ],
+    "image": "assets/heroes/necrolyte.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/necrolyte.png",
+    "archiveImage": "assets/archive/necrolyte.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/necrolyte.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_necrolyte.txt",
+    "audio": "assets/audio/necrolyte.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/necrolyte/necr_spawn_01.mp3",
+    "quote": "Necrophos.",
+    "responseId": "necr_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/necrophos.json"
+  },
+  "warlock": {
+    "id": 37,
+    "name": "Warlock",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Initiator",
+      "Disabler"
+    ],
+    "aliases": [
+      "warlock",
+      "demnok lannik"
+    ],
+    "image": "assets/heroes/warlock.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/warlock.png",
+    "archiveImage": "assets/archive/warlock.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/warlock.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_warlock.txt",
+    "audio": "assets/audio/warlock.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/warlock/warl_spawn_01.mp3",
+    "quote": "Warlock!",
+    "responseId": "warl_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/warlock.json"
+  },
+  "beastmaster": {
+    "id": 38,
+    "name": "Beastmaster",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Durable",
+      "Nuker"
+    ],
+    "aliases": [
+      "beastmaster",
+      "karroch",
+      "bm",
+      "rexar"
+    ],
+    "image": "assets/heroes/beastmaster.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/beastmaster.png",
+    "originalImage": "assets/original/beastmaster-full.webp",
+    "originalSilhouette": "assets/original/beastmaster-guess.webp",
+    "archiveImage": "assets/archive/beastmaster.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/beastmaster.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_beastmaster.txt",
+    "audio": "assets/audio/beastmaster.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/beastmaster/beas_ability_hawk_move_01.mp3",
+    "quote": "(Hero vocalization)",
+    "responseId": "beas_ability_hawk_move_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/beastmaster.json"
+  },
+  "queenofpain": {
+    "id": 39,
+    "name": "Queen of Pain",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Escape"
+    ],
+    "aliases": [
+      "queenofpain",
+      "queen of pain",
+      "akasha",
+      "qop"
+    ],
+    "image": "assets/heroes/queenofpain.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/queenofpain.png",
+    "archiveImage": "assets/archive/queenofpain.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/queenofpain.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_queenofpain.txt",
+    "audio": "assets/audio/queenofpain.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/queenofpain/pain_spawn_04.mp3",
+    "quote": "Queen of Pain.",
+    "responseId": "pain_spawn_04",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/queen_of_pain.json"
+  },
+  "venomancer": {
+    "id": 40,
+    "name": "Venomancer",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Initiator",
+      "Pusher",
+      "Disabler"
+    ],
+    "aliases": [
+      "venomancer",
+      "lesale",
+      "veno"
+    ],
+    "image": "assets/heroes/venomancer.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/venomancer.png",
+    "archiveImage": "assets/archive/venomancer.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/venomancer.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_venomancer.txt",
+    "audio": "assets/audio/venomancer.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/venomancer/venm_spawn_01.mp3",
+    "quote": "Venomancer!",
+    "responseId": "venm_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/venomancer.json"
+  },
+  "faceless_void": {
+    "id": 41,
+    "name": "Faceless Void",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Initiator",
+      "Disabler",
+      "Escape",
+      "Durable"
+    ],
+    "aliases": [
+      "faceless void",
+      "darkterror",
+      "void",
+      "fv"
+    ],
+    "image": "assets/heroes/faceless_void.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/faceless_void.png",
+    "originalImage": "assets/original/faceless_void-full.webp",
+    "originalSilhouette": "assets/original/faceless_void-guess.webp",
+    "archiveImage": "assets/archive/faceless_void.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/faceless_void.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_faceless_void.txt",
+    "audio": "assets/audio/faceless_void.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/faceless_void/face_spawn_01.mp3",
+    "quote": "Faceless Void.",
+    "responseId": "face_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/faceless_void.json"
+  },
+  "skeleton_king": {
+    "id": 42,
+    "name": "Wraith King",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Support",
+      "Durable",
+      "Disabler",
+      "Initiator"
+    ],
+    "aliases": [
+      "skeleton king",
+      "wraith king",
+      "ostarion",
+      "wk"
+    ],
+    "image": "assets/heroes/skeleton_king.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/skeleton_king.png",
+    "archiveImage": "assets/archive/skeleton_king.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/skeleton_king.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_skeleton_king.txt",
+    "audio": "assets/audio/skeleton_king.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/skeleton_king/wraith_spawn_01.mp3",
+    "quote": "Wraith King!",
+    "responseId": "wraith_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/wraith_king.json"
+  },
+  "death_prophet": {
+    "id": 43,
+    "name": "Death Prophet",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Nuker",
+      "Disabler"
+    ],
+    "aliases": [
+      "death prophet",
+      "krobelus",
+      "dp"
+    ],
+    "image": "assets/heroes/death_prophet.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/death_prophet.png",
+    "originalImage": "assets/original/death_prophet-full.webp",
+    "originalSilhouette": "assets/original/death_prophet-guess.webp",
+    "archiveImage": "assets/archive/death_prophet.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/death_prophet.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_death_prophet.txt",
+    "audio": "assets/audio/death_prophet.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/death_prophet/dpro_spawn_01.mp3",
+    "quote": "Death Prophet.",
+    "responseId": "dpro_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/death_prophet.json"
+  },
+  "phantom_assassin": {
+    "id": 44,
+    "name": "Phantom Assassin",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Escape"
+    ],
+    "aliases": [
+      "phantom assassin",
+      "mortred",
+      "pa"
+    ],
+    "image": "assets/heroes/phantom_assassin.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/phantom_assassin.png",
+    "archiveImage": "assets/archive/phantom_assassin.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/phantom_assassin.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_phantom_assassin.txt",
+    "audio": "assets/audio/phantom_assassin.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/phantom_assassin/phass_spawn_01.mp3",
+    "quote": "Phantom Assassin!",
+    "responseId": "phass_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/phantom_assassin.json"
+  },
+  "pugna": {
+    "id": 45,
+    "name": "Pugna",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Nuker",
+      "Pusher"
+    ],
+    "aliases": [
+      "pugna"
+    ],
+    "image": "assets/heroes/pugna.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/pugna.png",
+    "archiveImage": "assets/archive/pugna.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/pugna.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_pugna.txt",
+    "audio": "assets/audio/pugna.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/pugna/pugna_spawn_01.mp3",
+    "quote": "Pugna!",
+    "responseId": "pugna_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/pugna.json"
+  },
+  "templar_assassin": {
+    "id": 46,
+    "name": "Templar Assassin",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Escape"
+    ],
+    "aliases": [
+      "templar assassin",
+      "lanaya",
+      "ta"
+    ],
+    "image": "assets/heroes/templar_assassin.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/templar_assassin.png",
+    "archiveImage": "assets/archive/templar_assassin.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/templar_assassin.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_templar_assassin.txt",
+    "audio": "assets/audio/templar_assassin.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/templar_assassin/temp_spawn_02.mp3",
+    "quote": "Templar Assassin.",
+    "responseId": "temp_spawn_02",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/templar_assassin.json"
+  },
+  "viper": {
+    "id": 47,
+    "name": "Viper",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Durable",
+      "Initiator",
+      "Disabler"
+    ],
+    "aliases": [
+      "viper"
+    ],
+    "image": "assets/heroes/viper.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/viper.png",
+    "archiveImage": "assets/archive/viper.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/viper.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_viper.txt",
+    "audio": "assets/audio/viper.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/viper/vipe_spawn_01.mp3",
+    "quote": "Viper.",
+    "responseId": "vipe_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/viper.json"
+  },
+  "luna": {
+    "id": 48,
+    "name": "Luna",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Pusher"
+    ],
+    "aliases": [
+      "luna"
+    ],
+    "image": "assets/heroes/luna.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/luna.png",
+    "archiveImage": "assets/archive/luna.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/luna.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_luna.txt",
+    "audio": "assets/audio/luna.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/luna/luna_spawn_01.mp3",
+    "quote": "Luna!",
+    "responseId": "luna_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/luna.json"
+  },
+  "dragon_knight": {
+    "id": 49,
+    "name": "Dragon Knight",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Durable",
+      "Disabler",
+      "Initiator",
+      "Nuker"
+    ],
+    "aliases": [
+      "dragon knight",
+      "davion",
+      "dk"
+    ],
+    "image": "assets/heroes/dragon_knight.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/dragon_knight.png",
+    "archiveImage": "assets/archive/dragon_knight.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/dragon_knight.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_dragon_knight.txt",
+    "audio": "assets/audio/dragon_knight.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/dragon_knight/drag_spawn_01.mp3",
+    "quote": "Dragon Knight.",
+    "responseId": "drag_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/dragon_knight.json"
+  },
+  "dazzle": {
+    "id": 50,
+    "name": "Dazzle",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler"
+    ],
+    "aliases": [
+      "dazzle"
+    ],
+    "image": "assets/heroes/dazzle.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/dazzle.png",
+    "archiveImage": "assets/archive/dazzle.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/dazzle.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_dazzle.txt",
+    "audio": "assets/audio/dazzle.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/dazzle/dazz_spawn_01.mp3",
+    "quote": "Dazzle!",
+    "responseId": "dazz_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/dazzle.json"
+  },
+  "rattletrap": {
+    "id": 51,
+    "name": "Clockwerk",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Durable",
+      "Nuker"
+    ],
+    "aliases": [
+      "rattletrap",
+      "clockwerk",
+      "rattletrap",
+      "clock"
+    ],
+    "image": "assets/heroes/rattletrap.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/rattletrap.png",
+    "archiveImage": "assets/archive/rattletrap.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/rattletrap.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_rattletrap.txt",
+    "audio": "assets/audio/rattletrap.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/rattletrap/ratt_spawn_05.mp3",
+    "quote": "Clockwerk!",
+    "responseId": "ratt_spawn_05",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/clockwerk.json"
+  },
+  "leshrac": {
+    "id": 52,
+    "name": "Leshrac",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Support",
+      "Nuker",
+      "Pusher",
+      "Disabler"
+    ],
+    "aliases": [
+      "leshrac",
+      "lesh"
+    ],
+    "image": "assets/heroes/leshrac.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/leshrac.png",
+    "originalImage": "assets/original/leshrac-full.webp",
+    "originalSilhouette": "assets/original/leshrac-guess.webp",
+    "archiveImage": "assets/archive/leshrac.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/leshrac.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_leshrac.txt",
+    "audio": "assets/audio/leshrac.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/leshrac/lesh_spawn_01.mp3",
+    "quote": "Leshrac.",
+    "responseId": "lesh_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/leshrac.json"
+  },
+  "furion": {
+    "id": 53,
+    "name": "Nature's Prophet",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Escape",
+      "Nuker"
+    ],
+    "aliases": [
+      "furion",
+      "natures prophet",
+      "np"
+    ],
+    "image": "assets/heroes/furion.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/furion.png",
+    "archiveImage": "assets/archive/furion.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/furion.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_furion.txt",
+    "audio": "assets/audio/furion.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/furion/furi_spawn_01.mp3",
+    "quote": "I speak for the trees.",
+    "responseId": "furi_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/natures_prophet.json"
+  },
+  "life_stealer": {
+    "id": 54,
+    "name": "Lifestealer",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Durable",
+      "Escape",
+      "Disabler"
+    ],
+    "aliases": [
+      "life stealer",
+      "lifestealer",
+      "naix",
+      "ls"
+    ],
+    "image": "assets/heroes/life_stealer.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/life_stealer.png",
+    "originalImage": "assets/original/life_stealer-full.webp",
+    "originalSilhouette": "assets/original/life_stealer-guess.webp",
+    "archiveImage": "assets/archive/life_stealer.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/life_stealer.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_life_stealer.txt",
+    "audio": "assets/audio/life_stealer.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/life_stealer/lifest_spawn_01.mp3",
+    "quote": "Lifestealer!",
+    "responseId": "lifest_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/lifestealer.json"
+  },
+  "dark_seer": {
+    "id": 55,
+    "name": "Dark Seer",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Initiator",
+      "Escape",
+      "Disabler"
+    ],
+    "aliases": [
+      "dark seer",
+      "ishkafel"
+    ],
+    "image": "assets/heroes/dark_seer.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/dark_seer.png",
+    "originalImage": "assets/original/dark_seer-full.webp",
+    "originalSilhouette": "assets/original/dark_seer-guess.webp",
+    "archiveImage": "assets/archive/dark_seer.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/dark_seer.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_dark_seer.txt",
+    "audio": "assets/audio/dark_seer.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/dark_seer/dkseer_spawn_01.mp3",
+    "quote": "Dark seer.",
+    "responseId": "dkseer_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/dark_seer.json"
+  },
+  "clinkz": {
+    "id": 56,
+    "name": "Clinkz",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Pusher"
+    ],
+    "aliases": [
+      "clinkz"
+    ],
+    "image": "assets/heroes/clinkz.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/clinkz.png",
+    "originalImage": "assets/original/clinkz-full.webp",
+    "originalSilhouette": "assets/original/clinkz-guess.webp",
+    "archiveImage": "assets/archive/clinkz.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/clinkz.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_clinkz.txt",
+    "audio": "assets/audio/clinkz.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/clinkz/clinkz_spawn_01.mp3",
+    "quote": "Clinkz.",
+    "responseId": "clinkz_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/clinkz.json"
+  },
+  "omniknight": {
+    "id": 57,
+    "name": "Omniknight",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Durable",
+      "Nuker"
+    ],
+    "aliases": [
+      "omniknight",
+      "purist thunderwrath",
+      "omni"
+    ],
+    "image": "assets/heroes/omniknight.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/omniknight.png",
+    "archiveImage": "assets/archive/omniknight.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/omniknight.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_omniknight.txt",
+    "audio": "assets/audio/omniknight.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/omniknight/omni_spawn_01.mp3",
+    "quote": "Omniknight.",
+    "responseId": "omni_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/omniknight.json"
+  },
+  "enchantress": {
+    "id": 58,
+    "name": "Enchantress",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Pusher",
+      "Durable",
+      "Disabler"
+    ],
+    "aliases": [
+      "enchantress",
+      "aiushtha",
+      "ench",
+      "bambi"
+    ],
+    "image": "assets/heroes/enchantress.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/enchantress.png",
+    "originalImage": "assets/original/enchantress-full.webp",
+    "originalSilhouette": "assets/original/enchantress-guess.webp",
+    "archiveImage": "assets/archive/enchantress.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/enchantress.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_enchantress.txt",
+    "audio": "assets/audio/enchantress.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/enchantress/ench_spawn_01.mp3",
+    "quote": "Enchantress!",
+    "responseId": "ench_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/enchantress.json"
+  },
+  "huskar": {
+    "id": 59,
+    "name": "Huskar",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Durable",
+      "Initiator"
+    ],
+    "aliases": [
+      "huskar"
+    ],
+    "image": "assets/heroes/huskar.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/huskar.png",
+    "originalImage": "assets/original/huskar-full.webp",
+    "originalSilhouette": "assets/original/huskar-guess.webp",
+    "archiveImage": "assets/archive/huskar.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/huskar.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_huskar.txt",
+    "audio": "assets/audio/huskar.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/huskar/husk_spawn_01.mp3",
+    "quote": "Huskar!",
+    "responseId": "husk_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/huskar.json"
+  },
+  "night_stalker": {
+    "id": 60,
+    "name": "Night Stalker",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Initiator",
+      "Durable",
+      "Disabler",
+      "Nuker"
+    ],
+    "aliases": [
+      "night stalker",
+      "balanar",
+      "ns"
+    ],
+    "image": "assets/heroes/night_stalker.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/night_stalker.png",
+    "archiveImage": "assets/archive/night_stalker.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/night_stalker.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_night_stalker.txt",
+    "audio": "assets/audio/night_stalker.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/night_stalker/nstalk_spawn_01.mp3",
+    "quote": "Night Stalker.",
+    "responseId": "nstalk_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/night_stalker.json"
+  },
+  "broodmother": {
+    "id": 61,
+    "name": "Broodmother",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Escape",
+      "Nuker"
+    ],
+    "aliases": [
+      "broodmother",
+      "black arachnia",
+      "brood",
+      "spider"
+    ],
+    "image": "assets/heroes/broodmother.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/broodmother.png",
+    "archiveImage": "assets/archive/broodmother.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/broodmother.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_broodmother.txt",
+    "audio": "assets/audio/broodmother.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/broodmother/broo_spawn_01.mp3",
+    "quote": "Broodmother.",
+    "responseId": "broo_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/broodmother.json"
+  },
+  "bounty_hunter": {
+    "id": 62,
+    "name": "Bounty Hunter",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Escape",
+      "Nuker"
+    ],
+    "aliases": [
+      "bounty hunter",
+      "gondar",
+      "bh",
+      "bounty"
+    ],
+    "image": "assets/heroes/bounty_hunter.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/bounty_hunter.png",
+    "originalImage": "assets/original/bounty_hunter-full.webp",
+    "originalSilhouette": "assets/original/bounty_hunter-guess.webp",
+    "archiveImage": "assets/archive/bounty_hunter.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/bounty_hunter.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_bounty_hunter.txt",
+    "audio": "assets/audio/bounty_hunter.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/bounty_hunter/bount_spawn_01.mp3",
+    "quote": "Bounty Hunter!",
+    "responseId": "bount_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/bounty_hunter.json"
+  },
+  "weaver": {
+    "id": 63,
+    "name": "Weaver",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Escape"
+    ],
+    "aliases": [
+      "weaver",
+      "skitskurr"
+    ],
+    "image": "assets/heroes/weaver.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/weaver.png",
+    "archiveImage": "assets/archive/weaver.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/weaver.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_weaver.txt",
+    "audio": "assets/audio/weaver.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/weaver/weav_spawn_01.mp3",
+    "quote": "Weaver!",
+    "responseId": "weav_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/weaver.json"
+  },
+  "jakiro": {
+    "id": 64,
+    "name": "Jakiro",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Pusher",
+      "Disabler"
+    ],
+    "aliases": [
+      "jakiro",
+      "jak"
+    ],
+    "image": "assets/heroes/jakiro.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/jakiro.png",
+    "originalImage": "assets/original/jakiro-full.webp",
+    "originalSilhouette": "assets/original/jakiro-guess.webp",
+    "archiveImage": "assets/archive/jakiro.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/jakiro.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_jakiro.txt",
+    "audio": "assets/audio/jakiro.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/jakiro/jak_spawn_01.mp3",
+    "quote": "Jakiro!",
+    "responseId": "jak_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/jakiro.json"
+  },
+  "batrider": {
+    "id": 65,
+    "name": "Batrider",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Escape"
+    ],
+    "aliases": [
+      "batrider",
+      "bat"
+    ],
+    "image": "assets/heroes/batrider.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/batrider.png",
+    "originalImage": "assets/original/batrider-full.webp",
+    "originalSilhouette": "assets/original/batrider-guess.webp",
+    "archiveImage": "assets/archive/batrider.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/batrider.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_batrider.txt",
+    "audio": "assets/audio/batrider.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/batrider/bat_spawn_01.mp3",
+    "quote": "Batrider!",
+    "responseId": "bat_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/batrider.json"
+  },
+  "chen": {
+    "id": 66,
+    "name": "Chen",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Pusher"
+    ],
+    "aliases": [
+      "chen"
+    ],
+    "image": "assets/heroes/chen.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/chen.png",
+    "originalImage": "assets/original/chen-full.webp",
+    "originalSilhouette": "assets/original/chen-guess.webp",
+    "archiveImage": "assets/archive/chen.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/chen.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_chen.txt",
+    "audio": "assets/audio/chen.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/chen/chen_spawn_01.mp3",
+    "quote": "Chen!",
+    "responseId": "chen_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/chen.json"
+  },
+  "spectre": {
+    "id": 67,
+    "name": "Spectre",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Durable",
+      "Escape"
+    ],
+    "aliases": [
+      "spectre",
+      "mercurial"
+    ],
+    "image": "assets/heroes/spectre.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/spectre.png",
+    "archiveImage": "assets/archive/spectre.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/spectre.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_spectre.txt",
+    "audio": "assets/audio/spectre.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/spectre/spec_spawn_01.mp3",
+    "quote": "Spectre!",
+    "responseId": "spec_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/spectre.json"
+  },
+  "doom_bringer": {
+    "id": 69,
+    "name": "Doom",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Initiator",
+      "Durable",
+      "Nuker"
+    ],
+    "aliases": [
+      "doom bringer",
+      "doom",
+      "lucifer"
+    ],
+    "image": "assets/heroes/doom_bringer.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/doom_bringer.png",
+    "originalImage": "assets/original/doom_bringer-full.webp",
+    "originalSilhouette": "assets/original/doom_bringer-guess.webp",
+    "archiveImage": "assets/archive/doom_bringer.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/doom_bringer.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_doom_bringer.txt",
+    "audio": "assets/audio/doom_bringer.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/doom_bringer/doom_spawn_01.mp3",
+    "quote": "Doom.",
+    "responseId": "doom_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/doom.json"
+  },
+  "ancient_apparition": {
+    "id": 68,
+    "name": "Ancient Apparition",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker"
+    ],
+    "aliases": [
+      "ancient apparition",
+      "kaldr",
+      "aa"
+    ],
+    "image": "assets/heroes/ancient_apparition.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ancient_apparition.png",
+    "archiveImage": "assets/archive/ancient_apparition.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/ancient_apparition.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_ancient_apparition.txt",
+    "audio": "assets/audio/ancient_apparition.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/ancient_apparition/appa_spawn_01.mp3",
+    "quote": "Ancient Apparition!",
+    "responseId": "appa_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/ancient_apparition.json"
+  },
+  "ursa": {
+    "id": 70,
+    "name": "Ursa",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Durable",
+      "Disabler"
+    ],
+    "aliases": [
+      "ursa",
+      "ulfsaar",
+      "bear"
+    ],
+    "image": "assets/heroes/ursa.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ursa.png",
+    "archiveImage": "assets/archive/ursa.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/ursa.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_ursa.txt",
+    "audio": "assets/audio/ursa.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/ursa/ursa_spawn_01.mp3",
+    "quote": "Ursa Warrior!",
+    "responseId": "ursa_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/ursa.json"
+  },
+  "spirit_breaker": {
+    "id": 71,
+    "name": "Spirit Breaker",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Initiator",
+      "Disabler",
+      "Durable",
+      "Escape"
+    ],
+    "aliases": [
+      "spirit breaker",
+      "barathrum",
+      "sb",
+      "bara"
+    ],
+    "image": "assets/heroes/spirit_breaker.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/spirit_breaker.png",
+    "archiveImage": "assets/archive/spirit_breaker.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/spirit_breaker.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_spirit_breaker.txt",
+    "audio": "assets/audio/spirit_breaker.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/spirit_breaker/spir_spawn_01.mp3",
+    "quote": "Spirit Breaker.",
+    "responseId": "spir_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/spirit_breaker.json"
+  },
+  "gyrocopter": {
+    "id": 72,
+    "name": "Gyrocopter",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Disabler"
+    ],
+    "aliases": [
+      "gyrocopter",
+      "aurel",
+      "gyro"
+    ],
+    "image": "assets/heroes/gyrocopter.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/gyrocopter.png",
+    "originalImage": "assets/original/gyrocopter-full.webp",
+    "originalSilhouette": "assets/original/gyrocopter-guess.webp",
+    "archiveImage": "assets/archive/gyrocopter.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/gyrocopter.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_gyrocopter.txt",
+    "audio": "assets/audio/gyrocopter.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/gyrocopter/gyro_spawn_01.mp3",
+    "quote": "Gyrocopter!",
+    "responseId": "gyro_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/gyrocopter.json"
+  },
+  "alchemist": {
+    "id": 73,
+    "name": "Alchemist",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Support",
+      "Durable",
+      "Disabler",
+      "Initiator",
+      "Nuker"
+    ],
+    "aliases": [
+      "alchemist",
+      "razzil darkbrew",
+      "alch"
+    ],
+    "image": "assets/heroes/alchemist.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/alchemist.png",
+    "archiveImage": "assets/archive/alchemist.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/alchemist.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_alchemist.txt",
+    "audio": "assets/audio/alchemist.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/alchemist/alch_spawn_01.mp3",
+    "quote": "Alchemist!",
+    "responseId": "alch_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/alchemist.json"
+  },
+  "invoker": {
+    "id": 74,
+    "name": "Invoker",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Disabler",
+      "Escape",
+      "Pusher"
+    ],
+    "aliases": [
+      "invoker",
+      "carl"
+    ],
+    "image": "assets/heroes/invoker.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/invoker.png",
+    "archiveImage": "assets/archive/invoker.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/invoker.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_invoker.txt",
+    "audio": "assets/audio/invoker.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/invoker/invo_level_05.mp3",
+    "quote": "I am a beacon of knowledge blazing out across a black sea of ignorance.",
+    "responseId": "invo_level_05",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/invoker.json"
+  },
+  "silencer": {
+    "id": 75,
+    "name": "Silencer",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Support",
+      "Disabler",
+      "Initiator",
+      "Nuker"
+    ],
+    "aliases": [
+      "silencer",
+      "nortrom"
+    ],
+    "image": "assets/heroes/silencer.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/silencer.png",
+    "archiveImage": "assets/archive/silencer.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/silencer.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_silencer.txt",
+    "audio": "assets/audio/silencer.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/silencer/silen_spawn_01.mp3",
+    "quote": "Silencer!",
+    "responseId": "silen_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/silencer.json"
+  },
+  "obsidian_destroyer": {
+    "id": 76,
+    "name": "Outworld Destroyer",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Disabler"
+    ],
+    "aliases": [
+      "obsidian destroyer",
+      "outworld destroyer",
+      "harbinger",
+      "od"
+    ],
+    "image": "assets/heroes/obsidian_destroyer.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/obsidian_destroyer.png",
+    "archiveImage": "assets/archive/obsidian_destroyer.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/obsidian_destroyer.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_outworld_destroyer.txt",
+    "audio": "assets/audio/obsidian_destroyer.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/outworld_destroyer/odest_spawn_02.mp3",
+    "quote": "Outworld Devourer.",
+    "responseId": "odest_spawn_02",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/outworld_destroyer.json"
+  },
+  "lycan": {
+    "id": 77,
+    "name": "Lycan",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Durable",
+      "Escape"
+    ],
+    "aliases": [
+      "lycan",
+      "banehallow"
+    ],
+    "image": "assets/heroes/lycan.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/lycan.png",
+    "archiveImage": "assets/archive/lycan.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/lycan.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_lycan.txt",
+    "audio": "assets/audio/lycan.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/lycan/lycan_spawn_01.mp3",
+    "quote": "Lycan!",
+    "responseId": "lycan_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/lycan.json"
+  },
+  "brewmaster": {
+    "id": 78,
+    "name": "Brewmaster",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Initiator",
+      "Durable",
+      "Disabler",
+      "Nuker"
+    ],
+    "aliases": [
+      "brewmaster",
+      "mangix",
+      "brew"
+    ],
+    "image": "assets/heroes/brewmaster.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/brewmaster.png",
+    "originalImage": "assets/original/brewmaster-full.webp",
+    "originalSilhouette": "assets/original/brewmaster-guess.webp",
+    "archiveImage": "assets/archive/brewmaster.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/brewmaster.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_brewmaster.txt",
+    "audio": "assets/audio/brewmaster.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/brewmaster/brew_spawn_01.mp3",
+    "quote": "Brewmaster.",
+    "responseId": "brew_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/brewmaster.json"
+  },
+  "shadow_demon": {
+    "id": 79,
+    "name": "Shadow Demon",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Disabler",
+      "Initiator",
+      "Nuker"
+    ],
+    "aliases": [
+      "shadow demon",
+      "sd"
+    ],
+    "image": "assets/heroes/shadow_demon.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/shadow_demon.png",
+    "archiveImage": "assets/archive/shadow_demon.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/shadow_demon.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_shadow_demon.txt",
+    "audio": "assets/audio/shadow_demon.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/shadow_demon/shadow_demon_spawn_01.mp3",
+    "quote": "Shadow Demon!",
+    "responseId": "shadow_demon_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/shadow_demon.json"
+  },
+  "lone_druid": {
+    "id": 80,
+    "name": "Lone Druid",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Durable"
+    ],
+    "aliases": [
+      "lone druid",
+      "sylla",
+      "ld",
+      "bear"
+    ],
+    "image": "assets/heroes/lone_druid.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/lone_druid.png",
+    "originalImage": "assets/original/lone_druid-full.webp",
+    "originalSilhouette": "assets/original/lone_druid-guess.webp",
+    "archiveImage": "assets/archive/lone_druid.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/lone_druid.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_lone_druid.txt",
+    "audio": "assets/audio/lone_druid.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/lone_druid/lone_druid_spawn_01.mp3",
+    "quote": "Lone Druid!",
+    "responseId": "lone_druid_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/lone_druid.json"
+  },
+  "chaos_knight": {
+    "id": 81,
+    "name": "Chaos Knight",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Durable",
+      "Pusher",
+      "Initiator"
+    ],
+    "aliases": [
+      "chaos knight",
+      "ck"
+    ],
+    "image": "assets/heroes/chaos_knight.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/chaos_knight.png",
+    "originalImage": "assets/original/chaos_knight-full.webp",
+    "originalSilhouette": "assets/original/chaos_knight-guess.webp",
+    "archiveImage": "assets/archive/chaos_knight.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/chaos_knight.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_chaos_knight.txt",
+    "audio": "assets/audio/chaos_knight.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/chaos_knight/chaknight_spawn_02.mp3",
+    "quote": "Chaos Knight.",
+    "responseId": "chaknight_spawn_02",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/chaos_knight.json"
+  },
+  "meepo": {
+    "id": 82,
+    "name": "Meepo",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Nuker",
+      "Disabler",
+      "Initiator",
+      "Pusher"
+    ],
+    "aliases": [
+      "meepo"
+    ],
+    "image": "assets/heroes/meepo.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/meepo.png",
+    "archiveImage": "assets/archive/meepo.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/meepo.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_meepo.txt",
+    "audio": "assets/audio/meepo.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/meepo/meepo_spawn_01.mp3",
+    "quote": "Meepo!",
+    "responseId": "meepo_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/meepo.json"
+  },
+  "treant": {
+    "id": 83,
+    "name": "Treant Protector",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Initiator",
+      "Durable",
+      "Disabler",
+      "Escape"
+    ],
+    "aliases": [
+      "treant",
+      "treant protector",
+      "rooftrellen",
+      "tree"
+    ],
+    "image": "assets/heroes/treant.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/treant.png",
+    "archiveImage": "assets/archive/treant.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/treant.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_treant.txt",
+    "audio": "assets/audio/treant.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/treant/treant_spawn_02.mp3",
+    "quote": "Treant Protector.",
+    "responseId": "treant_spawn_02",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/treant_protector.json"
+  },
+  "ogre_magi": {
+    "id": 84,
+    "name": "Ogre Magi",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler",
+      "Durable",
+      "Initiator"
+    ],
+    "aliases": [
+      "ogre magi",
+      "aggron stonebreak",
+      "ogre"
+    ],
+    "image": "assets/heroes/ogre_magi.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ogre_magi.png",
+    "archiveImage": "assets/archive/ogre_magi.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/ogre_magi.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_ogre_magi.txt",
+    "audio": "assets/audio/ogre_magi.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/ogre_magi/ogmag_spawn_01.mp3",
+    "quote": "Ogre Magi!",
+    "responseId": "ogmag_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/ogre_magi.json"
+  },
+  "undying": {
+    "id": 85,
+    "name": "Undying",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Durable",
+      "Disabler",
+      "Nuker"
+    ],
+    "aliases": [
+      "undying",
+      "zombie"
+    ],
+    "image": "assets/heroes/undying.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/undying.png",
+    "archiveImage": "assets/archive/undying.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/undying.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_undying.txt",
+    "audio": "assets/audio/undying.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/undying/undying_spawn_01.mp3",
+    "quote": "The Undying wakes.",
+    "responseId": "undying_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/undying.json"
+  },
+  "rubick": {
+    "id": 86,
+    "name": "Rubick",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker"
+    ],
+    "aliases": [
+      "rubick"
+    ],
+    "image": "assets/heroes/rubick.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/rubick.png",
+    "archiveImage": "assets/archive/rubick.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/rubick.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_rubick.txt",
+    "audio": "assets/audio/rubick.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/rubick/rubick_spawn_04.mp3",
+    "quote": "Rubick!",
+    "responseId": "rubick_spawn_04",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/rubick.json"
+  },
+  "disruptor": {
+    "id": 87,
+    "name": "Disruptor",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker",
+      "Initiator"
+    ],
+    "aliases": [
+      "disruptor",
+      "thrall"
+    ],
+    "image": "assets/heroes/disruptor.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/disruptor.png",
+    "originalImage": "assets/original/disruptor-full.webp",
+    "originalSilhouette": "assets/original/disruptor-guess.webp",
+    "archiveImage": "assets/archive/disruptor.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/disruptor.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_disruptor.txt",
+    "audio": "assets/audio/disruptor.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/disruptor/dis_spawn_01.mp3",
+    "quote": "Disruptor.",
+    "responseId": "dis_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/disruptor.json"
+  },
+  "nyx_assassin": {
+    "id": 88,
+    "name": "Nyx Assassin",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Disabler",
+      "Nuker",
+      "Initiator",
+      "Escape"
+    ],
+    "aliases": [
+      "nyx assassin",
+      "nyx"
+    ],
+    "image": "assets/heroes/nyx_assassin.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/nyx_assassin.png",
+    "archiveImage": "assets/archive/nyx_assassin.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/nyx_assassin.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_nyx_assassin.txt",
+    "audio": "assets/audio/nyx_assassin.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/nyx_assassin/nyx_spawn_01.mp3",
+    "quote": "Nyx assassin.",
+    "responseId": "nyx_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/nyx_assassin.json"
+  },
+  "naga_siren": {
+    "id": 89,
+    "name": "Naga Siren",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Support",
+      "Pusher",
+      "Disabler",
+      "Initiator",
+      "Escape"
+    ],
+    "aliases": [
+      "naga siren",
+      "silithice",
+      "naga"
+    ],
+    "image": "assets/heroes/naga_siren.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/naga_siren.png",
+    "archiveImage": "assets/archive/naga_siren.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/naga_siren.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_naga_siren.txt",
+    "audio": "assets/audio/naga_siren.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/naga_siren/naga_spawn_02.mp3",
+    "quote": "Naga Siren.",
+    "responseId": "naga_spawn_02",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/naga_siren.json"
+  },
+  "keeper_of_the_light": {
+    "id": 90,
+    "name": "Keeper of the Light",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler"
+    ],
+    "aliases": [
+      "keeper of the light",
+      "ezalor",
+      "kotl"
+    ],
+    "image": "assets/heroes/keeper_of_the_light.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/keeper_of_the_light.png",
+    "originalImage": "assets/original/keeper_of_the_light-full.webp",
+    "originalSilhouette": "assets/original/keeper_of_the_light-guess.webp",
+    "archiveImage": "assets/archive/keeper_of_the_light.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/keeper_of_the_light.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_keeper_of_the_light.txt",
+    "audio": "assets/audio/keeper_of_the_light.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/keeper_of_the_light/keep_spawn_01.mp3",
+    "quote": "Keeper of the Light.",
+    "responseId": "keep_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/keeper_of_the_light.json"
+  },
+  "wisp": {
+    "id": 91,
+    "name": "Io",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Escape",
+      "Nuker"
+    ],
+    "aliases": [
+      "wisp",
+      "io"
+    ],
+    "image": "assets/heroes/wisp.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/wisp.png",
+    "archiveImage": "assets/archive/wisp.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/wisp.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_wisp.txt",
+    "audioConversion": "Source WAV converted to 96 kbps MP3; no generated/replacement voice.",
+    "audio": "assets/audio/wisp.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/wisp/spawn_respawn.wav",
+    "quote": "(Hero vocalization)",
+    "responseId": "spawn_respawn",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/io.json"
+  },
+  "visage": {
+    "id": 92,
+    "name": "Visage",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Durable",
+      "Disabler",
+      "Pusher"
+    ],
+    "aliases": [
+      "visage"
+    ],
+    "image": "assets/heroes/visage.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/visage.png",
+    "archiveImage": "assets/archive/visage.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/visage.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_visage.txt",
+    "audio": "assets/audio/visage.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/visage/visa_spawn_01.mp3",
+    "quote": "Visage.",
+    "responseId": "visa_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/visage.json"
+  },
+  "slark": {
+    "id": 93,
+    "name": "Slark",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Disabler",
+      "Nuker"
+    ],
+    "aliases": [
+      "slark"
+    ],
+    "image": "assets/heroes/slark.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/slark.png",
+    "archiveImage": "assets/archive/slark.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/slark.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_slark.txt",
+    "audio": "assets/audio/slark.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/slark/slark_spawn_01.mp3",
+    "quote": "Slark.",
+    "responseId": "slark_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/slark.json"
+  },
+  "medusa": {
+    "id": 94,
+    "name": "Medusa",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Durable"
+    ],
+    "aliases": [
+      "medusa",
+      "dusa"
+    ],
+    "image": "assets/heroes/medusa.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/medusa.png",
+    "archiveImage": "assets/archive/medusa.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/medusa.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_medusa.txt",
+    "audio": "assets/audio/medusa.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/medusa/medus_spawn_01.mp3",
+    "quote": "Medusa!",
+    "responseId": "medus_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/medusa.json"
+  },
+  "troll_warlord": {
+    "id": 95,
+    "name": "Troll Warlord",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Disabler",
+      "Durable"
+    ],
+    "aliases": [
+      "troll warlord",
+      "jahrakal",
+      "troll"
+    ],
+    "image": "assets/heroes/troll_warlord.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/troll_warlord.png",
+    "archiveImage": "assets/archive/troll_warlord.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/troll_warlord.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_troll_warlord.txt",
+    "audio": "assets/audio/troll_warlord.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/troll_warlord/troll_spawn_01.mp3",
+    "quote": "Troll Warlord.",
+    "responseId": "troll_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/troll_warlord.json"
+  },
+  "centaur": {
+    "id": 96,
+    "name": "Centaur Warrunner",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Durable",
+      "Initiator",
+      "Disabler",
+      "Nuker",
+      "Escape"
+    ],
+    "aliases": [
+      "centaur",
+      "centaur warrunner",
+      "bradwarden"
+    ],
+    "image": "assets/heroes/centaur.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/centaur.png",
+    "originalImage": "assets/original/centaur-full.webp",
+    "originalSilhouette": "assets/original/centaur-guess.webp",
+    "archiveImage": "assets/archive/centaur.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/centaur.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_centaur.txt",
+    "audio": "assets/audio/centaur.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/centaur/cent_spawn_03.mp3",
+    "quote": "Centaur Warrunner.",
+    "responseId": "cent_spawn_03",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/centaur_warrunner.json"
+  },
+  "magnataur": {
+    "id": 97,
+    "name": "Magnus",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Nuker",
+      "Escape"
+    ],
+    "aliases": [
+      "magnataur",
+      "magnus"
+    ],
+    "image": "assets/heroes/magnataur.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/magnataur.png",
+    "originalImage": "assets/original/magnataur-full.webp",
+    "originalSilhouette": "assets/original/magnataur-guess.webp",
+    "archiveImage": "assets/archive/magnataur.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/magnataur.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_magnataur.txt",
+    "audio": "assets/audio/magnataur.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/magnataur/magn_spawn_02.mp3",
+    "quote": "Let them try and stop me.",
+    "responseId": "magn_spawn_02",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/magnus.json"
+  },
+  "shredder": {
+    "id": 98,
+    "name": "Timbersaw",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Nuker",
+      "Durable",
+      "Escape"
+    ],
+    "aliases": [
+      "shredder",
+      "timbersaw",
+      "rizzrack",
+      "timber"
+    ],
+    "image": "assets/heroes/shredder.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/shredder.png",
+    "archiveImage": "assets/archive/shredder.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/shredder.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_shredder.txt",
+    "audio": "assets/audio/shredder.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/shredder/timb_spawn_01.mp3",
+    "quote": "Timbersaw!",
+    "responseId": "timb_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/timbersaw.json"
+  },
+  "bristleback": {
+    "id": 99,
+    "name": "Bristleback",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Durable",
+      "Initiator",
+      "Nuker"
+    ],
+    "aliases": [
+      "bristleback",
+      "rigwarl",
+      "bristle",
+      "bb"
+    ],
+    "image": "assets/heroes/bristleback.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/bristleback.png",
+    "archiveImage": "assets/archive/bristleback.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/bristleback.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_bristleback.txt",
+    "audio": "assets/audio/bristleback.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/bristleback/bristle_spawn_01.mp3",
+    "quote": "Bristleback!",
+    "responseId": "bristle_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/bristleback.json"
+  },
+  "tusk": {
+    "id": 100,
+    "name": "Tusk",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Nuker"
+    ],
+    "aliases": [
+      "tusk",
+      "ymir"
+    ],
+    "image": "assets/heroes/tusk.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/tusk.png",
+    "archiveImage": "assets/archive/tusk.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/tusk.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_tusk.txt",
+    "audio": "assets/audio/tusk.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/tusk/tusk_spawn_01.mp3",
+    "quote": "Tusk!",
+    "responseId": "tusk_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/tusk.json"
+  },
+  "skywrath_mage": {
+    "id": 101,
+    "name": "Skywrath Mage",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler"
+    ],
+    "aliases": [
+      "skywrath mage",
+      "dragonus",
+      "sky"
+    ],
+    "image": "assets/heroes/skywrath_mage.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/skywrath_mage.png",
+    "archiveImage": "assets/archive/skywrath_mage.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/skywrath_mage.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_skywrath_mage.txt",
+    "audio": "assets/audio/skywrath_mage.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/skywrath_mage/drag_spawn_02.mp3",
+    "quote": "Skywrath Mage!",
+    "responseId": "drag_spawn_02",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/skywrath_mage.json"
+  },
+  "abaddon": {
+    "id": 102,
+    "name": "Abaddon",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Carry",
+      "Durable"
+    ],
+    "aliases": [
+      "abaddon",
+      "arthas"
+    ],
+    "image": "assets/heroes/abaddon.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/abaddon.png",
+    "originalImage": "assets/original/abaddon-full.webp",
+    "originalSilhouette": "assets/original/abaddon-guess.webp",
+    "archiveImage": "assets/archive/abaddon.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/abaddon.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_abaddon.txt",
+    "audio": "assets/audio/abaddon.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/abaddon/abad_spawn_01.mp3",
+    "quote": "Abaddon.",
+    "responseId": "abad_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/abaddon.json"
+  },
+  "elder_titan": {
+    "id": 103,
+    "name": "Elder Titan",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Nuker",
+      "Durable"
+    ],
+    "aliases": [
+      "elder titan",
+      "et"
+    ],
+    "image": "assets/heroes/elder_titan.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/elder_titan.png",
+    "archiveImage": "assets/archive/elder_titan.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/elder_titan.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_elder_titan.txt",
+    "audio": "assets/audio/elder_titan.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/elder_titan/elder_spawn_01.mp3",
+    "quote": "Elder Titan!",
+    "responseId": "elder_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/elder_titan.json"
+  },
+  "legion_commander": {
+    "id": 104,
+    "name": "Legion Commander",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Initiator",
+      "Durable",
+      "Nuker"
+    ],
+    "aliases": [
+      "legion commander",
+      "tresdin",
+      "lc"
+    ],
+    "image": "assets/heroes/legion_commander.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/legion_commander.png",
+    "archiveImage": "assets/archive/legion_commander.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/legion_commander.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_legion_commander.txt",
+    "audio": "assets/audio/legion_commander.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/legion_commander/legcom_spawn_01.mp3",
+    "quote": "Legion Commander!",
+    "responseId": "legcom_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/legion_commander.json"
+  },
+  "ember_spirit": {
+    "id": 106,
+    "name": "Ember Spirit",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Nuker",
+      "Disabler",
+      "Initiator"
+    ],
+    "aliases": [
+      "ember spirit",
+      "xin",
+      "es",
+      "ember"
+    ],
+    "image": "assets/heroes/ember_spirit.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ember_spirit.png",
+    "archiveImage": "assets/archive/ember_spirit.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/ember_spirit.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_ember_spirit.txt",
+    "audio": "assets/audio/ember_spirit.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/ember_spirit/embr_spawn_01.mp3",
+    "quote": "Ember Spirit!",
+    "responseId": "embr_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/ember_spirit.json"
+  },
+  "earth_spirit": {
+    "id": 107,
+    "name": "Earth Spirit",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Nuker",
+      "Escape",
+      "Disabler",
+      "Initiator",
+      "Durable"
+    ],
+    "aliases": [
+      "earth spirit",
+      "kaolin",
+      "es"
+    ],
+    "image": "assets/heroes/earth_spirit.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/earth_spirit.png",
+    "archiveImage": "assets/archive/earth_spirit.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/earth_spirit.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_earth_spirit.txt",
+    "audio": "assets/audio/earth_spirit.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/earth_spirit/earthspi_spawn_02.mp3",
+    "quote": "Earth Spirit!",
+    "responseId": "earthspi_spawn_02",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/earth_spirit.json"
+  },
+  "terrorblade": {
+    "id": 109,
+    "name": "Terrorblade",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Nuker"
+    ],
+    "aliases": [
+      "terrorblade",
+      "tb",
+      "illidan"
+    ],
+    "image": "assets/heroes/terrorblade.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/terrorblade.png",
+    "archiveImage": "assets/archive/terrorblade.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/terrorblade.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_terrorblade.txt",
+    "audio": "assets/audio/terrorblade.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/terrorblade/terr_spawn_01.mp3",
+    "quote": "Terrorblade.",
+    "responseId": "terr_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/terrorblade.json"
+  },
+  "phoenix": {
+    "id": 110,
+    "name": "Phoenix",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Initiator",
+      "Escape",
+      "Disabler"
+    ],
+    "aliases": [
+      "phoenix",
+      "icarus"
+    ],
+    "image": "assets/heroes/phoenix.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/phoenix.png",
+    "archiveImage": "assets/archive/phoenix.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/phoenix.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_phoenix.txt",
+    "audio": "assets/audio/phoenix.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/phoenix/phoenix_bird_respawn.mp3",
+    "quote": "(Hero vocalization)",
+    "responseId": "phoenix_bird_respawn",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/phoenix.json"
+  },
+  "oracle": {
+    "id": 111,
+    "name": "Oracle",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler",
+      "Escape"
+    ],
+    "aliases": [
+      "oracle",
+      "nerif"
+    ],
+    "image": "assets/heroes/oracle.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/oracle.png",
+    "archiveImage": "assets/archive/oracle.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/oracle.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_oracle.txt",
+    "audio": "assets/audio/oracle.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/oracle/orac_spawn_01.mp3",
+    "quote": "Oracle.",
+    "responseId": "orac_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/oracle.json"
+  },
+  "techies": {
+    "id": 105,
+    "name": "Techies",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Nuker",
+      "Disabler"
+    ],
+    "aliases": [
+      "techies",
+      "squee spleen and spoon"
+    ],
+    "image": "assets/heroes/techies.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/techies.png",
+    "archiveImage": "assets/archive/techies.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/techies.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_techies.txt",
+    "audio": "assets/audio/techies.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/techies/tech_spawn_01.mp3",
+    "quote": "Techies!",
+    "responseId": "tech_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/techies.json"
+  },
+  "winter_wyvern": {
+    "id": 112,
+    "name": "Winter Wyvern",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker"
+    ],
+    "aliases": [
+      "winter wyvern",
+      "auroth",
+      "ww"
+    ],
+    "image": "assets/heroes/winter_wyvern.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/winter_wyvern.png",
+    "archiveImage": "assets/archive/winter_wyvern.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/winter_wyvern.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_winter_wyvern.txt",
+    "audio": "assets/audio/winter_wyvern.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/winter_wyvern/winwyv_spawn_01.mp3",
+    "quote": "Winter Wyvern",
+    "responseId": "winwyv_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/winter_wyvern.json"
+  },
+  "arc_warden": {
+    "id": 113,
+    "name": "Arc Warden",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Nuker"
+    ],
+    "aliases": [
+      "arc warden",
+      "zet",
+      "aw"
+    ],
+    "image": "assets/heroes/arc_warden.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/arc_warden.png",
+    "archiveImage": "assets/archive/arc_warden.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/arc_warden.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_arc_warden.txt",
+    "audio": "assets/audio/arc_warden.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/arc_warden/arcwar_spawn_01.mp3",
+    "quote": "Arc Warden.",
+    "responseId": "arcwar_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/arc_warden.json"
+  },
+  "abyssal_underlord": {
+    "id": 108,
+    "name": "Underlord",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler",
+      "Durable",
+      "Escape"
+    ],
+    "aliases": [
+      "abyssal underlord",
+      "underlord",
+      "vrogros",
+      "pit lord"
+    ],
+    "image": "assets/heroes/abyssal_underlord.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/abyssal_underlord.png",
+    "archiveImage": "assets/archive/abyssal_underlord.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/abyssal_underlord.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_abyssal_underlord.txt",
+    "audio": "assets/audio/abyssal_underlord.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/abyssal_underlord/abys_spawn_02.mp3",
+    "quote": "Lord of the Abyss!",
+    "responseId": "abys_spawn_02",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/underlord.json"
+  },
+  "monkey_king": {
+    "id": 114,
+    "name": "Monkey King",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Disabler",
+      "Initiator"
+    ],
+    "aliases": [
+      "monkey king",
+      "sun wukong",
+      "mk"
+    ],
+    "image": "assets/heroes/monkey_king.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/monkey_king.png",
+    "archiveImage": "assets/archive/monkey_king.webp",
+    "archiveSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/resource/flash3/images/heroes/monkey_king.png",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_monkey_king.txt",
+    "audio": "assets/audio/monkey_king.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/monkey_king/monkey_spawn_17.mp3",
+    "quote": "Monkey King",
+    "responseId": "monkey_spawn_17",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/monkey_king.json"
+  },
+  "pangolier": {
+    "id": 120,
+    "name": "Pangolier",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Disabler",
+      "Durable",
+      "Escape",
+      "Initiator"
+    ],
+    "aliases": [
+      "pangolier",
+      "donte panlin"
+    ],
+    "image": "assets/heroes/pangolier.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/pangolier.png",
+    "archiveNote": "HTTP Error 404: Not Found",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_pangolin.txt",
+    "audio": "assets/audio/pangolier.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/pangolin/pangolin_spawn_01.mp3",
+    "quote": "The honorable Donte Panlin, at your service.",
+    "responseId": "pangolin_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/pangolier.json"
+  },
+  "dark_willow": {
+    "id": 119,
+    "name": "Dark Willow",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler",
+      "Escape"
+    ],
+    "aliases": [
+      "dark willow",
+      "mireska sunbreeze",
+      "sylph",
+      "dw"
+    ],
+    "image": "assets/heroes/dark_willow.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/dark_willow.png",
+    "archiveNote": "HTTP Error 404: Not Found",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_dark_willow.txt",
+    "audio": "assets/audio/dark_willow.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/dark_willow/sylph_spawn_01.mp3",
+    "quote": "They're not ready for what I have planned...",
+    "responseId": "sylph_spawn_01",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/dark_willow.json"
+  },
+  "grimstroke": {
+    "id": 121,
+    "name": "Grimstroke",
+    "classic": true,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler",
+      "Escape"
+    ],
+    "aliases": [
+      "grimstroke",
+      "gs"
+    ],
+    "image": "assets/heroes/grimstroke.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/grimstroke.png",
+    "archiveNote": "HTTP Error 404: Not Found",
+    "historicalRuleSource": "https://raw.githubusercontent.com/SteamDatabase/GameTracking-Dota2/823a1df1cbf4bbee72e6d13a56bc464303417049/game/dota/pak01_dir/scripts/talker/response_rules_grimstroke.txt",
+    "audio": "assets/audio/grimstroke.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/grimstroke/grimstroke_spawn_01_02.mp3",
+    "quote": "Grimstroke!",
+    "responseId": "grimstroke_spawn_01_02",
+    "historicalLineVerified": true,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/grimstroke.json"
+  },
+  "mars": {
+    "id": 129,
+    "name": "Mars",
+    "classic": false,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Initiator",
+      "Disabler",
+      "Durable"
+    ],
+    "aliases": [
+      "mars"
+    ],
+    "image": "assets/heroes/mars.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/mars.png",
+    "audio": "assets/audio/mars.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/mars/mars_spawn_01.mp3",
+    "quote": "Mars!",
+    "responseId": "mars_spawn_01",
+    "historicalLineVerified": false,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/mars.json"
+  },
+  "void_spirit": {
+    "id": 126,
+    "name": "Void Spirit",
+    "classic": false,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Nuker",
+      "Disabler"
+    ],
+    "aliases": [
+      "void spirit",
+      "inai"
+    ],
+    "image": "assets/heroes/void_spirit.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/void_spirit.png",
+    "audio": "assets/audio/void_spirit.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/void_spirit/voidspir_spawn_01.mp3",
+    "quote": "Void Spirit",
+    "responseId": "voidspir_spawn_01",
+    "historicalLineVerified": false,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/void_spirit.json"
+  },
+  "snapfire": {
+    "id": 128,
+    "name": "Snapfire",
+    "classic": false,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler",
+      "Escape"
+    ],
+    "aliases": [
+      "snapfire",
+      "beatrix"
+    ],
+    "image": "assets/heroes/snapfire.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/snapfire.png",
+    "audio": "assets/audio/snapfire.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/snapfire/helmet_snapfire_respawn_01.mp3",
+    "quote": "(Hero vocalization)",
+    "responseId": "helmet_snapfire_respawn_01",
+    "historicalLineVerified": false,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/snapfire.json"
+  },
+  "hoodwink": {
+    "id": 123,
+    "name": "Hoodwink",
+    "classic": false,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Escape",
+      "Disabler"
+    ],
+    "aliases": [
+      "hoodwink"
+    ],
+    "image": "assets/heroes/hoodwink.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/hoodwink.png",
+    "audio": "assets/audio/hoodwink.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/hoodwink/hoodwink_spawn_01_81.mp3",
+    "quote": "Hoodwink!",
+    "responseId": "hoodwink_spawn_01_81",
+    "historicalLineVerified": false,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/hoodwink.json"
+  },
+  "dawnbreaker": {
+    "id": 135,
+    "name": "Dawnbreaker",
+    "classic": false,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Durable"
+    ],
+    "aliases": [
+      "dawnbreaker",
+      "valora",
+      "db"
+    ],
+    "image": "assets/heroes/dawnbreaker.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/dawnbreaker.png",
+    "audio": "assets/audio/dawnbreaker.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/dawnbreaker/valora_spawn_29.mp3",
+    "quote": "Dawnbreaker!",
+    "responseId": "valora_spawn_29",
+    "historicalLineVerified": false,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/dawnbreaker.json"
+  },
+  "marci": {
+    "id": 136,
+    "name": "Marci",
+    "classic": false,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Carry",
+      "Initiator",
+      "Disabler",
+      "Escape"
+    ],
+    "aliases": [
+      "marci"
+    ],
+    "image": "assets/heroes/marci.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/marci.png",
+    "audioConversion": "Source WAV converted to 96 kbps MP3; no generated/replacement voice.",
+    "audio": "assets/audio/marci.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/marci/marci_deny.wav",
+    "quote": "Tweet Tweet",
+    "responseId": "marci_deny",
+    "historicalLineVerified": false,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/marci.json"
+  },
+  "primal_beast": {
+    "id": 137,
+    "name": "Primal Beast",
+    "classic": false,
+    "attribute": "unknown",
+    "roles": [
+      "Initiator",
+      "Durable",
+      "Disabler"
+    ],
+    "aliases": [
+      "primal beast"
+    ],
+    "image": "assets/heroes/primal_beast.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/primal_beast.png",
+    "audio": "assets/audio/primal_beast.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/primal_beast/primal_attack_01.mp3",
+    "quote": "Raawr",
+    "responseId": "primal_attack_01",
+    "historicalLineVerified": false,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/primal_beast.json"
+  },
+  "muerta": {
+    "id": 138,
+    "name": "Muerta",
+    "classic": false,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Disabler"
+    ],
+    "aliases": [
+      "muerta"
+    ],
+    "image": "assets/heroes/muerta.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/muerta.png",
+    "audio": "assets/audio/muerta.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/muerta/eth_muerta_spawn_01.mp3",
+    "quote": "Muerta",
+    "responseId": "eth_muerta_spawn_01",
+    "historicalLineVerified": false,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/muerta.json"
+  },
+  "ringmaster": {
+    "id": 131,
+    "name": "Ringmaster",
+    "classic": false,
+    "attribute": "unknown",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Escape",
+      "Disabler"
+    ],
+    "aliases": [
+      "ringmaster"
+    ],
+    "image": "assets/heroes/ringmaster.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ringmaster.png",
+    "audio": "assets/audio/ringmaster.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/ringmaster/ringmaster_spin_the_wheel_mesmerize_05_02.mp3",
+    "quote": "(Hero vocalization)",
+    "responseId": "ringmaster_spin_the_wheel_mesmerize_05_02",
+    "historicalLineVerified": false,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/ringmaster.json"
+  },
+  "kez": {
+    "id": 145,
+    "name": "Kez",
+    "classic": false,
+    "attribute": "unknown",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Disabler"
+    ],
+    "aliases": [
+      "kez"
+    ],
+    "image": "assets/heroes/kez.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/kez.png",
+    "audio": "assets/audio/kez.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/kez/kez_respawn_01.mp3",
+    "quote": "Well, look who's back.",
+    "responseId": "kez_respawn_01",
+    "historicalLineVerified": false,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/kez.json"
+  },
+  "largo": {
+    "id": 155,
+    "name": "Largo",
+    "classic": false,
+    "attribute": "unknown",
+    "roles": [
+      "Durable",
+      "Disabler",
+      "Support"
+    ],
+    "aliases": [
+      "largo"
+    ],
+    "image": "assets/heroes/largo.webp",
+    "imageSource": "https://cdn.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/largo.png",
+    "audio": "assets/audio/largo.mp3",
+    "audioSource": "https://dotabase.dillerm.io/dota-vpk/sounds/vo/largo/largo_spawn_01.mp3",
+    "quote": "Largo",
+    "responseId": "largo_spawn_01",
+    "historicalLineVerified": false,
+    "responseSource": "https://raw.githubusercontent.com/mdiller/dotabase/7ec2f5a91d21f52aae5a37bf12caa3c057fdbffa/json/responses/largo.json"
+  }
+}

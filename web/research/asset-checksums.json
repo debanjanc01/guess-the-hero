@@ -1,0 +1,1766 @@
+{
+  "assets/archive/abaddon.webp": {
+    "bytes": 2506,
+    "sha256": "250d9755009418ed3d7ca6a37af00d84f359e8a8cc8e0623e849f63140ee9394"
+  },
+  "assets/archive/abyssal_underlord.webp": {
+    "bytes": 3482,
+    "sha256": "366d580e70f7dd7ea086285479147ffd35200c264ea3077199bfaff2c2a0ddc1"
+  },
+  "assets/archive/alchemist.webp": {
+    "bytes": 3744,
+    "sha256": "fd1bc215ccb7332892d21cca199e91621d8f405638396f85ceb8ee66c24b6dc1"
+  },
+  "assets/archive/ancient_apparition.webp": {
+    "bytes": 3068,
+    "sha256": "6de9ccfca1e9ba27748b720d6f792b9ae59e3725c01ecdcdd136013e8dc75745"
+  },
+  "assets/archive/antimage.webp": {
+    "bytes": 2324,
+    "sha256": "73c6802152f6d9de014a510c5ccdb08b3a92b8dc7874c5580a155c1e45f836a3"
+  },
+  "assets/archive/arc_warden.webp": {
+    "bytes": 3704,
+    "sha256": "104c24705944ced436445b016e15dfd6e13d61161da9dcd646012f348ee1808a"
+  },
+  "assets/archive/axe.webp": {
+    "bytes": 2434,
+    "sha256": "fa0dbbe5bd0d8d3701f63e9b53502b31a4af81f23302ec1855b231b047a0e745"
+  },
+  "assets/archive/bane.webp": {
+    "bytes": 2512,
+    "sha256": "fc0a3edfa60cbf44d389058d375fce9ecd8b1527e85dede391cb808f5ff1359c"
+  },
+  "assets/archive/batrider.webp": {
+    "bytes": 3062,
+    "sha256": "5ebe0df1ccc3a7c7bb72fea021c0014ade80a8523626c306197cc893a6fbebfb"
+  },
+  "assets/archive/beastmaster.webp": {
+    "bytes": 2630,
+    "sha256": "ef7aea24ada0d4b156465a71912501044f11c2846073278983bfd3ed3c41b473"
+  },
+  "assets/archive/bloodseeker.webp": {
+    "bytes": 2946,
+    "sha256": "50e97090f742fd3cc1eaa6170aacb121269b5af530021b561ac83f9cd0fff5ec"
+  },
+  "assets/archive/bounty_hunter.webp": {
+    "bytes": 2882,
+    "sha256": "dfa794700c4d88759fda57237948df3644a64241d8bdf267137dbff5191e024b"
+  },
+  "assets/archive/brewmaster.webp": {
+    "bytes": 3426,
+    "sha256": "dca3a9e3608cad492d66915347adeb21559082345107f72a18d41c1139f8796c"
+  },
+  "assets/archive/bristleback.webp": {
+    "bytes": 2596,
+    "sha256": "7d053191afabba22a645efe383166cbf235f7695630c12f6edcc6620bc0a8505"
+  },
+  "assets/archive/broodmother.webp": {
+    "bytes": 3068,
+    "sha256": "b8cf09bdf7ca2c3bf74879fb55f7a781905b7d027f037e521dec4d0ca63603c5"
+  },
+  "assets/archive/centaur.webp": {
+    "bytes": 2934,
+    "sha256": "a8128fc01a1ad94352e7c525a54a1b4e01e5a4eb37830b4269875cd6b3d4d520"
+  },
+  "assets/archive/chaos_knight.webp": {
+    "bytes": 2318,
+    "sha256": "4371be2d18cf3e4c04b443d3d32ea55d05f87139c8139ad6eafb57e5521a83cc"
+  },
+  "assets/archive/chen.webp": {
+    "bytes": 2354,
+    "sha256": "b832f81d57344123542ea65e339753b2ac183b98ba7f93290fb2b8b5d6a44f55"
+  },
+  "assets/archive/clinkz.webp": {
+    "bytes": 3630,
+    "sha256": "716c70ece9bcf4f72e77a2c9ae8351090b169b03b211a10f53b613c39aafdc8a"
+  },
+  "assets/archive/crystal_maiden.webp": {
+    "bytes": 2780,
+    "sha256": "48ebba7bfa5799e51e5df664c6cdc13faf84fe83f8834e3fca2156a6933a45e6"
+  },
+  "assets/archive/dark_seer.webp": {
+    "bytes": 2992,
+    "sha256": "a091cd43a4b166042ced7f2387a71f15c96ec7d46d3a0d0071c37cecbadb07f3"
+  },
+  "assets/archive/dazzle.webp": {
+    "bytes": 2460,
+    "sha256": "3e3f55b78bcd2317d75bbf1523c747d83f976843ca664b8ae5a39b5d56c251c7"
+  },
+  "assets/archive/death_prophet.webp": {
+    "bytes": 2350,
+    "sha256": "032ec073e0aa17746e16fca7347cd037c05195bc69f8868307f02fb02b0da62f"
+  },
+  "assets/archive/disruptor.webp": {
+    "bytes": 3234,
+    "sha256": "19edf071c44f11cce40a4b29127bd018d279617558be42bbe3b36924b7c5161f"
+  },
+  "assets/archive/doom_bringer.webp": {
+    "bytes": 2500,
+    "sha256": "9600fdeccb8a4531ca3e87fffbd5150922b280466d78d2f30a0814497820f5ee"
+  },
+  "assets/archive/dragon_knight.webp": {
+    "bytes": 3196,
+    "sha256": "0ba047b9f58348675db267fc8f08308d5b7a112d3f61c0c0aa351028b5bd2901"
+  },
+  "assets/archive/drow_ranger.webp": {
+    "bytes": 2600,
+    "sha256": "2138f00fb8b7a27f7ffb79ee96058f825dc1ab4715e2872710430910ea5a644e"
+  },
+  "assets/archive/earth_spirit.webp": {
+    "bytes": 3022,
+    "sha256": "873caead6a91993f3372704621c61c5e2c5ce7b62dad7e064109e97770f49427"
+  },
+  "assets/archive/earthshaker.webp": {
+    "bytes": 3114,
+    "sha256": "c6ce90ae3f5f52d5e4a3fcd042ff22fac5c958be151fd19d1c64e3ad03c70959"
+  },
+  "assets/archive/elder_titan.webp": {
+    "bytes": 3032,
+    "sha256": "570c6b6c5258a0e6a91550d5dc5a0eb54d1f95fc98f2c5567c35649d2fc56c05"
+  },
+  "assets/archive/ember_spirit.webp": {
+    "bytes": 3206,
+    "sha256": "4b3da8d32cbd81f245dccdf3adf25350017a9caa30d6fd8a22c685206b6e7c0e"
+  },
+  "assets/archive/enchantress.webp": {
+    "bytes": 2896,
+    "sha256": "a33dc87d39bf8a35bc69515bb7f485ddbc40ffc40f458dddb5313ab5f00e922b"
+  },
+  "assets/archive/enigma.webp": {
+    "bytes": 2922,
+    "sha256": "9a4ba9c8552f1d40cb2c5b3aba4e61d951caf2784c230d07f7fbbb1aa15f009a"
+  },
+  "assets/archive/faceless_void.webp": {
+    "bytes": 2580,
+    "sha256": "327e81c59ee14a650b18e4477919390cc7cdec316234f56b9f25b16fcbe4d26f"
+  },
+  "assets/archive/furion.webp": {
+    "bytes": 2640,
+    "sha256": "78796cbb45ca696b9671e90f802bc8bbbdd328e02cb1a242a702f745729cb31a"
+  },
+  "assets/archive/gyrocopter.webp": {
+    "bytes": 2698,
+    "sha256": "a5b75821dd0f62f465dd543b45c01c321c51e38d85d0c03f797e3d8bab38e778"
+  },
+  "assets/archive/huskar.webp": {
+    "bytes": 3098,
+    "sha256": "a58f7c38fd6a115bb5020c33ef5cb329c27db7d8edd853626c6ef71b43e09d0f"
+  },
+  "assets/archive/invoker.webp": {
+    "bytes": 1958,
+    "sha256": "135754a0baeadeff37ea4435e3b0bfc7a7d2883f645ae6480cde918114a43adf"
+  },
+  "assets/archive/jakiro.webp": {
+    "bytes": 4304,
+    "sha256": "4dc5f84b0fd44070511f219843a2890db7ca8ce9606bd7060edca7046c668fc9"
+  },
+  "assets/archive/juggernaut.webp": {
+    "bytes": 2960,
+    "sha256": "740311852ff49f16ddc86e2bc766efb288653f00c89c4383d938786af5e5f627"
+  },
+  "assets/archive/keeper_of_the_light.webp": {
+    "bytes": 2420,
+    "sha256": "5d2395a3fb49c2bbe16054dad281a9135c9d7200a3db65eeca83fa9329f82eda"
+  },
+  "assets/archive/kunkka.webp": {
+    "bytes": 2410,
+    "sha256": "8ce1fbf2a7f3c1380c08847afba69739f8d8d78a23891143aba29f2b4ebdd6a7"
+  },
+  "assets/archive/legion_commander.webp": {
+    "bytes": 3264,
+    "sha256": "95645eecc8d22e697ad6a845d4ff2f3328fa692b81ed0e0fc8240ff29a1dd623"
+  },
+  "assets/archive/leshrac.webp": {
+    "bytes": 2254,
+    "sha256": "900c05ab19615f16adaf636e0fd73c06dc8bc03b08d9ba1b9d516ff84b917949"
+  },
+  "assets/archive/lich.webp": {
+    "bytes": 2952,
+    "sha256": "8f35e2c7fc38e56a578da7a98e9b23612bdb2e14c9ec4a0289f1c870c261fd3c"
+  },
+  "assets/archive/life_stealer.webp": {
+    "bytes": 2928,
+    "sha256": "6b08ae56a69a4ab1aefecfad5ab22e221600d5c4feacf32e8041c2b9a56eb076"
+  },
+  "assets/archive/lina.webp": {
+    "bytes": 2160,
+    "sha256": "11a579ccb5d0f8069ab1a3450d307ca395ac7efd80fb1be732028b91a42ee6f3"
+  },
+  "assets/archive/lion.webp": {
+    "bytes": 3182,
+    "sha256": "aa6e990b6bf6906c35a1a9e58319ed322d2ade17254b9ebbc6eae38a8238d55f"
+  },
+  "assets/archive/lone_druid.webp": {
+    "bytes": 3124,
+    "sha256": "70c3b1a06c623606b3170789c46929e0d2d297937a20085080a79fc6dd4f0e97"
+  },
+  "assets/archive/luna.webp": {
+    "bytes": 2874,
+    "sha256": "844c85244f5a896b2e9f1bd0eb170ca041f9263d17a587aa546acca92a7d212c"
+  },
+  "assets/archive/lycan.webp": {
+    "bytes": 2324,
+    "sha256": "826bdca64e1e7d9d9ac05890e879ef363851beb4d68cfa3a5d3d92e672fd8f8f"
+  },
+  "assets/archive/magnataur.webp": {
+    "bytes": 2492,
+    "sha256": "d6d6b44dca69fa099f2ff0e99dc8984642f0f4b6779f2dcb43356ebff06d2e83"
+  },
+  "assets/archive/medusa.webp": {
+    "bytes": 3280,
+    "sha256": "dd8666e081e98f601e4fb3364726addfc5bcd7888499987d8778b2bf3a4d0ffa"
+  },
+  "assets/archive/meepo.webp": {
+    "bytes": 2766,
+    "sha256": "1bffbf7f44f54b946e8ecf21996ec090611ef4c1bc0170dae95a23f447d07db2"
+  },
+  "assets/archive/mirana.webp": {
+    "bytes": 2128,
+    "sha256": "91a0bf26c38c4fc23c6a8944b146cd6052a2d6ab221cfacf1dd77fdfafad1aac"
+  },
+  "assets/archive/monkey_king.webp": {
+    "bytes": 3146,
+    "sha256": "2481a339ed50f605579c0ed93ca57fcc00b388b54a99f7eeb56980c28f597897"
+  },
+  "assets/archive/morphling.webp": {
+    "bytes": 2290,
+    "sha256": "d16aad8fe3bbb22f36d777c35362d93e6a7c14269349876729afea4cf0a19c7d"
+  },
+  "assets/archive/naga_siren.webp": {
+    "bytes": 2020,
+    "sha256": "96d28ea4db778d6b18c10fe031fd772fadbf831b3566a0177e1d7e995eff12be"
+  },
+  "assets/archive/necrolyte.webp": {
+    "bytes": 3154,
+    "sha256": "600733ad3129d58696b1955c0d6337ed095d4d140eda4d5d1ff7eafae6ddbd00"
+  },
+  "assets/archive/nevermore.webp": {
+    "bytes": 1856,
+    "sha256": "b975d25d6f7c5a9b043eb3d4155c7d8d71e9fef9217d526acab8af5b92b8fe2a"
+  },
+  "assets/archive/night_stalker.webp": {
+    "bytes": 2452,
+    "sha256": "e39e4a3947084a57a67d55d6b921b12fa2b34785bb10f5df8b506694dc0bd9dd"
+  },
+  "assets/archive/nyx_assassin.webp": {
+    "bytes": 2618,
+    "sha256": "0fb1ccdc4bbbec6f92c67e562bd3ef63e3c9661f1037b1e2882bd63c888fb376"
+  },
+  "assets/archive/obsidian_destroyer.webp": {
+    "bytes": 3414,
+    "sha256": "be5aa67f7dc7a32d7890359f4e6c9ade9e8750b0547eabbee78e847681312af9"
+  },
+  "assets/archive/ogre_magi.webp": {
+    "bytes": 2284,
+    "sha256": "3974830c4943bb99c2de37742d9d2090b1246014562eff993c8e20b42d469f3a"
+  },
+  "assets/archive/omniknight.webp": {
+    "bytes": 2886,
+    "sha256": "94fa05c7112b53177610d2d0f117fd96025681c9407703abc288cdef8e1de8be"
+  },
+  "assets/archive/oracle.webp": {
+    "bytes": 4130,
+    "sha256": "9b0a3132d11aca01c506197befb55a1b90fd1b0e7417b46056da9cedd98aa580"
+  },
+  "assets/archive/phantom_assassin.webp": {
+    "bytes": 2082,
+    "sha256": "bded4d1b3fa4f041666e20a9795274490acc6054870e00bb40069fd6e3c3ccc7"
+  },
+  "assets/archive/phantom_lancer.webp": {
+    "bytes": 2898,
+    "sha256": "e28c0ce101454bd0f18cf844fc3ae5f1ec1f7083d039af3f680e6055a83312ea"
+  },
+  "assets/archive/phoenix.webp": {
+    "bytes": 2670,
+    "sha256": "738ce43db24d7a86bb24cce6317df8b4ddf1419644acdeaa85a9a4364bec2d2c"
+  },
+  "assets/archive/puck.webp": {
+    "bytes": 3248,
+    "sha256": "29754b8ce9340beb938da5b5c1283891e74024cd4070fb7ee43572857b25814e"
+  },
+  "assets/archive/pudge.webp": {
+    "bytes": 2720,
+    "sha256": "55b1babc41f14f57eee3a06ebd28f4a57f2895e13da2c6f03135920aa4d0f42f"
+  },
+  "assets/archive/pugna.webp": {
+    "bytes": 3226,
+    "sha256": "0c29328f9b9e5b51d8e632d7531b525f0a8cc02b2c3bce8242f762ec6f54faa3"
+  },
+  "assets/archive/queenofpain.webp": {
+    "bytes": 2314,
+    "sha256": "933bc56d21b829270ed60bffd5e45ec8993ddd7567ab49295244ea37c7d928e7"
+  },
+  "assets/archive/rattletrap.webp": {
+    "bytes": 3362,
+    "sha256": "8a9ab139889d66114e5a1c7ca555b8416b957e7dc94c515d1f39ca273a649a1a"
+  },
+  "assets/archive/razor.webp": {
+    "bytes": 2564,
+    "sha256": "8d246153b2986edb4eb13c47c3b367b8ab2b95908406073bcac4158f5b864795"
+  },
+  "assets/archive/riki.webp": {
+    "bytes": 2908,
+    "sha256": "3dabdca2b926ee2ae8a38c9d8e51c5733809f195e8d999bd7fe8af4066e41197"
+  },
+  "assets/archive/rubick.webp": {
+    "bytes": 2870,
+    "sha256": "ae283c48f5963c474ca997ed96209185e8e917e22e45e7e62c27977a570fc2d3"
+  },
+  "assets/archive/sand_king.webp": {
+    "bytes": 2572,
+    "sha256": "b24c78ae3e7265db399bc1c3a9c7ea3517bf1b01482f73b29d1cead687588fde"
+  },
+  "assets/archive/shadow_demon.webp": {
+    "bytes": 2134,
+    "sha256": "de230f0a7c3d0f3e649c49fa814e4fc697012bb44acdf96595181b74b5701a61"
+  },
+  "assets/archive/shadow_shaman.webp": {
+    "bytes": 2924,
+    "sha256": "392b7104d2d44d348a8666065e6da7be72cc341a72fdf27d8019e1dbcfef5d9c"
+  },
+  "assets/archive/shredder.webp": {
+    "bytes": 4066,
+    "sha256": "d851ea74715142b3560f1d25505ca407969c99a7ef4ab973375b8ca53c68b642"
+  },
+  "assets/archive/silencer.webp": {
+    "bytes": 2626,
+    "sha256": "4f96ca865637b9424ebc49dd9115a4b44366009b58bf884bed2c72020a4a88b3"
+  },
+  "assets/archive/skeleton_king.webp": {
+    "bytes": 3018,
+    "sha256": "f38eff16c9d913a2f274caccae5cdb91401cff951c582a15feeb7e65fa44b011"
+  },
+  "assets/archive/skywrath_mage.webp": {
+    "bytes": 3434,
+    "sha256": "f16a9e3459f55737f846fb070b681d3a855d61c40f42ef2fd477ec52aa503012"
+  },
+  "assets/archive/slardar.webp": {
+    "bytes": 3296,
+    "sha256": "657b51d61f577b5811bfc3ac5036b8b4fed0b7999c1c2c75a60395326162ced3"
+  },
+  "assets/archive/slark.webp": {
+    "bytes": 3762,
+    "sha256": "79acd93a57131c89121720e8e8792a36f7626f2613726fc89b7eda63b7be45d3"
+  },
+  "assets/archive/sniper.webp": {
+    "bytes": 2756,
+    "sha256": "d0ea2cfb900834616f4b9b715a389d27ce0b8553e524083c7eb94de7d49e3220"
+  },
+  "assets/archive/spectre.webp": {
+    "bytes": 1560,
+    "sha256": "5345ae091ab4e22d89d2ea0d704143b80ff6ef24b663d1e9bc9a7ae98e708e94"
+  },
+  "assets/archive/spirit_breaker.webp": {
+    "bytes": 2270,
+    "sha256": "74c04cdbaf233d17be048160a1f8d2432e224b53d5f0803835daf78c44a260dc"
+  },
+  "assets/archive/storm_spirit.webp": {
+    "bytes": 3346,
+    "sha256": "1f49966e4aa6afe4029b9abc5fcc1ee7178213ea9ea8447e4d21b7997773a0b6"
+  },
+  "assets/archive/sven.webp": {
+    "bytes": 2224,
+    "sha256": "71111b2a16c2ab278bc40fb2455cd7ff2832815d46b449c8cd1524c965434bb6"
+  },
+  "assets/archive/techies.webp": {
+    "bytes": 3326,
+    "sha256": "6db2fcf1888f61090e8508ff6d4f1fb83f6fd104d96d0fc2ec49192bb9835868"
+  },
+  "assets/archive/templar_assassin.webp": {
+    "bytes": 2644,
+    "sha256": "48769f0c7458ceed0ef693f1d10bb95bec38d2095102213c43aee619fc7f0f69"
+  },
+  "assets/archive/terrorblade.webp": {
+    "bytes": 2022,
+    "sha256": "6a7321f664a1fec6e86201abce80e0fb0304fb9e7b9222b6f2cbdae530c1798f"
+  },
+  "assets/archive/tidehunter.webp": {
+    "bytes": 2592,
+    "sha256": "2a534e342dff1623932c3107585f7cf8184b84b4de682e8283c2858b0e171b02"
+  },
+  "assets/archive/tinker.webp": {
+    "bytes": 2670,
+    "sha256": "80f53eab08df69d19d646f63b6847351aae39f886ca43901de1d667c06d8d002"
+  },
+  "assets/archive/tiny.webp": {
+    "bytes": 2326,
+    "sha256": "65ce14582a3667e27dc49c5d6c579510571ef72c45dc70320917f87489feb9f4"
+  },
+  "assets/archive/treant.webp": {
+    "bytes": 3056,
+    "sha256": "c7b5b79c95f17932f8245b76d7650dfee4d733829fcc8d5ae42fe9ad0d166e08"
+  },
+  "assets/archive/troll_warlord.webp": {
+    "bytes": 2908,
+    "sha256": "9195c0d3a9135c85c6c0675450b345244121ac16b073faf2378418176de7db2e"
+  },
+  "assets/archive/tusk.webp": {
+    "bytes": 2610,
+    "sha256": "2b2f1895be9e6bc5d4787b274eb6c83e5935c78c790e4c6c37e010415c1fb252"
+  },
+  "assets/archive/undying.webp": {
+    "bytes": 2606,
+    "sha256": "60803ba0c3018809c0804d7b9a5c54b471da3cb4b2ac9614064a6296dc27e946"
+  },
+  "assets/archive/ursa.webp": {
+    "bytes": 2126,
+    "sha256": "e66e142701ccef2f07f5d6be3d5d5234d7fe9cbc3d8b91f4b82ffc021c38c299"
+  },
+  "assets/archive/vengefulspirit.webp": {
+    "bytes": 3066,
+    "sha256": "b15cb5b11ea25e9e695d5ef4ea6b13162d21286ec062791cd4df4402c2ffa386"
+  },
+  "assets/archive/venomancer.webp": {
+    "bytes": 2908,
+    "sha256": "2a1a7db28348d1bf9e7f2b138e573837799e0165f52e0646d54c79417484bb5e"
+  },
+  "assets/archive/viper.webp": {
+    "bytes": 3504,
+    "sha256": "d4b53778c3661dd79d961fc5b2b46e5e8f33612b12643069d2d195bbcc32d80a"
+  },
+  "assets/archive/visage.webp": {
+    "bytes": 2478,
+    "sha256": "d5d1549044a749b1078ba7276db4cb45d066f74f15f12f9eea0d1c3eb8636d72"
+  },
+  "assets/archive/warlock.webp": {
+    "bytes": 2222,
+    "sha256": "907d96d34632964b4b371d1222e6b58f4da05e4852c80405956326ec25e3c7e7"
+  },
+  "assets/archive/weaver.webp": {
+    "bytes": 2634,
+    "sha256": "eafe0266598843befb15c01d214facdb89d22f5303cc14ecfa48881cb872d05b"
+  },
+  "assets/archive/windrunner.webp": {
+    "bytes": 2560,
+    "sha256": "3fe7cf6505b757a1c46718adcd0c8ea0bfc4c89e4b105c5309aa2fc583c4f9d8"
+  },
+  "assets/archive/winter_wyvern.webp": {
+    "bytes": 2784,
+    "sha256": "3dff9a9c7a5079a5870c5f9cfe90657251a07156c91d355d0768a48b34f3b691"
+  },
+  "assets/archive/wisp.webp": {
+    "bytes": 1448,
+    "sha256": "c64514dbae2401909b5147931121800cdcbc4cdb6bfa701e09b1d71376893881"
+  },
+  "assets/archive/witch_doctor.webp": {
+    "bytes": 1958,
+    "sha256": "8e6ec4cca45bdb8e36a2b73990dc172a42ef419e7c16d14735c4e8322b9fcc87"
+  },
+  "assets/archive/zuus.webp": {
+    "bytes": 4238,
+    "sha256": "5f0ed3bf637771c6c21df5f9a6ea86fe68698b8cf3a85d49a7e7ebed8f210895"
+  },
+  "assets/audio/abaddon.mp3": {
+    "bytes": 9532,
+    "sha256": "60b9d2f0ae4491da998755cfe70a6866b882868339d6d05f7e2cad8c72d8d4a0"
+  },
+  "assets/audio/abyssal_underlord.mp3": {
+    "bytes": 41923,
+    "sha256": "f5b5fea7a896ac1f9a06d855b6b7c4c343990e227869c59f3b12b0ddcba3c440"
+  },
+  "assets/audio/alchemist.mp3": {
+    "bytes": 6815,
+    "sha256": "4f1e2e6c4b99f6b8bf01cfc0cb460030bf75db00c027f590e4368acf72486fad"
+  },
+  "assets/audio/ancient_apparition.mp3": {
+    "bytes": 59478,
+    "sha256": "a23e53dcbeb0216873e4a1b65eb858324f5d2e3a5a4565690b6507bf3e0652e3"
+  },
+  "assets/audio/antimage.mp3": {
+    "bytes": 8905,
+    "sha256": "839c4ac23ce556914725bbe14048d8083592b815e704a242146cd2913de4371e"
+  },
+  "assets/audio/arc_warden.mp3": {
+    "bytes": 15383,
+    "sha256": "6b031708ef5822bdc64e0bba1e0f1349ead308bfefb5fe4411d86e15e2d369f3"
+  },
+  "assets/audio/axe.mp3": {
+    "bytes": 16010,
+    "sha256": "eaa7779b62f9a04be8e84d3888b908641971936134e0667ae0dbdb73eb3f6d6e"
+  },
+  "assets/audio/bane.mp3": {
+    "bytes": 12039,
+    "sha256": "32169ae39223b908ce469dab54e562b579376d8e8a50da0a7374eba0fd042c99"
+  },
+  "assets/audio/batrider.mp3": {
+    "bytes": 10576,
+    "sha256": "52ab8e07ed2af203fb77d96fa64af94cb172332c57a4b4764bd2ec8d8cf29038"
+  },
+  "assets/audio/beastmaster.mp3": {
+    "bytes": 41088,
+    "sha256": "54c0ff6c4041490a29ebaeb7f8e8c9264f3721cc10ccf1a127ceb8f56963f717"
+  },
+  "assets/audio/bloodseeker.mp3": {
+    "bytes": 10785,
+    "sha256": "d5b12367244c119c8cef84b78fc59197a8dad9a1f1a023934960cdffcf0fb0f1"
+  },
+  "assets/audio/bounty_hunter.mp3": {
+    "bytes": 13920,
+    "sha256": "c6ac8c4cd1e9ba2c7146dadbfbb2e6812ca43dbb2f2f13713e1f4e76bb9a332b"
+  },
+  "assets/audio/brewmaster.mp3": {
+    "bytes": 16428,
+    "sha256": "e7788179311e100712ee3c8b6fdd479be13959aca8232232e0ca26eef6850dec"
+  },
+  "assets/audio/bristleback.mp3": {
+    "bytes": 18100,
+    "sha256": "faec74c37820e0f436cc4a2ae19d5c2535cd47f275acea0fdd4578aadf157ea6"
+  },
+  "assets/audio/broodmother.mp3": {
+    "bytes": 19145,
+    "sha256": "200a9ff132aa89beda55b93e2da54296465ef3248c93e257b00dd2c5a6ded4c1"
+  },
+  "assets/audio/centaur.mp3": {
+    "bytes": 9950,
+    "sha256": "e3ede5838930ed4dd600bded0245d523c29cdead436bc2611b8b6716c04dbb6a"
+  },
+  "assets/audio/chaos_knight.mp3": {
+    "bytes": 18727,
+    "sha256": "7e044a469dbd33596508bee99024a1987c1e81b40ccb85b4ca6cc904388da782"
+  },
+  "assets/audio/chen.mp3": {
+    "bytes": 13503,
+    "sha256": "6f72d4125352aa3840b45b2805599163d9e4ca705edc304702cf223138412919"
+  },
+  "assets/audio/clinkz.mp3": {
+    "bytes": 10368,
+    "sha256": "735f76729d98ac9ff6fd4bc08c5df2f6a7da62d549de9b1b58d9f6eeff66384f"
+  },
+  "assets/audio/crystal_maiden.mp3": {
+    "bytes": 8487,
+    "sha256": "42d710282b17e80dd618c7fd580da13e692ba25dbda9b704feab84516fba7c34"
+  },
+  "assets/audio/dark_seer.mp3": {
+    "bytes": 43178,
+    "sha256": "1812b4f95f32a0a81dbe55ba8ddcfe3043b30bd2973cbf656d80d54ccbe19e35"
+  },
+  "assets/audio/dark_willow.mp3": {
+    "bytes": 24578,
+    "sha256": "1374a036dd2fba471624e642c44dd99328a03908408cb11e203672aef39636f4"
+  },
+  "assets/audio/dawnbreaker.mp3": {
+    "bytes": 39229,
+    "sha256": "b0746ff30b0403bcb8c229747d02ee206246a99dea45d28e6fdb915e3adfc62f"
+  },
+  "assets/audio/dazzle.mp3": {
+    "bytes": 11412,
+    "sha256": "e60ec6853c0b141634cda6baaa9114209fa244efeadd01395ba070ea60ae8efa"
+  },
+  "assets/audio/death_prophet.mp3": {
+    "bytes": 22906,
+    "sha256": "c54975bd3bf1ae2d6e55477455b89c89cbf22f1abccbe8205085754952d0820c"
+  },
+  "assets/audio/disruptor.mp3": {
+    "bytes": 9114,
+    "sha256": "3af084d5201c99122f00965b12251194e47416ce583818c0ff761e22f68538b6"
+  },
+  "assets/audio/doom_bringer.mp3": {
+    "bytes": 9741,
+    "sha256": "65f5b729ad3add9fc61f35820718899ce934ce44c41c7907554b9d235f9b929d"
+  },
+  "assets/audio/dragon_knight.mp3": {
+    "bytes": 9741,
+    "sha256": "2ce16084eeadd705974f0957f5a2ac0834be7bd3f6a59b728f7f77b6675b9abb"
+  },
+  "assets/audio/drow_ranger.mp3": {
+    "bytes": 28691,
+    "sha256": "e66ce5b7cdb65154e93ca17427add6d1dbc46ee6871fa2f9ded4c73dd68743de"
+  },
+  "assets/audio/earth_spirit.mp3": {
+    "bytes": 9323,
+    "sha256": "cf72bb15bbad502d4745e8a321013df5487e00c204f81ba1b8b63ef86b3937ec"
+  },
+  "assets/audio/earthshaker.mp3": {
+    "bytes": 12666,
+    "sha256": "e7a124335edb6c067bff6ecf8773af04bf3a44df511f4425a6e3d46dd1ed5050"
+  },
+  "assets/audio/elder_titan.mp3": {
+    "bytes": 13920,
+    "sha256": "6b3c1e3529ee00ffeb6ff631bd342f3cadb68298080d038ecb7d10567fa4dc8e"
+  },
+  "assets/audio/ember_spirit.mp3": {
+    "bytes": 13084,
+    "sha256": "e35bef920dc7f8a13b2db2b2ff69ca8f7167a4a5cee261fd21fc829a4c877624"
+  },
+  "assets/audio/enchantress.mp3": {
+    "bytes": 19772,
+    "sha256": "0fb1d8be70e3e171de345c69e7f834558a014398946e7801dee1f0b6e68f9587"
+  },
+  "assets/audio/enigma.mp3": {
+    "bytes": 16846,
+    "sha256": "12c3be2e905f65e45794bc13ad88452bcabbc6b574a5413847f01b41dc5d7e7a"
+  },
+  "assets/audio/faceless_void.mp3": {
+    "bytes": 14129,
+    "sha256": "4bd907ed2c0b6c857d23b2dafb1f249426fb5243ffb9923239194c09dc2a31cc"
+  },
+  "assets/audio/furion.mp3": {
+    "bytes": 32311,
+    "sha256": "63214c10397c3a9d5dff1b2b9bccfc9ba65e482e46eb04d34732539898c64554"
+  },
+  "assets/audio/grimstroke.mp3": {
+    "bytes": 50601,
+    "sha256": "f1568836ee5cdec6a72f8afaa88082122835100a0803a54d870cff62d5de44d2"
+  },
+  "assets/audio/gyrocopter.mp3": {
+    "bytes": 13711,
+    "sha256": "3328892e4d04d15cc5746a36ed17df55493f27b44ae243824f1923f756160f32"
+  },
+  "assets/audio/hoodwink.mp3": {
+    "bytes": 21216,
+    "sha256": "7eb0ddfd2f6e8adfa4baef9d26af2db173ec77a0b28c66cfe1cd240ac64aae9e"
+  },
+  "assets/audio/huskar.mp3": {
+    "bytes": 9323,
+    "sha256": "9cc97910c8e96b7c4a2c68b656683192780236319fffc9fddb7271fefc047389"
+  },
+  "assets/audio/invoker.mp3": {
+    "bytes": 47566,
+    "sha256": "ff634991d87bc328b0fca61246ecb20bad5a8ae8cf56b11737bc41f97c09c5f9"
+  },
+  "assets/audio/jakiro.mp3": {
+    "bytes": 16010,
+    "sha256": "6bf781824d8c176206694fb9ed977d43ff48bcf8f08ada1d883733dfe7d8119c"
+  },
+  "assets/audio/juggernaut.mp3": {
+    "bytes": 14338,
+    "sha256": "50b573203d2c019a628f7f94110b277746339d3f9ddcceb2fbb6126721181662"
+  },
+  "assets/audio/keeper_of_the_light.mp3": {
+    "bytes": 16637,
+    "sha256": "90e32fb92592d0784a3a7f2088c523014b40912fbc1dcec868a8e9d4de9db1f6"
+  },
+  "assets/audio/kez.mp3": {
+    "bytes": 47575,
+    "sha256": "957eb116b91424aa921e48ab0caa1777a11cda501ad9f2a874933b165a7d5baa"
+  },
+  "assets/audio/kunkka.mp3": {
+    "bytes": 12248,
+    "sha256": "bc3a32a429c1384893cc1f94733aee8a92d20b012c2eef6a0c449b0dd327aa38"
+  },
+  "assets/audio/largo.mp3": {
+    "bytes": 27545,
+    "sha256": "c6045227c2358f4a319936755d51125482e1a518200d3e090073cb5cf3f6eee1"
+  },
+  "assets/audio/legion_commander.mp3": {
+    "bytes": 9323,
+    "sha256": "9d878e1ce1b898db2ed600b9988b8cb683afc881bbb301ecec76ca8c16805940"
+  },
+  "assets/audio/leshrac.mp3": {
+    "bytes": 8278,
+    "sha256": "3b181ae1417ee3f1b6f000dcaa2a5b2cf1ff283110ef30965d9244a95b52d9bf"
+  },
+  "assets/audio/lich.mp3": {
+    "bytes": 13084,
+    "sha256": "16128e506ef87b4edc112e84d00e041d9f4f02d37215ce7dc341b86ac8f9c8d0"
+  },
+  "assets/audio/life_stealer.mp3": {
+    "bytes": 14756,
+    "sha256": "ffde54492e2b7cca82906cf6fbfc8dd641e82e0968c9c93de6e9ae068ee44247"
+  },
+  "assets/audio/lina.mp3": {
+    "bytes": 5770,
+    "sha256": "1f4b57136da40be2767a15fc3b5177e190ed07461409b595e66d440176be23d6"
+  },
+  "assets/audio/lion.mp3": {
+    "bytes": 10576,
+    "sha256": "52387575d86d707ac496f7dbfa60d81641dc0922ea40d9b54d78510af696b19c"
+  },
+  "assets/audio/lone_druid.mp3": {
+    "bytes": 12457,
+    "sha256": "3ddba175934aff36644dc822345614be8a04619222dc5450108d44aa7d0f460e"
+  },
+  "assets/audio/luna.mp3": {
+    "bytes": 5770,
+    "sha256": "e5b2b9edd0256c652f87078e93c94df418a854800e423f4b09b9df41eb4fc0f5"
+  },
+  "assets/audio/lycan.mp3": {
+    "bytes": 10368,
+    "sha256": "b989114d2702a983ae2fe8d92ea386a5669bec4cc585f0c7ebce25829648d5a5"
+  },
+  "assets/audio/magnataur.mp3": {
+    "bytes": 17682,
+    "sha256": "ce52d9f307febf4e9c62f8eda2255352840d8fe4ad968a995364cf7e1d9e5c46"
+  },
+  "assets/audio/marci.mp3": {
+    "bytes": 8195,
+    "sha256": "31e42070fea71bc9c46f1e91668a60baab2fc79ef9ead4776e69e71650f27370"
+  },
+  "assets/audio/mars.mp3": {
+    "bytes": 14918,
+    "sha256": "558022d1507810c49f94c94eeb924cb018d5c132912599bcec385dab486be562"
+  },
+  "assets/audio/medusa.mp3": {
+    "bytes": 8905,
+    "sha256": "d25819506f6e78f045278fa40c1db94052e2e8286e839928c6b4bd31263aa227"
+  },
+  "assets/audio/meepo.mp3": {
+    "bytes": 10368,
+    "sha256": "65d83b3b307abeeba3707fbc7ab7bc101ea7d7dfd02d7747a7c6a34ede9cc211"
+  },
+  "assets/audio/mirana.mp3": {
+    "bytes": 9114,
+    "sha256": "6eddee1ee307b674abe861480f88519fece06d11bc1b535a7e4504a4f143ad05"
+  },
+  "assets/audio/monkey_king.mp3": {
+    "bytes": 10159,
+    "sha256": "ad9d27a28d0e1574e0071e11cf3d2d2d1de6ba73bdd5aea5bf67a4863b0ff4c4"
+  },
+  "assets/audio/morphling.mp3": {
+    "bytes": 19981,
+    "sha256": "b8f410e79184c5782c4b4e0ded173fb682439c44145253e10d28edd8a8e56f48"
+  },
+  "assets/audio/muerta.mp3": {
+    "bytes": 48619,
+    "sha256": "55732eacc19320dbbdc8ccdc4321b3e275aa25e5db862325e6236329257f9a9e"
+  },
+  "assets/audio/naga_siren.mp3": {
+    "bytes": 14965,
+    "sha256": "f3f7041ba0317760753b7d68e56fd6fb429782851c00c83b8258671e58e79ba9"
+  },
+  "assets/audio/necrolyte.mp3": {
+    "bytes": 18100,
+    "sha256": "d294125227f36abdca0e9ab83dd4f9112812276f8831993ff45f0602f905b5e3"
+  },
+  "assets/audio/nevermore.mp3": {
+    "bytes": 24996,
+    "sha256": "129d08ce00bce62b2b48736730be3f93825581269e47d9623581cb0728d51caa"
+  },
+  "assets/audio/night_stalker.mp3": {
+    "bytes": 16428,
+    "sha256": "16d74d1367b167b9f848b704baafc09d69aa2df8ca072cba739e5bddb5205f7f"
+  },
+  "assets/audio/nyx_assassin.mp3": {
+    "bytes": 12875,
+    "sha256": "8df2f7d0bd9af623a8c2c3c7a0f0b46737e66b9b31792935186fdc662e1fa719"
+  },
+  "assets/audio/obsidian_destroyer.mp3": {
+    "bytes": 23115,
+    "sha256": "532b37436fa6d62102b9580beafb64b2cebf2df8560cb5bbc6fd6863d8705390"
+  },
+  "assets/audio/ogre_magi.mp3": {
+    "bytes": 18727,
+    "sha256": "775a3e4e30fb4a1ad67a2d719e1e22ed989e42854ca55c94e2bdc62beb9af06c"
+  },
+  "assets/audio/omniknight.mp3": {
+    "bytes": 9323,
+    "sha256": "d0e40370fab3796599361770dfa2dc488cfa8d207b83c8282a08a7c98a06c47f"
+  },
+  "assets/audio/oracle.mp3": {
+    "bytes": 13920,
+    "sha256": "f07b5c43582527fb2307486ef671539941ddf19e0c14305cc7f74cb30ec79beb"
+  },
+  "assets/audio/pangolier.mp3": {
+    "bytes": 27922,
+    "sha256": "aaaea662367c458f759d07a508faa6508fce5f0aa02387815ca9e23e106af051"
+  },
+  "assets/audio/phantom_assassin.mp3": {
+    "bytes": 12248,
+    "sha256": "39e1da8972c1809818a4dbcab5f8a844de290e2f71592b0443aa7bdffc9b3f87"
+  },
+  "assets/audio/phantom_lancer.mp3": {
+    "bytes": 16010,
+    "sha256": "bcd8232ab8b9e7e50a6f08a28cb3507a9e81303a9af77467410bd78911cc4052"
+  },
+  "assets/audio/phoenix.mp3": {
+    "bytes": 83720,
+    "sha256": "a371fd526f8fcbd77a98f09c589ea643f5d08cb93259813c2aa5ee46491aef9c"
+  },
+  "assets/audio/primal_beast.mp3": {
+    "bytes": 36361,
+    "sha256": "0e253a6e4fc76fc73eaac64d97019ac2f0625b2a9d821b4d012c4f91559de871"
+  },
+  "assets/audio/puck.mp3": {
+    "bytes": 4334,
+    "sha256": "8d647fd7a78428c232ca67b8473e846e2ab4cbf693e1237e6219aab378758e45"
+  },
+  "assets/audio/pudge.mp3": {
+    "bytes": 9323,
+    "sha256": "32869d18384610ffe96b9d1974904b7d49caf898d28b299ceb3db429b3481345"
+  },
+  "assets/audio/pugna.mp3": {
+    "bytes": 8696,
+    "sha256": "a922277604628c4077d20dbb7a2e1e1fad3550353c643679d9d514c2cf127376"
+  },
+  "assets/audio/queenofpain.mp3": {
+    "bytes": 36908,
+    "sha256": "a8942d900fa5360b9c23c5689405abd5879b1fd00ce6d1a0744d38e8ac88705b"
+  },
+  "assets/audio/rattletrap.mp3": {
+    "bytes": 16010,
+    "sha256": "175adb2b450ea3af3e005121225d147ac6ee9e5f3e0fb21b79ff26ddfcbfee6f"
+  },
+  "assets/audio/razor.mp3": {
+    "bytes": 46521,
+    "sha256": "e4455abe96cc9d85660cf3fea9c59f77588dc11c753631b5c713d13429c3cdee"
+  },
+  "assets/audio/riki.mp3": {
+    "bytes": 5770,
+    "sha256": "c0371f2cd12c1059a7c6c2dcd9971a37c9be36d799b9a25fc06bffacd1906fbd"
+  },
+  "assets/audio/ringmaster.mp3": {
+    "bytes": 80649,
+    "sha256": "a08c3676768afaaa75441fa0a3addb2ba5086c956045fe897f3f0faa7c35c662"
+  },
+  "assets/audio/rubick.mp3": {
+    "bytes": 8696,
+    "sha256": "02b1f36d28f873d4a0ee95f961f35cda19fd8466d2f586d6ed5aab3af4e92fcb"
+  },
+  "assets/audio/sand_king.mp3": {
+    "bytes": 16010,
+    "sha256": "ace6b9c3f1567221bfcfa06cf79c93f180043f8a43c99f98c7c554c7bb43f758"
+  },
+  "assets/audio/shadow_demon.mp3": {
+    "bytes": 17055,
+    "sha256": "f42bbaeac0d7c8590a769236baa2fac73c12025ac706172c92fe3d70eba4183d"
+  },
+  "assets/audio/shadow_shaman.mp3": {
+    "bytes": 7024,
+    "sha256": "ca590121c42d3bfe49c91b69af4f2eb41753975c5f34572cf8c74d414b837d9f"
+  },
+  "assets/audio/shredder.mp3": {
+    "bytes": 8905,
+    "sha256": "c79432cb1f3e88a0c84f89c7a70f933684b04ae66f8131729d42918b414612dc"
+  },
+  "assets/audio/silencer.mp3": {
+    "bytes": 15801,
+    "sha256": "2f244b00ee965fd9cae7ea34b973f78803341752023b7e38a44d9405f2da11cc"
+  },
+  "assets/audio/skeleton_king.mp3": {
+    "bytes": 9323,
+    "sha256": "d8e28e1409a76af534830b7d919c6612020e9d73e82841d12861c42f972b35e1"
+  },
+  "assets/audio/skywrath_mage.mp3": {
+    "bytes": 16637,
+    "sha256": "8f46e0f75d868c3596195faa20b1d29e67073fd165937db3876bc6daf04a498d"
+  },
+  "assets/audio/slardar.mp3": {
+    "bytes": 12039,
+    "sha256": "8dd9302b4e7324791e78c31720709afbd2dbea090090b0637bc97b5b88bf7b5a"
+  },
+  "assets/audio/slark.mp3": {
+    "bytes": 9532,
+    "sha256": "8ce320441fc13611630d5bd30c2cdde98e5c6f92daec093acc2e3a0d1186e2fe"
+  },
+  "assets/audio/snapfire.mp3": {
+    "bytes": 36488,
+    "sha256": "1a38f0d9b235fb4394d3f4d07eda795a7f0cd17ac50c841cb13a08238f560558"
+  },
+  "assets/audio/sniper.mp3": {
+    "bytes": 7860,
+    "sha256": "d689c6e041fa26f86a88959b8a648ce042054d8946c2c3777b1d0ca97223be78"
+  },
+  "assets/audio/spectre.mp3": {
+    "bytes": 12666,
+    "sha256": "38e2d76e7e2a2c7c0feeddf9acb60310bf7375f20d5c8936f51d224878454e50"
+  },
+  "assets/audio/spirit_breaker.mp3": {
+    "bytes": 11203,
+    "sha256": "d07a94835d98c703cdcef989f64b5f8902d6d5ac3b3965e5839dbe488e58c8eb"
+  },
+  "assets/audio/storm_spirit.mp3": {
+    "bytes": 16846,
+    "sha256": "5ef6aa097056501dc14ca28d9225439acea94b8b60fd98c754d4eb8f20aa8e27"
+  },
+  "assets/audio/sven.mp3": {
+    "bytes": 11830,
+    "sha256": "f3a4e2a033ac4174ca2c785b0aec0326ec885efb8a12f9f1c8c9620c01dcefdb"
+  },
+  "assets/audio/techies.mp3": {
+    "bytes": 9323,
+    "sha256": "748ee2c040b2d6a4f3d881730e22f1305842325b1103f7cd94d953275932cff5"
+  },
+  "assets/audio/templar_assassin.mp3": {
+    "bytes": 12457,
+    "sha256": "b634ac7ffca7c593762a7bbef2527033da7489c8be9c9c76d698fb8bb370728b"
+  },
+  "assets/audio/terrorblade.mp3": {
+    "bytes": 13711,
+    "sha256": "3e0f09d2b223887f8d67f084c5143714f404c7f64805405189543270225ec10e"
+  },
+  "assets/audio/tidehunter.mp3": {
+    "bytes": 10159,
+    "sha256": "2041ea47e7997dead13097797aa7eff0966e3073825f18b4bce80a14e87f70c9"
+  },
+  "assets/audio/tinker.mp3": {
+    "bytes": 6815,
+    "sha256": "f936c7171058a98b3e64bf773aa89eadab58c4c2150ff06c7c9e619f52d6a945"
+  },
+  "assets/audio/tiny.mp3": {
+    "bytes": 11621,
+    "sha256": "2ffa35ddb096a7a89197dc42b665e385fac9906341a5fe68baf6fdcbd94f9aba"
+  },
+  "assets/audio/treant.mp3": {
+    "bytes": 20190,
+    "sha256": "3ce2c25f991400d32ddaa4ed3394695338317c6de2fbef38493d377f3f5ec1d5"
+  },
+  "assets/audio/troll_warlord.mp3": {
+    "bytes": 16846,
+    "sha256": "48ef2f96dfc166b121f790159e9c503f7e10a20289a76703e6208c0cda9cb451"
+  },
+  "assets/audio/tusk.mp3": {
+    "bytes": 9323,
+    "sha256": "29182e585681a2a74e4b975308958280e7449ee0eaf10f3b318e031625e32312"
+  },
+  "assets/audio/undying.mp3": {
+    "bytes": 20608,
+    "sha256": "b4a0b590e7e65952a8e470b0e4beb1a747bd31654e8133467b34448d3ae180b1"
+  },
+  "assets/audio/ursa.mp3": {
+    "bytes": 10785,
+    "sha256": "f3458a9f3bc5c03ecb5c24dc76801eae807fd834917cb52ecafcc1472beb8010"
+  },
+  "assets/audio/vengefulspirit.mp3": {
+    "bytes": 16428,
+    "sha256": "8b7a0c7efbc052fbedf5d95f065d62d644357b3a883be2f385079fb6d951e690"
+  },
+  "assets/audio/venomancer.mp3": {
+    "bytes": 15592,
+    "sha256": "94a8dae3c1556fe426ff918a9a284ed8524261efd6c16839411de7be6693b096"
+  },
+  "assets/audio/viper.mp3": {
+    "bytes": 11203,
+    "sha256": "5ffbc80c2f04c4ce2d225bf6bdafc361294586e6379b754f7a6f198716c2b0e0"
+  },
+  "assets/audio/visage.mp3": {
+    "bytes": 8487,
+    "sha256": "894965a1f674bbcda392d3b18963bd2e108f7e733bb378f836cfeaefa9275729"
+  },
+  "assets/audio/void_spirit.mp3": {
+    "bytes": 31104,
+    "sha256": "bbfddec3ae9814d9e579aa353f19ae8b174c64d7a1558d24b91f0e98bac7b391"
+  },
+  "assets/audio/warlock.mp3": {
+    "bytes": 20190,
+    "sha256": "cdaf60da644c76c5aaa79bd35162fce97743e5e11155a022e7e718f55e2911ad"
+  },
+  "assets/audio/weaver.mp3": {
+    "bytes": 10368,
+    "sha256": "6a30698cce7de2bc01e063cb9480b5f62967d19cb2674655ecb0a44b9b2053c6"
+  },
+  "assets/audio/windrunner.mp3": {
+    "bytes": 14129,
+    "sha256": "3ae6e0b361b69486dae69e80410fc365dc6b1eee7619cc6fcc058b272db8dc71"
+  },
+  "assets/audio/winter_wyvern.mp3": {
+    "bytes": 14338,
+    "sha256": "d6132ddbb3ed02999af8d369e0393c9909a20f2c5937a9ee44b39c78ba0671bc"
+  },
+  "assets/audio/wisp.mp3": {
+    "bytes": 44871,
+    "sha256": "a420199f48740fde664e5e7db96804e16bf7dd43001ae17933f93ac760087eb5"
+  },
+  "assets/audio/witch_doctor.mp3": {
+    "bytes": 12248,
+    "sha256": "680b22104bac41c2a6da7634f656d44ecf68108344fa9f86c767e635bc68ac09"
+  },
+  "assets/audio/zuus.mp3": {
+    "bytes": 9323,
+    "sha256": "fb63889b7350ef359199ef8d3f3e8e97440cc6e007edc6a8188c0c31faa3ec90"
+  },
+  "assets/heroes/abaddon.webp": {
+    "bytes": 82972,
+    "sha256": "697ed47cbdd7d7c9aaf2ab02fa166bcfc67de0dc82aecb8beca5235fd310b1fc"
+  },
+  "assets/heroes/abyssal_underlord.webp": {
+    "bytes": 73472,
+    "sha256": "70520d1fcbb572b574e70b1fc064f4834f8eac767b2448610730ca5cec265f85"
+  },
+  "assets/heroes/alchemist.webp": {
+    "bytes": 55938,
+    "sha256": "d1dee8c7b6736896bd5960caa21c068be8ccd66c8d3e31d27fd8250eab7cbee6"
+  },
+  "assets/heroes/ancient_apparition.webp": {
+    "bytes": 123558,
+    "sha256": "659729a0a663a63f40133bf95d68633cd50a618ef0c878ef6787710c30e04917"
+  },
+  "assets/heroes/antimage.webp": {
+    "bytes": 90540,
+    "sha256": "14da28ee852090eb4a58831a06d01253df18125d914500faa5a049af742a4e76"
+  },
+  "assets/heroes/arc_warden.webp": {
+    "bytes": 79576,
+    "sha256": "09ad2f8f6de97799a6a8e33cc864ffd7f5b33957448192c6dd05807abef3eed9"
+  },
+  "assets/heroes/axe.webp": {
+    "bytes": 45988,
+    "sha256": "3d5b69512faf363bc3ced3f0a25c4cc71f787bd114681f750460c2af9fdb58b7"
+  },
+  "assets/heroes/bane.webp": {
+    "bytes": 78526,
+    "sha256": "b7935feb3baf012f348d11d75a75d79dc0313eaa935db2e012730caef9258029"
+  },
+  "assets/heroes/batrider.webp": {
+    "bytes": 29980,
+    "sha256": "6003e3d340b9918b07f037cf12c9a7d23cb8f2051199263f32654522e75d9521"
+  },
+  "assets/heroes/beastmaster.webp": {
+    "bytes": 92164,
+    "sha256": "b6f79fda1c0e1cf811a8a6e61c2d8f84b12b93a9c57971cbe69beb52952c5296"
+  },
+  "assets/heroes/bloodseeker.webp": {
+    "bytes": 66178,
+    "sha256": "f6426f25ac0227df45d597ecf239c396e5c224e6e16656f9e79d6d25dcce4689"
+  },
+  "assets/heroes/bounty_hunter.webp": {
+    "bytes": 57186,
+    "sha256": "85b7f217bd5a8d2b2aa608c6c48b4ceff0ecce3f31c6fb3461a0fa481c14a3c6"
+  },
+  "assets/heroes/brewmaster.webp": {
+    "bytes": 54074,
+    "sha256": "43cd4beb5c80d09d2befc3920fd89a83d11c3a8f0cf5e5aa18c76da4b5bda43b"
+  },
+  "assets/heroes/bristleback.webp": {
+    "bytes": 80024,
+    "sha256": "7883738e19775381335d66ec707640876e9fe9223c5f53a9fcd3d6be1ae8de36"
+  },
+  "assets/heroes/broodmother.webp": {
+    "bytes": 40386,
+    "sha256": "d8b7febb39c944e4b36768cb312c0f26489228044508fad84b0ca878a4952f3f"
+  },
+  "assets/heroes/centaur.webp": {
+    "bytes": 67920,
+    "sha256": "957a4d7de5072e5febbb4a6163cf814846f971fb91f6b5365d050c8f11d44032"
+  },
+  "assets/heroes/chaos_knight.webp": {
+    "bytes": 70704,
+    "sha256": "0fd0e119a0f65b4b4c37351a2abbf47020efc49c7a2929cb3c0228a8f18719bf"
+  },
+  "assets/heroes/chen.webp": {
+    "bytes": 58808,
+    "sha256": "f7ab282fa3a8d5d56773c6c6565e35ffb4ccd254647ccd6a98c5784efd0f8be8"
+  },
+  "assets/heroes/clinkz.webp": {
+    "bytes": 61626,
+    "sha256": "ff8d3a84569b8462fc2f88ca7d17200376b183f5ff4b1bae4dd5ee0f89f30637"
+  },
+  "assets/heroes/crystal_maiden.webp": {
+    "bytes": 75894,
+    "sha256": "6744615d5b6b06cf60205af2df13e5eb249958b50dc5b5a7572eb82a7305dff1"
+  },
+  "assets/heroes/dark_seer.webp": {
+    "bytes": 101816,
+    "sha256": "0317d3d2ed9b4e9694a530316fe770960af7440ad6c463a0729e3eb0cd746ef5"
+  },
+  "assets/heroes/dark_willow.webp": {
+    "bytes": 58822,
+    "sha256": "71e391af365a0391f1c820ac5e7c73bcc2f444e6d8c40d44d92192e24b40473c"
+  },
+  "assets/heroes/dawnbreaker.webp": {
+    "bytes": 60378,
+    "sha256": "d301d9ebbdf18c25f7f0136bd98c20782b1ef4f3cf65d66c06c5b286b11d65cb"
+  },
+  "assets/heroes/dazzle.webp": {
+    "bytes": 57748,
+    "sha256": "5c7896c20d5b3b6dd92388345cd21ac5d2485baa18c581de29e186f86a1a94e0"
+  },
+  "assets/heroes/death_prophet.webp": {
+    "bytes": 69622,
+    "sha256": "6c1d4e30a2fd877c4b3ea4c84db9f6782f9751c980e0d2b6d25b9aecb97d53e2"
+  },
+  "assets/heroes/disruptor.webp": {
+    "bytes": 67220,
+    "sha256": "08816b3fe4d829665c72a5acc3a2a3d9a7e03d5688e34f9599d31d159190f9f0"
+  },
+  "assets/heroes/doom_bringer.webp": {
+    "bytes": 83322,
+    "sha256": "e69359d506ecde471855f29ba3b17aa18de4015d820563da82ca30845e50955e"
+  },
+  "assets/heroes/dragon_knight.webp": {
+    "bytes": 53876,
+    "sha256": "d9adf9586d9e9964bfb1dca9988f1cc53e452db223747d6a264f4bc23e09dde4"
+  },
+  "assets/heroes/drow_ranger.webp": {
+    "bytes": 47528,
+    "sha256": "a652841916546f32bfb2c6219622592c95db4c446bdd346e3c0170abcb51ce92"
+  },
+  "assets/heroes/earth_spirit.webp": {
+    "bytes": 67760,
+    "sha256": "19455648a2ec6a94d57f37222846c35863fce57562626fc4da70543bac4be5cc"
+  },
+  "assets/heroes/earthshaker.webp": {
+    "bytes": 67266,
+    "sha256": "6b75d02ab15b3963dc76f586b0e12b77d86980e49fc8109cf2a165278a96d4d7"
+  },
+  "assets/heroes/elder_titan.webp": {
+    "bytes": 67164,
+    "sha256": "6199069d4bebe4709b98213ea7b6f5bceaa603815226410a78817b6e2a1a5f5c"
+  },
+  "assets/heroes/ember_spirit.webp": {
+    "bytes": 80358,
+    "sha256": "733196ebe0be00cbbaa37def32696fc9d8e299e0e9baf2ee84178a6795bbff6f"
+  },
+  "assets/heroes/enchantress.webp": {
+    "bytes": 55038,
+    "sha256": "b7c8d1d50307ed9559dca6d0d6d3c1b6b7036d8f78783dcf38e4eb84e35b2930"
+  },
+  "assets/heroes/enigma.webp": {
+    "bytes": 74254,
+    "sha256": "74b04fefa0b08641c8693981bd0a09ec1cb041b2e0d2e5ecf827cbc18fa7323b"
+  },
+  "assets/heroes/faceless_void.webp": {
+    "bytes": 68774,
+    "sha256": "e8d4ed5f352faa89e3b46c476ccc29a37f22052259d486b9597b68075d5bcd46"
+  },
+  "assets/heroes/furion.webp": {
+    "bytes": 69782,
+    "sha256": "520fadc9a68b48a0771fd4c3ded09bd59c6a6396a5e71f023bae94e21b72413c"
+  },
+  "assets/heroes/grimstroke.webp": {
+    "bytes": 69346,
+    "sha256": "d37f8b90730fa0e6bf95006964bf136b6d595765f1a1bec1451d3070edf7003f"
+  },
+  "assets/heroes/gyrocopter.webp": {
+    "bytes": 73882,
+    "sha256": "d32b08f0d00586e5d6eda914fcdb3d31d5f6f165a2034d5bde8f611a4549d921"
+  },
+  "assets/heroes/hoodwink.webp": {
+    "bytes": 62022,
+    "sha256": "764cf9d7d553990beb3c8e91fa2c85fc383b5452f0fbdc6101847cb3004ed742"
+  },
+  "assets/heroes/huskar.webp": {
+    "bytes": 63638,
+    "sha256": "464ac251426ccfd1f1f08b002067228eee15e96714c89a7ec6ce0ab407d219a2"
+  },
+  "assets/heroes/invoker.webp": {
+    "bytes": 95904,
+    "sha256": "2a7ca6195307514f900187f423fe7ec9875fe012af7417a76d07800c05c25d45"
+  },
+  "assets/heroes/jakiro.webp": {
+    "bytes": 36506,
+    "sha256": "5f4e0d72b6c619d2aaba72b1fdcaa1a625b3cfca1d97438eac43d7f9f7b976d7"
+  },
+  "assets/heroes/juggernaut.webp": {
+    "bytes": 52874,
+    "sha256": "e457a47d9107003df8daa4ef3050bb00b2722ac94858c0728c99e81c12cd0c9c"
+  },
+  "assets/heroes/keeper_of_the_light.webp": {
+    "bytes": 72394,
+    "sha256": "023a9d34b69f67611b0f2b2405eac31b0c93186dfebc55774a4cbfb2bb6d32f1"
+  },
+  "assets/heroes/kez.webp": {
+    "bytes": 53250,
+    "sha256": "c57b3def308ac38eea8f892e795afe1bf213b49345b41f8f93be3a6656dd2683"
+  },
+  "assets/heroes/kunkka.webp": {
+    "bytes": 63880,
+    "sha256": "9b269916f64b205c6eaf202f1f4361ab1231d8828af4ed3034b4a79ea2d61ecc"
+  },
+  "assets/heroes/largo.webp": {
+    "bytes": 70584,
+    "sha256": "3038810a0b5ff734bca8572b47a66c82029a7f4e64e7220c3e26a4ba61b0e36f"
+  },
+  "assets/heroes/legion_commander.webp": {
+    "bytes": 66716,
+    "sha256": "17cdc1de51dda8814890de1bb317347e1a9f86944563b133b6dcf75869d6b84f"
+  },
+  "assets/heroes/leshrac.webp": {
+    "bytes": 93142,
+    "sha256": "461d6eea8d9d9cfcfbf809145314756153c6ea820f53dee6465c1ef0725c7471"
+  },
+  "assets/heroes/lich.webp": {
+    "bytes": 114808,
+    "sha256": "de4da68b403fc87f1d50fb74b3b54f79ca3a433a1f5a92a6e25474e47a81ad68"
+  },
+  "assets/heroes/life_stealer.webp": {
+    "bytes": 52444,
+    "sha256": "0cf83ccde352188d2553e6c3d1681856d89427052f02cbb602e431bda1cf8a2f"
+  },
+  "assets/heroes/lina.webp": {
+    "bytes": 60418,
+    "sha256": "73c5378764bc30fc460668db6ec34ab438bbc9976af7a8f999aaabb6458f6133"
+  },
+  "assets/heroes/lion.webp": {
+    "bytes": 60242,
+    "sha256": "0356bd57994d3106e656e38d6070f238f4ff6125539cf898b03f6e6357a396c1"
+  },
+  "assets/heroes/lone_druid.webp": {
+    "bytes": 72978,
+    "sha256": "7e52fe0b4005a2d3707ccbff67d17c29b0a345d62dbd88de5b8a11068e963cc0"
+  },
+  "assets/heroes/luna.webp": {
+    "bytes": 62264,
+    "sha256": "9ffea0529950509203207ae08358d93d923b9f486d1627dfc19fd4bf065277bf"
+  },
+  "assets/heroes/lycan.webp": {
+    "bytes": 70138,
+    "sha256": "f5a73a4d0d1529ba65aed6c1fcede3e5721fb1aa2e86b642795e8c71945050ee"
+  },
+  "assets/heroes/magnataur.webp": {
+    "bytes": 57918,
+    "sha256": "3887bdf35fce1bd86eda4a75a1c819d2bea40f8a1747b100d7b3564cf904ee67"
+  },
+  "assets/heroes/marci.webp": {
+    "bytes": 38826,
+    "sha256": "87e01448a569e897067796aad3a491421bc2989b494f56690a65b8bee7bfa3a0"
+  },
+  "assets/heroes/mars.webp": {
+    "bytes": 56212,
+    "sha256": "185ea377de88c4d9bbd722fc75197978aabac23038c6017966c06160a39acf92"
+  },
+  "assets/heroes/medusa.webp": {
+    "bytes": 61102,
+    "sha256": "f093d405fe361d9e05c6bf2bfcc75d510d3c3efe910634099072f1a693e0d12a"
+  },
+  "assets/heroes/meepo.webp": {
+    "bytes": 51850,
+    "sha256": "82e79ee5b5155873e0db2deb1722403ea82cf67630996cd0fbb0db4b18a5cd10"
+  },
+  "assets/heroes/mirana.webp": {
+    "bytes": 58358,
+    "sha256": "be5679ca6ae79a1f8c3493c2bb59a0978ddd0db22676a825a85c1685839a9eb8"
+  },
+  "assets/heroes/monkey_king.webp": {
+    "bytes": 43230,
+    "sha256": "1d966092f5cd58a7c2a5c6cd379e733d0944064748fa20d4f39143ac63c85c50"
+  },
+  "assets/heroes/morphling.webp": {
+    "bytes": 113800,
+    "sha256": "dcd7a371fd3999c0989b2439431a35c580fd705483e64101f820679730a2e874"
+  },
+  "assets/heroes/muerta.webp": {
+    "bytes": 67806,
+    "sha256": "ec2e08eaeec3d79e470c67f9b2757c63f589a4cd1f6d20e44309fc020b1b7cd2"
+  },
+  "assets/heroes/naga_siren.webp": {
+    "bytes": 50974,
+    "sha256": "741e1a6803961cb8efc056850e439688f5346ba54b1b110a8b56301c2a3c7b46"
+  },
+  "assets/heroes/necrolyte.webp": {
+    "bytes": 107860,
+    "sha256": "e9a079f5c8aec54fa928f1700244d0fc94d593bdb2dbd4ae082b29494828f51a"
+  },
+  "assets/heroes/nevermore.webp": {
+    "bytes": 97448,
+    "sha256": "bd2ba706dc1d75de80056a4488ea57b32c25c58a2bbb3e267423369642638208"
+  },
+  "assets/heroes/night_stalker.webp": {
+    "bytes": 63698,
+    "sha256": "6745316f08dd2800a9d969a074108e13b1d37d8a79b674655aceb413e6a70e51"
+  },
+  "assets/heroes/nyx_assassin.webp": {
+    "bytes": 50066,
+    "sha256": "e8a66f0b6b93872393dced2bdce7a1c0e9b1962b474de663d72f26946b281798"
+  },
+  "assets/heroes/obsidian_destroyer.webp": {
+    "bytes": 85028,
+    "sha256": "8c64d53b9f16bf41e3c55aea9e4c90a4dc650ac2649e3d6b62cb18982156a862"
+  },
+  "assets/heroes/ogre_magi.webp": {
+    "bytes": 74508,
+    "sha256": "372ec1c19dc50e9bffcb4e58ac0a62865990d57c28613a72b50e8f72e56f8eb0"
+  },
+  "assets/heroes/omniknight.webp": {
+    "bytes": 51922,
+    "sha256": "5ee5f1a8668606a6f280f88bd91711afc569d6638bc7f7646768fe151aa6cad3"
+  },
+  "assets/heroes/oracle.webp": {
+    "bytes": 85396,
+    "sha256": "be5c3afb301881ff665ab2de7e0ee92fcf124fd1ebfc0a52d12fac860ee49225"
+  },
+  "assets/heroes/pangolier.webp": {
+    "bytes": 54240,
+    "sha256": "d98b2826516e4ad1bd8918296c0203de37ba4ed26e293b97223ffe70588f86a4"
+  },
+  "assets/heroes/phantom_assassin.webp": {
+    "bytes": 59902,
+    "sha256": "f8efb51cdb6ec0529edb31d4c6db1cab656b870d58c85dfff1437b632d74a5f1"
+  },
+  "assets/heroes/phantom_lancer.webp": {
+    "bytes": 48888,
+    "sha256": "789ba8acc1b34a8ca0e868058dd4122ff2ed08df464ec1dfbd5ff17472a25aca"
+  },
+  "assets/heroes/phoenix.webp": {
+    "bytes": 103958,
+    "sha256": "b509cc28541f1d87ee8ed273807e242322608263849e90e38c8e352eaa4ebba2"
+  },
+  "assets/heroes/primal_beast.webp": {
+    "bytes": 47524,
+    "sha256": "be307b6a4525f35939643550976c1144a5ff38ce55fb9da6fa9bd60858388c07"
+  },
+  "assets/heroes/puck.webp": {
+    "bytes": 61564,
+    "sha256": "923e430814d3ec54e5545f99f97eaa66bb1191e7d3f69d7af0dd1fe8c1f8cff6"
+  },
+  "assets/heroes/pudge.webp": {
+    "bytes": 44438,
+    "sha256": "220e6edacee0ba2dabbc8a1be2f40aedcde7521898f3f7c09bbcaa7e43f83850"
+  },
+  "assets/heroes/pugna.webp": {
+    "bytes": 103248,
+    "sha256": "d0639fab18907cf047d70e9537ea422678f96475795bc859c84a007a62943ddd"
+  },
+  "assets/heroes/queenofpain.webp": {
+    "bytes": 59330,
+    "sha256": "13270006126dbdcee385decf2e4fe57ee27687e806e906d840562c22668dcd2c"
+  },
+  "assets/heroes/rattletrap.webp": {
+    "bytes": 60178,
+    "sha256": "4fbfb544f62e4e13599db67a40dd987f8a9eb936b729155cc6d6d224fcdc8ca9"
+  },
+  "assets/heroes/razor.webp": {
+    "bytes": 82300,
+    "sha256": "a34279d069473ec7106d7ea8db1898666c3b97b4678c762d3f97dc4c4104e141"
+  },
+  "assets/heroes/riki.webp": {
+    "bytes": 59750,
+    "sha256": "3c951f764e052ebf96375e985e9e06ca7afa8eef6ae6455e89ece892922bb0aa"
+  },
+  "assets/heroes/ringmaster.webp": {
+    "bytes": 49298,
+    "sha256": "c48283e5483b2dec4fbbb1676af69fef25b60f042eb3fffa81952bbd159a2569"
+  },
+  "assets/heroes/rubick.webp": {
+    "bytes": 62828,
+    "sha256": "a73a755769d4ab80d390826ec32a00a4776c05ca4a066c436606a4efc17305eb"
+  },
+  "assets/heroes/sand_king.webp": {
+    "bytes": 54644,
+    "sha256": "970cfe566ce349e96481efcb7b6ae5a43b5e20bed00bf3b4ffd9edc36a420c68"
+  },
+  "assets/heroes/shadow_demon.webp": {
+    "bytes": 69932,
+    "sha256": "1e1dc4a5ad8dc9ab2fbb1e9d395d47d62ae4342c5a50b94c167f203180c07c98"
+  },
+  "assets/heroes/shadow_shaman.webp": {
+    "bytes": 70848,
+    "sha256": "1efa4c4a268988ecf2fb66dba0ca38e88ef77a0f51e1037ec2d0adb267a69cf5"
+  },
+  "assets/heroes/shredder.webp": {
+    "bytes": 61292,
+    "sha256": "ad57d5afccae01e694ee055753c3a5eef631dc38b354fbda051cf6ed0dd6c9ee"
+  },
+  "assets/heroes/silencer.webp": {
+    "bytes": 51576,
+    "sha256": "ad198ee2a5e9c6b52bc539d14c30bdc01ef7bbfd7453836d819bfc66cad8eb39"
+  },
+  "assets/heroes/skeleton_king.webp": {
+    "bytes": 88686,
+    "sha256": "93eed11997883f6dfb494e1e8856667268bd5ca426ca9954afe06409aee52ef6"
+  },
+  "assets/heroes/skywrath_mage.webp": {
+    "bytes": 71298,
+    "sha256": "be3a8f372b903631f51353a71a015c96a68ad4e423af400a39c97de288f830d5"
+  },
+  "assets/heroes/slardar.webp": {
+    "bytes": 61014,
+    "sha256": "5f5d1cb34e08394a124745bdb0757d88232b3b86014f2c671a1f4c380112078a"
+  },
+  "assets/heroes/slark.webp": {
+    "bytes": 76504,
+    "sha256": "99a4d01ffe78113d88467b8fbe72c7b01c834af9718b68cb5dbd6ba4ffe20a4d"
+  },
+  "assets/heroes/snapfire.webp": {
+    "bytes": 63320,
+    "sha256": "22beefebf7f7e3394e167889c51ec1ddeb25974b104e90a12b843a34cfa195fc"
+  },
+  "assets/heroes/sniper.webp": {
+    "bytes": 56626,
+    "sha256": "8df1bfd82986c8a025aeb0748cac686969312442292b2050687325985f9d9377"
+  },
+  "assets/heroes/spectre.webp": {
+    "bytes": 112666,
+    "sha256": "0e2e9a30a9a9967e0570ba2650c5a5b6608e109d3f22ea004dec036c28932f6d"
+  },
+  "assets/heroes/spirit_breaker.webp": {
+    "bytes": 103314,
+    "sha256": "ca8cf2b8301fe5f0c427060fb968067085ecd4ce0c7e53377cfa71a23dbfd7be"
+  },
+  "assets/heroes/storm_spirit.webp": {
+    "bytes": 46094,
+    "sha256": "d1085379ddba76158001f01098c6dd2a0962a0f01c456ff86e363d4d58de4ea9"
+  },
+  "assets/heroes/sven.webp": {
+    "bytes": 51390,
+    "sha256": "c5c3587deef11c70b8c97be06866799e1d162256feb22adfcb0f656163f3cc37"
+  },
+  "assets/heroes/techies.webp": {
+    "bytes": 83038,
+    "sha256": "f878746abd5067482bc5ca1566a59ee614e7696b3a069835e6120ce2c95e744c"
+  },
+  "assets/heroes/templar_assassin.webp": {
+    "bytes": 69776,
+    "sha256": "43655aaa838a27e6a448456377fa356bb73e6efdf64e8e06ed966112b1231519"
+  },
+  "assets/heroes/terrorblade.webp": {
+    "bytes": 88800,
+    "sha256": "8518a586d2740f19d1a2125048526b650afd1d968e10d5b248d10ff88fb0e270"
+  },
+  "assets/heroes/tidehunter.webp": {
+    "bytes": 62790,
+    "sha256": "86aa380cd00df9ed7b8009e4d818e9031b01d0bb7bd0b969f55a6ede7e088347"
+  },
+  "assets/heroes/tinker.webp": {
+    "bytes": 64080,
+    "sha256": "a2c13cc9408e035a411cd2f46611f9474c957921fc6d6807dfef2da6089d241a"
+  },
+  "assets/heroes/tiny.webp": {
+    "bytes": 67450,
+    "sha256": "953de1f0fa78326623fd440835ef2f107ffa96753296d4e6f85cae68c43a758d"
+  },
+  "assets/heroes/treant.webp": {
+    "bytes": 81672,
+    "sha256": "5c9c472bf783d1afb55c3a4118f341ceb1ccb21cf297dd8a9e9d0a6862a64f8c"
+  },
+  "assets/heroes/troll_warlord.webp": {
+    "bytes": 48514,
+    "sha256": "8837b6f8ab050acfcc9926d7041783a90fae22c9b9cf313a4d34f974e2da6547"
+  },
+  "assets/heroes/tusk.webp": {
+    "bytes": 63462,
+    "sha256": "a5bd9e6b7759c342fbc2714a9c06e5511591826be4e49cc2e9a964bdcce61475"
+  },
+  "assets/heroes/undying.webp": {
+    "bytes": 54474,
+    "sha256": "4c5559e4b01436472e07c2c113b61569af5235d1ef4fe2f7d7904cf347aaa3bb"
+  },
+  "assets/heroes/ursa.webp": {
+    "bytes": 57168,
+    "sha256": "97eec59b5eee11a509f14e74122d774fd0351087b2ff1c84e7ad62cd50ee5cec"
+  },
+  "assets/heroes/vengefulspirit.webp": {
+    "bytes": 84006,
+    "sha256": "4293fd9612dd78b4868526e4bac9cd945278a5b548cbe1b8e2781da4b6ff97aa"
+  },
+  "assets/heroes/venomancer.webp": {
+    "bytes": 56058,
+    "sha256": "95e5a68a1d9b3906a36c411465eca829de74440b9e841417db27a7fa67523011"
+  },
+  "assets/heroes/viper.webp": {
+    "bytes": 80658,
+    "sha256": "b76d0ddf07404abbbcd410cf6ed8130c9a4d79b5d06af2ed7bb90124e9abb563"
+  },
+  "assets/heroes/visage.webp": {
+    "bytes": 74894,
+    "sha256": "7de02eab06afefa25cb196f0611447be524e5d5592158d08b375f2f20b777942"
+  },
+  "assets/heroes/void_spirit.webp": {
+    "bytes": 59124,
+    "sha256": "a07173d147cdf85c4d66290685129cc23477339169b159e56cd910dbbd0fbe1c"
+  },
+  "assets/heroes/warlock.webp": {
+    "bytes": 110012,
+    "sha256": "e0c208328f0b4a7c2eb58d421e92102dbee9191c050578f6dcaccc93a2c3ef34"
+  },
+  "assets/heroes/weaver.webp": {
+    "bytes": 57902,
+    "sha256": "f50b46b67ea26f1fdc2d88712262de31faacb2c8b7fc5a565b7252460d91d001"
+  },
+  "assets/heroes/windrunner.webp": {
+    "bytes": 48770,
+    "sha256": "e2dff94f1fc36316d99020ec7298e4ad601bd69e0fdff573a8a7b18bba73b851"
+  },
+  "assets/heroes/winter_wyvern.webp": {
+    "bytes": 104876,
+    "sha256": "28b710228f3d00d12d470191c83d61eb2fa55dc35112400ab28a8ff00603f1e2"
+  },
+  "assets/heroes/wisp.webp": {
+    "bytes": 47150,
+    "sha256": "183d1ed937973bac777596bddadd5f6bb14df23ba74be499cabe59f62f603396"
+  },
+  "assets/heroes/witch_doctor.webp": {
+    "bytes": 52556,
+    "sha256": "155be8b92b46a20370ebdb95e56e71a390184f0bcead35d7484fb98d2f5bd808"
+  },
+  "assets/heroes/zuus.webp": {
+    "bytes": 64236,
+    "sha256": "237b46913e92c889dd07108d57dd7d092939eeab39378d21d7070030308929e5"
+  },
+  "assets/original/abaddon-full.webp": {
+    "bytes": 13444,
+    "sha256": "0bf5db2155abeb991ded1959c2ba12b87d382128659e72f9bf39581147e746c0"
+  },
+  "assets/original/abaddon-guess.webp": {
+    "bytes": 4762,
+    "sha256": "bad66647514c58ba101a5befe8a204f437cfece726fbb3e18113bb878645f746"
+  },
+  "assets/original/abaddon.mp3": {
+    "bytes": 11183,
+    "sha256": "d3c287aaca5ab3a508908d7cf7bc9f295f98ca08c1c6c13d52ac154c846ee1bf"
+  },
+  "assets/original/anti_mage.mp3": {
+    "bytes": 9793,
+    "sha256": "6ff3afde3477c2052e1f6377260abcd724b8aba91cde60f97a9ded9e6129657b"
+  },
+  "assets/original/axe-full.webp": {
+    "bytes": 15972,
+    "sha256": "6f2980f025342ada5c04f6f93f683b6bac1b8190ca99e217a1586cf7d00f389b"
+  },
+  "assets/original/axe-guess.webp": {
+    "bytes": 4734,
+    "sha256": "8108a7fd06c6fcb8d8109b69af1521526193ea57281ff997f6f95cd16a9c691a"
+  },
+  "assets/original/axe.mp3": {
+    "bytes": 6524,
+    "sha256": "1cf6dd72eebdcb29eaf151ae4ef04aede1c3620c353f7bef2ad73e716cb49715"
+  },
+  "assets/original/bane-full.webp": {
+    "bytes": 21998,
+    "sha256": "735ab64a7e4e3426c0d4e0d9fa9c31965175aceb9a2dbd8de290534b9252ba44"
+  },
+  "assets/original/bane-guess.webp": {
+    "bytes": 11122,
+    "sha256": "a7f068d47628f272c3266d77f65a5b4ecd111a223e7218ecfad416218c9e4c94"
+  },
+  "assets/original/bane.mp3": {
+    "bytes": 12655,
+    "sha256": "9ecb49e03033fb8716259c08f0648e9b3e72922ea64a1f003a23c45a29271379"
+  },
+  "assets/original/batrider-full.webp": {
+    "bytes": 20434,
+    "sha256": "0471a826554b41a8c3d7e9e13f7298f3710ac724556668af98670739a6a2b071"
+  },
+  "assets/original/batrider-guess.webp": {
+    "bytes": 3312,
+    "sha256": "95122c3d1f1cd53ce7e52f96adb81b322412bbad656f46532c812a63c825360e"
+  },
+  "assets/original/batrider.mp3": {
+    "bytes": 12436,
+    "sha256": "876c7ce1b4eee68972b1d371e512354ae3da4b1bea9316c59e400d43ad098a06"
+  },
+  "assets/original/beastmaster-full.webp": {
+    "bytes": 18024,
+    "sha256": "d7284b7682fc1dd2939d29a7de0662acdca83ddc8d409e61fd3d052ea71350f2"
+  },
+  "assets/original/beastmaster-guess.webp": {
+    "bytes": 5756,
+    "sha256": "f7d508a5a52f43702c7a89923dec135f516db4765db1cc8acaa6877e12edcdb9"
+  },
+  "assets/original/beastmaster.mp3": {
+    "bytes": 18079,
+    "sha256": "aa0b2656c137485bdb9f082e63db0c91e253d35771ce164040632c32b8fd063e"
+  },
+  "assets/original/bg_end.webp": {
+    "bytes": 10800,
+    "sha256": "29c1ed2c66ec3dec9e890276e90523d636aef8b9a23ff0c36a799fcf1636917c"
+  },
+  "assets/original/bg_main.webp": {
+    "bytes": 5660,
+    "sha256": "1eb377e6dc233d23d955ce7167639a2a46e533fe09ee8049bbb1fb08eae84bac"
+  },
+  "assets/original/bg_start_screen.webp": {
+    "bytes": 21576,
+    "sha256": "18e1f6af98836aea7a97bd235190fc817a0a357c5b6562f4082f9392958cb5f2"
+  },
+  "assets/original/bounty_hunter-full.webp": {
+    "bytes": 21488,
+    "sha256": "ea90c8304f803816f7fe696eecb3cee6eeca21773570502efe9080e6a60edbc3"
+  },
+  "assets/original/bounty_hunter-guess.webp": {
+    "bytes": 4246,
+    "sha256": "e9f4c2d364b70b56f42b84a8c4a755bf9fe32f112f9cf4f2ef6c641d86b83f1d"
+  },
+  "assets/original/bountyhunter.mp3": {
+    "bytes": 18079,
+    "sha256": "49463d0dfdd75ebe523515473514f76afb1b4d4c8d25dd25a0a7a41ea9b9d2af"
+  },
+  "assets/original/brewmaster-full.webp": {
+    "bytes": 21710,
+    "sha256": "155dcabb3c79e14602765f97cbeffa54630bf40640baf7dd9cd24426ce6f25b7"
+  },
+  "assets/original/brewmaster-guess.webp": {
+    "bytes": 4650,
+    "sha256": "f602974b0dd1426b9ed20a65bcd7d19c9dcaf1f7019ac35eb00b659e1229aeac"
+  },
+  "assets/original/centaur-full.webp": {
+    "bytes": 21910,
+    "sha256": "6486eaed347dfccb782505a210a66f51fda9c853f4a71c30d381b574c6697a49"
+  },
+  "assets/original/centaur-guess.webp": {
+    "bytes": 7088,
+    "sha256": "76c0f20f629650b14558de2fa0b589dfb4074703813580c49db0666cb24d2096"
+  },
+  "assets/original/chaos_knight-full.webp": {
+    "bytes": 15732,
+    "sha256": "e6ace067803af1940868a250a0da6d10977de4e7ea17cb08881c29d5f1ff54aa"
+  },
+  "assets/original/chaos_knight-guess.webp": {
+    "bytes": 9804,
+    "sha256": "af8967607d3c0daa38eb9bdc61a24d8e4ed3acd89102d256ff34fad4e91626a4"
+  },
+  "assets/original/chen-full.webp": {
+    "bytes": 16484,
+    "sha256": "0840c42f327d059a4641ed43c595c1893ec3ae09a81afaea489d2deb20738ed7"
+  },
+  "assets/original/chen-guess.webp": {
+    "bytes": 8176,
+    "sha256": "463649a84540b840e0124f7788b4681e40b958370e97bf6f4e17b32287ee07b1"
+  },
+  "assets/original/clinkz-full.webp": {
+    "bytes": 28154,
+    "sha256": "f40b40beeaea924e89e2e2f88373d2dbf1deae01cbfd111420beca35c4f6dc7a"
+  },
+  "assets/original/clinkz-guess.webp": {
+    "bytes": 7228,
+    "sha256": "12adf1e749be90151f6bc8d51f6446d32ea6d13397634593175167e020d454d0"
+  },
+  "assets/original/crystal_maiden-full.webp": {
+    "bytes": 17840,
+    "sha256": "5f5d99c61cb039f8a5a8a5e643bf959c227337363aeefa06c03db79f76c43424"
+  },
+  "assets/original/crystal_maiden-guess.webp": {
+    "bytes": 5188,
+    "sha256": "5dff24dc1cc4beff7d1481eddd360f82c9e28927dbbe1ef8953ec4bce258f132"
+  },
+  "assets/original/dark_seer-full.webp": {
+    "bytes": 21386,
+    "sha256": "5c127d5c097d0754894f1e05d4da7254a451d9a3c60ed182092f667a49f76b8e"
+  },
+  "assets/original/dark_seer-guess.webp": {
+    "bytes": 5254,
+    "sha256": "40b5a1c031d16b6f2d151efe4fd4fab4832a31139d25f7274041c8bf865db621"
+  },
+  "assets/original/death_prophet-full.webp": {
+    "bytes": 14016,
+    "sha256": "d5ec087b8cd32351171450e03d756cd03d80e5669f342e22eee23a37fa117ca9"
+  },
+  "assets/original/death_prophet-guess.webp": {
+    "bytes": 3390,
+    "sha256": "bec9933958a9ef3b989d5b6af9078d5e93145ac59d0e3363df4f401398fa29bc"
+  },
+  "assets/original/disruptor-full.webp": {
+    "bytes": 22516,
+    "sha256": "c249b87bab93e9941b0e7dfb6976a2b3c5a4219cc28d1d1a637fb6b5a20fa922"
+  },
+  "assets/original/disruptor-guess.webp": {
+    "bytes": 5322,
+    "sha256": "bd5589477a4ad5dd9ceae0de0a613cee3ebb1aa7dde332303c55af3bc5df458f"
+  },
+  "assets/original/doom_bringer-full.webp": {
+    "bytes": 17748,
+    "sha256": "18b2ad552bf649606a6601f3c3692d607ed9ecbfc0fa27df32de1496904c88b8"
+  },
+  "assets/original/doom_bringer-guess.webp": {
+    "bytes": 5142,
+    "sha256": "fbdfba82b6840a46e1bbc260db02a4abc1fed1b390f78719b5bb453c2f23641f"
+  },
+  "assets/original/drow_ranger-full.webp": {
+    "bytes": 17146,
+    "sha256": "bbee93314c40fb0a561f2023a4d51b83589aedee86e15e713007ba5e1a05f530"
+  },
+  "assets/original/drow_ranger-guess.webp": {
+    "bytes": 3824,
+    "sha256": "828a6bceee3cdba4f7183e7b5da6874a62090929e41db056dcc8cc0f6e32b4d1"
+  },
+  "assets/original/enchantress-full.webp": {
+    "bytes": 18046,
+    "sha256": "77efd68b7282c976d31db4348dd6112b71ca83bd66df3c702ff920766158e214"
+  },
+  "assets/original/enchantress-guess.webp": {
+    "bytes": 4338,
+    "sha256": "4cbedde3fc6b5747d44202e228fc1312985a57be30e12dfbe45847647dd0eefd"
+  },
+  "assets/original/enigma-full.webp": {
+    "bytes": 16062,
+    "sha256": "f0e329fa8dc12cf47f23ce9fef2b579064ada053babf55bcf15c24efdfa1c9ef"
+  },
+  "assets/original/enigma-guess.webp": {
+    "bytes": 3120,
+    "sha256": "aee020afad185acba3f39ae0b0159acdc2faa21ab1fa5522695e66a88a5bb416"
+  },
+  "assets/original/faceless_void-full.webp": {
+    "bytes": 16960,
+    "sha256": "6d0bec0e70b7ca020b79e07a3104174ff1174fe2f3018f1f3dc0c313dd490197"
+  },
+  "assets/original/faceless_void-guess.webp": {
+    "bytes": 5874,
+    "sha256": "fbb9089f7e69758905c3a1232049bfc9945cfc4d6c75dccc68b82499de7a8df1"
+  },
+  "assets/original/gyrocopter-full.webp": {
+    "bytes": 16308,
+    "sha256": "9e8852a59a0facbb3d24f916a1ab2e2dfc53f07cdec325b4589333fa04790db1"
+  },
+  "assets/original/gyrocopter-guess.webp": {
+    "bytes": 4754,
+    "sha256": "fff7a7101d76ea62fa757738b83848683a1d6324051f8163bde39dbb9c154edd"
+  },
+  "assets/original/huskar-full.webp": {
+    "bytes": 18310,
+    "sha256": "8e43dac4094b3c0f3d2e02bff0406d226fd9745a574cc059e9bfdc3c717fdf1b"
+  },
+  "assets/original/huskar-guess.webp": {
+    "bytes": 3466,
+    "sha256": "1d64bb198decb5dde6b27649211b90b4e261a80111d31208ff6e9f0e213e36db"
+  },
+  "assets/original/jakiro-full.webp": {
+    "bytes": 21768,
+    "sha256": "0b08e465801b6eb73b99d815857e1280ee5fd1159562e3452dfd2367ecdafa0b"
+  },
+  "assets/original/jakiro-guess.webp": {
+    "bytes": 4238,
+    "sha256": "2ae6c42b8d6ad9d812062513905b13659cf6d4cab07c8577df9a40430ac5c386"
+  },
+  "assets/original/juggernaut-full.webp": {
+    "bytes": 20006,
+    "sha256": "b0b46fc6cfced41bae226e6cae0afeb2720f453658a18377d77b03842e7a9663"
+  },
+  "assets/original/juggernaut-guess.webp": {
+    "bytes": 6938,
+    "sha256": "f6045ec482225a73fd519e0bdfabf487f6fbc2f4ab6822372248db85b4441fba"
+  },
+  "assets/original/keeper_of_the_light-full.webp": {
+    "bytes": 16242,
+    "sha256": "96de7e5aca7b9247371d6e4bb64c677636478373e4fd6ddb893c5194af045578"
+  },
+  "assets/original/keeper_of_the_light-guess.webp": {
+    "bytes": 4128,
+    "sha256": "7fa4147bc4f28467db936a55a8faf9fabcd1636941732173e279a210a0fd90d4"
+  },
+  "assets/original/kunkka-full.webp": {
+    "bytes": 16210,
+    "sha256": "8724ee9a9aa2a5b8dd1de6be752ceede1ced149809bc81dd9211a3d34d00c766"
+  },
+  "assets/original/kunkka-guess.webp": {
+    "bytes": 6188,
+    "sha256": "f8653ab9a7b834961c7a8ece024afaeada2529b9fc2b7370ae8f823eb05ea310"
+  },
+  "assets/original/leshrac-full.webp": {
+    "bytes": 18428,
+    "sha256": "b6e739420d7d53ac39be859ce504e2a046f8ed4c11eb0c6ddb8eb54357be73ee"
+  },
+  "assets/original/leshrac-guess.webp": {
+    "bytes": 7256,
+    "sha256": "f10a6948c00603443f45ffbb4084064b1a933c0d404384adf315d13f1d2aa6ba"
+  },
+  "assets/original/lich-full.webp": {
+    "bytes": 20046,
+    "sha256": "73d9ec5f8ffe57ec0145092018cd47401ca4ebc7ce76e56b0ab8675660fede92"
+  },
+  "assets/original/lich-guess.webp": {
+    "bytes": 6854,
+    "sha256": "ad93dacd2eac3e100ee3ea6f156159d5c5f1069a058756716d92f2dafe6ae8cd"
+  },
+  "assets/original/life_stealer-full.webp": {
+    "bytes": 20878,
+    "sha256": "6636eb02bb97f48548d68a429b9a5e78e0ff6b28f79d765bbb68c7dced251671"
+  },
+  "assets/original/life_stealer-guess.webp": {
+    "bytes": 4244,
+    "sha256": "6f07a1f2f6523f8c470a524bd469cc83c65d52f1f5758d8c1cae002a2af1d316"
+  },
+  "assets/original/lina-full.webp": {
+    "bytes": 16354,
+    "sha256": "4fa134ee67385063f00fd7f44b2695ce6a2558db55b577f96bb2f4df3df0a44c"
+  },
+  "assets/original/lina-guess.webp": {
+    "bytes": 6466,
+    "sha256": "32f4ed55fabac4081376349f544dc622d53feee80f38d48d42db512bc3656d85"
+  },
+  "assets/original/lone_druid-full.webp": {
+    "bytes": 21526,
+    "sha256": "f8e1ab18d215974137a5acb75952864b91ba377c3f96d0155814c54d9ba6f4e9"
+  },
+  "assets/original/lone_druid-guess.webp": {
+    "bytes": 6236,
+    "sha256": "66b0d02d0ddaad22670fecbe0a0005ba04e8c8d3a20c41c4d37a62b3c8dc1a85"
+  },
+  "assets/original/magnataur-full.webp": {
+    "bytes": 16750,
+    "sha256": "39a32a1e4f107fdf54b45745ef7f81c95bbc8164b586e5ca57a4141f2d77a3f1"
+  },
+  "assets/original/magnataur-guess.webp": {
+    "bytes": 4354,
+    "sha256": "055b3160043da13586a75f6969182801c9359bf087704bce959b9af8764b058b"
+  }
+}
