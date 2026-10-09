@@ -80,4 +80,12 @@ This supersedes the earlier 3-second dwell and no-mobile-autofocus behavior.
 - A simulated 420px visual viewport kept GG at bottom 412px before and after Enter-to-next, with no game overflow. Desktop still focuses Next on reveal and the input on the next round.
 - All 34 unit tests and the production build pass. Native software-keyboard behavior still needs physical iOS/Android verification; emulation cannot prove OS keyboard behavior.
 
+## Hidden carousel buffer
+
+- Four quarter-turn slots replace the three-slot layout. Initial state includes the previous shadow, foreground, next shadow, and hidden rear buffer.
+- Only the slot opposite the new foreground is recycled after each completed transition. Regression tests cover visible-card identity preservation for 270 transitions, including roster wraparound.
+- Rear opacity is zero; camera-angle-based smoothstep fades it in/out during rotation. All four textures must be ready before a transition begins.
+- Chromium scene inspection confirmed four meshes, three visible at rest, and only the invisible mesh changing texture after a manual Next. Desktop and 390px mobile screenshots were inspected.
+- All 35 tests and production build pass. The 1.5-second dwell remains unchanged.
+
 Screenshots: [landing](docs/home.webp), [battlefield](docs/battlefield.webp), [mobile](docs/mobile.webp), [compact mobile game](docs/mobile-game.webp), [keyboard-sized viewport](docs/mobile-keyboard.webp).

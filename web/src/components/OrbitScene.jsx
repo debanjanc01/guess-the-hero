@@ -1,11 +1,22 @@
 import { Suspense, useCallback, useEffect, useRef, useState } from 'react';
-import { Canvas, useThree } from '@react-three/fiber';
+import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { Billboard, CameraControls, PerspectiveCamera, useTexture } from '@react-three/drei';
-import { SRGBColorSpace } from 'three';
+import { MathUtils, SRGBColorSpace } from 'three';
 import { HERO_HOLD_MS, HERO_SWAP_SMOOTH_TIME, HERO_SLOT_ANGLE, initialCarousel, nextCarousel } from '../carousel.js';
 
 function HeroBillboard({ hero, position, onReady, onRetired }) {
+  const mesh = useRef(null);
   const texture = useTexture(hero.image);
+  // Transparent cutouts cannot occlude the rear buffer reliably. Hide it
+  // explicitly, fading continuously with the camera angle during each swap.
+  useFrame(({ camera }) => {
+    if (!mesh.current) return;
+    const depth = (position[0] * camera.position.x + position[2] * camera.position.z)
+      / (Math.hypot(position[0], position[2]) * Math.hypot(camera.position.x, camera.position.z));
+    const opacity = MathUtils.smoothstep(depth, -0.8, -0.45);
+    mesh.current.visible = opacity > 0;
+    mesh.current.material.opacity = opacity;
+  });
   texture.colorSpace = SRGBColorSpace;
   useEffect(() => {
     onReady(hero.image);
@@ -16,7 +27,7 @@ function HeroBillboard({ hero, position, onReady, onRetired }) {
     };
   }, [hero.image, texture, onReady, onRetired]);
   return <Billboard position={position} follow>
-    <mesh>
+    <mesh ref={mesh}>
       <planeGeometry args={[4.1, 4.1]} />
       <meshStandardMaterial map={texture} transparent alphaTest={0.04} roughness={1} metalness={0} />
     </mesh>
@@ -48,8 +59,8 @@ function HeroCards({ roster, initialIndex, running, nextRequest, onChange, onMov
   const advance = useCallback(async () => {
     if (!controls.current || moving.current) return false;
     const updated = nextCarousel(current.current, roster);
-    const next = updated.slots[updated.step % 3];
-    if (!ready.current.has(next.image)) return false;
+    // The hidden buffer must finish loading before it can rotate into view.
+    if (Object.values(current.current.slots).some((hero) => !ready.current.has(hero.image))) return false;
     moving.current = true;
     onMoving(true);
     const azimuth = -updated.step * HERO_SLOT_ANGLE;
