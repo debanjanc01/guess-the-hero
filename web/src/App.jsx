@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { flushSync } from 'react-dom';
 import { ArrowRight, ArrowLeft, ArrowUpRight, Swords, Volume2, VolumeX, Trophy, SkipForward, Check, BookOpen, Shield, Sparkles, Search, RotateCcw, Flag, ChevronRight, Info } from 'lucide-react';
 import { Button, Input, Modal } from './components/ui.jsx';
 import HeroOrbit from './components/HeroOrbit.jsx';
@@ -68,14 +69,24 @@ export default function App() {
   }
   function launch(selectedMode = mode) {
     stopAudio(); setMode(selectedMode); setGuess(''); setImageFailed(false); setModal(null);
-    setGame(startGame(heroes, selectedMode));
+    // Mount and focus inside the launch gesture: iOS won't open its keyboard
+    // from a later effect. Keep this same input mounted throughout the match.
+    flushSync(() => setGame(startGame(heroes, selectedMode)));
+    input.current?.focus({ preventScroll: true });
   }
   function act(action) {
     setGame((current) => transition(current, action, answers));
     if (action.type === 'next') { stopAudio(); setGuess(''); setImageFailed(false); }
   }
+  function keepAnswerFocus(event) {
+    if (window.matchMedia('(max-width: 600px), (max-width: 1000px) and (pointer: coarse)').matches) {
+      event.preventDefault();
+      input.current?.focus({ preventScroll: true });
+    }
+  }
   function submit(event) {
     event.preventDefault();
+    input.current?.focus({ preventScroll: true });
     if (revealed) { act({ type: 'next' }); return; }
     if (game.status !== 'playing') return;
     if (!answers[heroId][normalize(guess)]) {
@@ -91,9 +102,9 @@ export default function App() {
   function openCollection() { stopAudio(); setSearch(''); setSelectedHero(null); setModal('collection'); }
 
   useEffect(() => {
-    const touchScreen = window.matchMedia('(pointer: coarse), (max-width: 600px)').matches;
-    if (game?.status === 'playing' && !touchScreen) input.current?.focus({ preventScroll: true });
-    if (game?.status === 'revealed') nextButton.current?.focus({ preventScroll: true });
+    const touchScreen = window.matchMedia('(max-width: 600px), (max-width: 1000px) and (pointer: coarse)').matches;
+    if (game?.status === 'playing' || (game?.status === 'revealed' && touchScreen)) input.current?.focus({ preventScroll: true });
+    if (game?.status === 'revealed' && !touchScreen) nextButton.current?.focus({ preventScroll: true });
     if (game?.status === 'finished') resultHeading.current?.focus({ preventScroll: true });
     if (!game) homeHeading.current?.focus({ preventScroll: true });
   }, [game?.status, heroId]);
@@ -178,8 +189,9 @@ export default function App() {
           <div className="game-controls">
             <div className="scoreboard"><div><span className="eyebrow">YOUR SCORE</span><strong className="score-value">{String(game.score).padStart(3, '0')}<small>PTS</small></strong></div><Trophy size={26} strokeWidth={1} /></div>
             <div className="skips"><span className="eyebrow">SKIPS REMAINING</span><div role="group" aria-label={`${game.skips} skips remaining`}>{[1, 2, 3].map((n) => <span key={n} className={`skip-pip ${n <= game.skips ? 'active' : ''}`}><SkipForward size={17} /></span>)}</div></div>
-            {!revealed ? <form onSubmit={submit} className="guess-form"><span className="eyebrow">TRUST YOUR INSTINCTS</span><h2>Who is this hero?</h2><p>The details are gone. The legend isn’t.</p><label htmlFor="hero-guess">Hero name</label><div className="answer-row"><Input ref={input} id="hero-guess" name="hero-guess" value={guess} onChange={(e) => setGuess(e.target.value)} placeholder="Enter a hero name…" autoComplete="off" spellCheck="false" maxLength={80} aria-describedby="guess-feedback answer-help" autoCapitalize="words" enterKeyHint="go" /><Button type="submit" className="full-width"><span className="desktop-guess-label">Reveal my fate</span><span className="mobile-guess-label">Guess</span><ArrowRight size={18} /></Button></div><p className="feedback" id="guess-feedback" role="status">{game.feedback}</p><div className="keyboard-tip" id="answer-help"><kbd>↵</kbd> Enter to submit · common hero aliases accepted</div><Button type="button" variant="secondary" className="full-width skip-button" onClick={() => act({ type: 'skip' })} disabled={game.skips === 0}><SkipForward size={17} />{game.skips ? 'Skip this hero' : 'No skips remaining'}<span>{game.skips}/3</span></Button></form> : <div className="reveal-panel"><span className="eyebrow">{game.outcome === 'correct' ? 'WELL PLAYED.' : 'NOW YOU KNOW.'}</span><h2>{hero.name}</h2><blockquote>“{hero.quote}”</blockquote><Button variant="ghost" size="small" onClick={() => playVoice(hero)} disabled={muted}><Volume2 size={16} /> {muted ? 'Sound is muted' : 'Replay hero voice'}</Button><p role="status" className="audio-error">{audioError}</p>{game.mode === 'classic' && hero.archiveImage && <div className="archive-reference"><img src={asset(hero.archiveImage)} alt={`${hero.name} portrait archived in December 2018`} /><span>FROM THE 2018 ARCHIVE<small>Original in-game portrait</small></span></div>}<Button ref={nextButton} className="full-width next-button" onClick={() => act({ type: 'next' })}>{game.index + 1 === game.order.length ? 'See match results' : 'Next hero'} <ArrowRight size={18} /></Button></div>}
-            <div className="game-meta"><span><Trophy size={13} /> Best: {best(game.mode)} pts</span><button onClick={() => setModal('quit')}>GG, well played <Flag size={13} /></button></div>
+            <form onSubmit={submit} className={`guess-form ${revealed ? 'revealed-form' : ''}`}><span className="eyebrow">TRUST YOUR INSTINCTS</span><h2>Who is this hero?</h2><p>The details are gone. The legend isn’t.</p><label htmlFor="hero-guess">Hero name</label><div className="answer-row"><Input ref={input} id="hero-guess" name="hero-guess" value={guess} onChange={(e) => { if (!revealed) setGuess(e.target.value); }} placeholder="Enter a hero name…" autoComplete="off" spellCheck="false" maxLength={80} aria-describedby="guess-feedback answer-help" autoCapitalize="words" enterKeyHint={revealed ? 'next' : 'go'} onKeyDown={(event) => { if (event.key === 'Enter' && !event.nativeEvent.isComposing && event.keyCode !== 229) { event.preventDefault(); submit(event); } }} /><Button type="submit" className="full-width" onPointerDown={keepAnswerFocus}><span className="desktop-guess-label">Reveal my fate</span><span className="mobile-guess-label">{revealed ? (game.index + 1 === game.order.length ? 'Results' : 'Next') : 'Guess'}</span><ArrowRight size={18} /></Button></div><p className="feedback" id="guess-feedback" role="status">{revealed ? `${hero.name} · ${game.outcome === 'correct' ? '+10 pts' : 'Skipped'} · Enter to continue` : game.feedback}</p><div className="keyboard-tip" id="answer-help"><kbd>↵</kbd> Enter to submit · common hero aliases accepted</div><Button type="button" variant="secondary" className="full-width skip-button" onPointerDown={keepAnswerFocus} onClick={() => revealed ? playVoice(hero) : act({ type: 'skip' })} disabled={revealed ? muted : game.skips === 0}>{revealed ? <Volume2 size={17} /> : <SkipForward size={17} />}{revealed ? (muted ? 'Sound is muted' : 'Replay hero voice') : (game.skips ? 'Skip this hero' : 'No skips remaining')}<span>{!revealed && `${game.skips}/3`}</span></Button></form>
+            {revealed && <div className="reveal-panel"><span className="eyebrow">{game.outcome === 'correct' ? 'WELL PLAYED.' : 'NOW YOU KNOW.'}</span><h2>{hero.name}</h2><blockquote>“{hero.quote}”</blockquote><Button variant="ghost" size="small" onClick={() => playVoice(hero)} disabled={muted}><Volume2 size={16} /> {muted ? 'Sound is muted' : 'Replay hero voice'}</Button><p role="status" className="audio-error">{audioError}</p>{game.mode === 'classic' && hero.archiveImage && <div className="archive-reference"><img src={asset(hero.archiveImage)} alt={`${hero.name} portrait archived in December 2018`} /><span>FROM THE 2018 ARCHIVE<small>Original in-game portrait</small></span></div>}<Button ref={nextButton} className="full-width next-button" onPointerDown={keepAnswerFocus} onClick={() => act({ type: 'next' })}>{game.index + 1 === game.order.length ? 'See match results' : 'Next hero'} <ArrowRight size={18} /></Button></div>}
+            <div className="game-meta"><span><Trophy size={13} /> Best: {best(game.mode)} pts</span><button className="gg-button" onClick={() => setModal('quit')} aria-label="GG — end match">GG · Quit <Flag size={15} /></button></div>
             <p className="asset-note">{art.original ? 'Original Android artwork · 2017' : 'Current render · classic roster does not imply historical artwork'}{game.mode === 'classic' && <><br />Voice line ID verified in 2018; audio from current extraction.</>}</p>
           </div>
         </div>

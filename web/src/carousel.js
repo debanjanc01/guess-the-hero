@@ -1,4 +1,4 @@
-export const HERO_HOLD_MS = 3000;
+export const HERO_HOLD_MS = 1500;
 export const HERO_SWAP_SMOOTH_TIME = 0.12;
 export const HERO_SLOT_ANGLE = (Math.PI * 2) / 3;
 

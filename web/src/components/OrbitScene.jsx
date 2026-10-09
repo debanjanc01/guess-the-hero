@@ -54,7 +54,7 @@ function HeroCards({ roster, initialIndex, running, nextRequest, onChange, onMov
     onMoving(true);
     const azimuth = -updated.step * HERO_SLOT_ANGLE;
     // Wake the demand renderer BEFORE starting the library tween. Otherwise
-    // the first frame includes the entire 3-second idle delta and visibly jumps.
+    // the first frame includes the entire idle delta and visibly jumps.
     // This is R3F's documented demand-render animation synchronization recipe.
     invalidate();
     await new Promise((resolve) => requestAnimationFrame(resolve));

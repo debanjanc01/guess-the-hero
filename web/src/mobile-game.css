@@ -1,4 +1,4 @@
-.mobile-guess-label { display: none; }
+.mobile-guess-label, .revealed-form { display: none; }
 .answer-row > .btn { margin-top: 14px; }
 
 @media (max-width: 600px), (max-width: 1000px) and (pointer: coarse) {
@@ -31,6 +31,10 @@
   .skips > div { margin-top: 5px; }
   .skip-pip { width: 24px; height: 24px; }
   .guess-form { margin-top: 12px; }
+  .revealed-form { display: block; }
+  /* The input and action rows keep their slots on reveal. No remount, focus
+     handoff, or extra panel pushing the battlefield around above the keyboard. */
+  .game-controls > .reveal-panel { display: none; }
   .guess-form > .eyebrow, .guess-form > p:not(.feedback), .keyboard-tip { display: none; }
   .guess-form h2 { font-size: 19px; margin-top: 0; }
   .guess-form label { margin: 9px 0 5px; font-size: 8px; }
@@ -41,7 +45,9 @@
   .mobile-guess-label { display: inline; }
   .guess-form .feedback { min-height: 20px; margin: 5px 0 0; font-size: 9px; }
   .skip-button { min-height: 36px; padding: 8px 13px; }
-  .game-meta { padding-top: 9px; margin-top: 10px; }
+  .game-meta { padding-top: 9px; margin-top: 10px; flex-wrap: nowrap; }
+  .game-meta .gg-button { min-height: 44px; padding: 10px 14px; border: 1px solid #d57860; border-radius: 4px; background: #44251f; color: #ffe0d1; font-size: 12px; font-weight: 700; white-space: nowrap; }
+  .game-meta .gg-button:hover { background: #603027; }
   .asset-note { margin-top: 8px; font-size: 7px; line-height: 1.5; }
   .match-progress { flex: 0 0 auto; margin-top: 12px; }
   .progress-label { font-size: 7px; margin-bottom: 5px; }

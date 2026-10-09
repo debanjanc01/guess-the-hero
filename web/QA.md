@@ -69,4 +69,15 @@ This supersedes the earlier continuous two-hero orbit.
 - Browser camera telemetry captured 40 movement updates in the checked transition, starting with ~0.1° of movement instead of jumping toward the destination. Updates then followed the library's damped easing and settled at the exact angle.
 - No custom tween engine or continuous animation loop was added; CameraControls still owns interpolation and the renderer sleeps during holds.
 
+## Faster carousel and persistent mobile keyboard
+
+This supersedes the earlier 3-second dwell and no-mobile-autofocus behavior.
+
+- Carousel dwell is 1.5 seconds; the existing eased swap and preparatory render frame are retained.
+- Match launch mounts/focuses the answer synchronously inside the user gesture. Mobile keeps the same input mounted and focused through correct guesses, skips, and Next; Enter submits the guess or advances the revealed hero.
+- Mobile Guess, Skip, and replay pointer interactions retain answer focus. The reveal uses the same control-row slots; GG is a high-contrast, 44px-high button.
+- Chromium dev-server smoke checks at 390×844 confirmed wrong guesses, correct guesses (+10), Skip, and Enter-to-next. Input DOM identity and focus stayed unchanged through reveal/next.
+- A simulated 420px visual viewport kept GG at bottom 412px before and after Enter-to-next, with no game overflow. Desktop still focuses Next on reveal and the input on the next round.
+- All 34 unit tests and the production build pass. Native software-keyboard behavior still needs physical iOS/Android verification; emulation cannot prove OS keyboard behavior.
+
 Screenshots: [landing](docs/home.webp), [battlefield](docs/battlefield.webp), [mobile](docs/mobile.webp), [compact mobile game](docs/mobile-game.webp), [keyboard-sized viewport](docs/mobile-keyboard.webp).
