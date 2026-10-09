@@ -61,4 +61,12 @@ This supersedes the earlier continuous two-hero orbit.
 - Mobile layout and counter have no horizontal overflow in the checked 390px viewport.
 - 34 unit tests now cover gameplay, viewport behavior, and carousel sequencing.
 
+## Smooth-swap correction
+
+- Supersedes the ~262 ms transition setting above; holds are still 3 seconds, with an eased swap of roughly 0.6 seconds.
+- Applied R3F's documented demand-render synchronization: invalidate a preparatory frame, then start CameraControls on the next animation frame. This prevents the idle interval being applied to the first movement update.
+- Reduced the rest threshold before settling so the final exact-angle snap is imperceptible.
+- Browser camera telemetry captured 40 movement updates in the checked transition, starting with ~0.1° of movement instead of jumping toward the destination. Updates then followed the library's damped easing and settled at the exact angle.
+- No custom tween engine or continuous animation loop was added; CameraControls still owns interpolation and the renderer sleeps during holds.
+
 Screenshots: [landing](docs/home.webp), [battlefield](docs/battlefield.webp), [mobile](docs/mobile.webp), [compact mobile game](docs/mobile-game.webp), [keyboard-sized viewport](docs/mobile-keyboard.webp).

@@ -7,7 +7,7 @@ const roster = Object.keys(heroes).map((id) => ({ id }));
 
 test('showcase has a real still-picture dwell and a short transition setting', () => {
   assert.equal(HERO_HOLD_MS, 3000);
-  assert.ok(HERO_SWAP_SMOOTH_TIME < 0.1);
+  assert.ok(HERO_SWAP_SMOOTH_TIME >= 0.1 && HERO_SWAP_SMOOTH_TIME <= 0.2);
 });
 test('only three hero cards are needed at any time', () => {
   assert.equal(Object.keys(initialCarousel(roster).slots).length, 3);

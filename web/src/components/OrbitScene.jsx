@@ -1,5 +1,5 @@
 import { Suspense, useCallback, useEffect, useRef, useState } from 'react';
-import { Canvas } from '@react-three/fiber';
+import { Canvas, useThree } from '@react-three/fiber';
 import { Billboard, CameraControls, PerspectiveCamera, useTexture } from '@react-three/drei';
 import { SRGBColorSpace } from 'three';
 import { HERO_HOLD_MS, HERO_SWAP_SMOOTH_TIME, HERO_SLOT_ANGLE, initialCarousel, nextCarousel } from '../carousel.js';
@@ -24,6 +24,7 @@ function HeroBillboard({ hero, position, onReady, onRetired }) {
 }
 
 function HeroCards({ roster, initialIndex, running, nextRequest, onChange, onMoving }) {
+  const invalidate = useThree((state) => state.invalidate);
   const controls = useRef(null);
   const ready = useRef(new Set());
   const moving = useRef(false);
@@ -52,7 +53,12 @@ function HeroCards({ roster, initialIndex, running, nextRequest, onChange, onMov
     moving.current = true;
     onMoving(true);
     const azimuth = -updated.step * HERO_SLOT_ANGLE;
-    // camera-controls owns the tween. No requestAnimationFrame/useFrame engine.
+    // Wake the demand renderer BEFORE starting the library tween. Otherwise
+    // the first frame includes the entire 3-second idle delta and visibly jumps.
+    // This is R3F's documented demand-render animation synchronization recipe.
+    invalidate();
+    await new Promise((resolve) => requestAnimationFrame(resolve));
+    if (!mounted.current) return false;
     await controls.current.rotateTo(azimuth, Math.PI / 2, true);
     if (!mounted.current) return false;
     // Snap the imperceptible damping tail so each picture is genuinely still.
@@ -63,7 +69,7 @@ function HeroCards({ roster, initialIndex, running, nextRequest, onChange, onMov
     moving.current = false;
     onMoving(false);
     return true;
-  }, [roster, onChange, onMoving]);
+  }, [roster, onChange, onMoving, invalidate]);
 
   useEffect(() => {
     if (!running) return;
@@ -97,7 +103,7 @@ function HeroCards({ roster, initialIndex, running, nextRequest, onChange, onMov
       ref={attachControls}
       makeDefault
       smoothTime={HERO_SWAP_SMOOTH_TIME}
-      restThreshold={0.015}
+      restThreshold={0.001}
       minPolarAngle={Math.PI / 2}
       maxPolarAngle={Math.PI / 2}
       mouseButtons={{ left: 0, middle: 0, right: 0, wheel: 0 }}
